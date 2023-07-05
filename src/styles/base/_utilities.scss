@@ -1,0 +1,12 @@
+.container {
+    margin: 0 auto;
+    max-width: 145rem;
+    width: 100%;
+    padding-left: $spacing-md;
+    padding-right: $spacing-md;
+
+    @include respond(desktop) {
+        padding-left: $spacing-xl;
+        padding-right: $spacing-xl;
+    }
+}

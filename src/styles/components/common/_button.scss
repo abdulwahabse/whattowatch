@@ -1,0 +1,35 @@
+.button {
+    border: none;
+    color: $color-lightest;
+    padding: 0.75rem 1.5rem;
+    border-radius: $radius;
+    display: flex;
+
+    &--primary {
+        background-color: $color-primary;
+
+        &:hover {
+            background-color: $color-primary-light;
+        }
+    }
+
+    &--secondary {
+        background-color: $color-secondary;
+
+        &:hover {
+            background-color: $color-secondary-light;
+        }
+    }
+
+    &--full {
+        width: 100%;
+    }
+
+    &--icon {
+        width: 1.3rem;
+    }
+
+    &--icon-mr {
+        margin-right: 1rem;
+    }
+}

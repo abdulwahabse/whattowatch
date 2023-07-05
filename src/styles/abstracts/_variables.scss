@@ -1,0 +1,27 @@
+// COLORS
+$color-primary: #0079ff;
+$color-primary-dark: darken($color-primary, 10%);
+$color-primary-light: lighten($color-primary, 10%);
+
+$color-secondary: #1c252f;
+$color-secondar-dark: darken($color-secondary, 10%);
+$color-secondary-light: lighten($color-secondary, 10%);
+
+$color-light: #7e878e;
+$color-lighter: #d4e3e8;
+$color-lightest: #dfdadb;
+
+$background-color: #060d17;
+$background-color-2: #10161d;
+
+// ANIMATIONS
+$animation-speed: 0.3s;
+
+// RADIUS
+$radius: 0.5rem;
+
+// SPACING
+$spacing-sm: 1.2rem;
+$spacing-md: 2.4rem;
+$spacing-lg: 4.8rem;
+$spacing-xl: 8.5rem;

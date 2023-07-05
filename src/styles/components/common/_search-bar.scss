@@ -1,0 +1,44 @@
+.search-bar {
+    display: flex;
+    flex-direction: row;
+
+    &--select {
+        border: none;
+        background-color: $color-secondary;
+        color: $color-light;
+        font-weight: bold;
+        padding-left: 1.5rem;
+        border-radius: $radius 0 0 $radius;
+        width: 4.5rem;
+        // remove default arrow
+        /* for Firefox */
+        -moz-appearance: none;
+        /* for Chrome */
+        -webkit-appearance: none;
+
+        &:focus {
+            outline: none;
+        }
+
+        &:hover {
+            cursor: pointer;
+            background-color: $color-secondary-light;
+        }
+    }
+
+    &--input {
+        background-color: $background-color-2;
+        border: none;
+        color: $color-light;
+        font-weight: bold;
+        padding-left: 1.5rem;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &--btn {
+        border-radius: 0 $radius $radius 0;
+    }
+}

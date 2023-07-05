@@ -9,50 +9,53 @@ import Celebrities from './react/pages/Celebrities';
 import Celebrity from './react/pages/Celebrity';
 import SignUp from './react/pages/SignUp';
 import SignIn from './react/pages/SignIn';
+import { UserProvider } from './contexts/userContext';
 
 function App() {
     return (
-        <>
-            <Header />
-            <main>
-                <Switch>
-                    <Route exact path={['/', '/home']}>
-                        <Home />
-                    </Route>
-                    <Route exact path="/titles">
-                        <Titles />
-                    </Route>
-                    <Route exact path="/titles/:id">
-                        <TitleDetails />
-                    </Route>
-                    <Route exact path="/categories">
-                        <Categories />
-                    </Route>
-                    <Route exact path="/categories/:category">
-                        <Titles />
-                    </Route>
-                    <Route exact path="/search">
-                        <Titles />
-                    </Route>
-                    <Route exact path="/search/:search">
-                        <Titles />
-                    </Route>
-                    <Route exact path="/celebrities">
-                        <Celebrities />
-                    </Route>
-                    <Route exact path="/celebrities/:id">
-                        <Celebrity />
-                    </Route>
-                    <Route exact path="/signup">
-                        <SignUp />
-                    </Route>
-                    <Route exact path="/signin">
-                        <SignIn />
-                    </Route>
-                </Switch>
-            </main>
-            <Footer />
-        </>
+        <UserProvider>
+            <div>
+                <Header />
+                <main>
+                    <Switch>
+                        <Route exact path={['/', '/home']}>
+                            <Home />
+                        </Route>
+                        <Route exact path="/titles">
+                            <Titles />
+                        </Route>
+                        <Route exact path="/titles/:id">
+                            <TitleDetails />
+                        </Route>
+                        <Route exact path="/categories">
+                            <Categories />
+                        </Route>
+                        <Route exact path="/categories/:category">
+                            <Titles />
+                        </Route>
+                        <Route exact path="/search">
+                            <Titles />
+                        </Route>
+                        <Route exact path="/search/:search">
+                            <Titles />
+                        </Route>
+                        <Route exact path="/celebrities">
+                            <Celebrities />
+                        </Route>
+                        <Route exact path="/celebrities/:id">
+                            <Celebrity />
+                        </Route>
+                        <Route exact path="/signup">
+                            <SignUp />
+                        </Route>
+                        <Route exact path="/signin">
+                            <SignIn />
+                        </Route>
+                    </Switch>
+                </main>
+                <Footer />
+            </div>
+        </UserProvider>
     );
 }
 
