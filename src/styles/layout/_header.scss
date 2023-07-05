@@ -3,12 +3,13 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 1.6rem;
     }
 
     &--hamburger {
         width: 1.6rem;
 
-        @include respond(tablet) {
+        @include respond(desktop) {
             display: none;
         }
     }
@@ -21,6 +22,7 @@
 
     &--search-bar {
         display: none;
+        flex-grow: 1;
 
         @include respond(tablet) {
             display: flex;

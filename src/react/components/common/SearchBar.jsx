@@ -10,7 +10,11 @@ function SearchBar(props) {
                 <option value="series">Series</option>
                 <option value="celebrities">Celebrities</option>
             </select>
-            <input type="text" className="search-bar--input" />
+            <input
+                type="text"
+                className="search-bar--input"
+                placeholder="Search movies or tv shows"
+            />
             <Button
                 className="search-bar--btn"
                 color="secondary"
