@@ -1,0 +1,22 @@
+// MEDIA QUERY MANAGER
+/*
+
+$breakpoint arguement choices:
+- tablet
+- desktop
+
+1em = 16px
+*/
+
+@mixin respond($breakpoint) {
+    @if $breakpoint == tablet {
+        @media only screen and (min-width: 37.56em) {
+            @content;
+        } // 601px
+    }
+    @if $breakpoint == desktop {
+        @media only screen and (min-width: 77.56em) {
+            @content;
+        } // 1241px
+    }
+}
