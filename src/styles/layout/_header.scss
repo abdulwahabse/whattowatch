@@ -7,7 +7,7 @@
     }
 
     &--hamburger {
-        width: 1.6rem;
+        width: 2rem;
 
         @include respond(desktop) {
             display: none;

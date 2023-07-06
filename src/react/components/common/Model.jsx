@@ -14,6 +14,7 @@ function Model(props) {
             e.target.classList.contains('model__close')
         ) {
             document.getElementById('model').classList.add('model__hide');
+            props.state((prevState) => !prevState);
         }
     };
 

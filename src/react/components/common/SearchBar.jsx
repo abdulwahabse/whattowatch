@@ -13,7 +13,7 @@ function SearchBar(props) {
             <input
                 type="text"
                 className="search-bar--input"
-                placeholder="Search movies or tv shows"
+                placeholder={props.placeholder}
             />
             <Button
                 className="search-bar--btn"
