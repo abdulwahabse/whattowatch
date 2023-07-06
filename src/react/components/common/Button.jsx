@@ -2,7 +2,7 @@ import { getImageUrl } from '../../../utils/utils';
 
 function Button(props) {
     let btnClasses = `button button--${props.color} ${props.className}`;
-    let iconClasses = 'button--icon';
+    let iconClasses = 'button__icon';
     let iconSrc = null;
 
     if (props.full) {
@@ -10,7 +10,7 @@ function Button(props) {
     }
 
     if (props.children !== undefined) {
-        iconClasses += ' button--icon-mr';
+        iconClasses += ' button__icon-mr';
     }
 
     if (props.icon === 'play') {

@@ -6,9 +6,9 @@ function Avatar(props) {
     let sizeClass = '';
 
     if (src) {
-        child = <img className="avatar--img" src={src} alt={alt} />;
+        child = <img className="avatar__img" src={src} alt={alt} />;
     } else if (children) {
-        child = <p className="avatar--text">{children}</p>;
+        child = <p className="avatar__text">{children}</p>;
     } else {
         const defaultAvatar = getImageUrl('assets/icons/user.png');
         child = <img className="avatar--img" src={defaultAvatar} alt="user" />;
@@ -21,7 +21,7 @@ function Avatar(props) {
     }
 
     return (
-        <a className="avatar--link" href={link || '#'}>
+        <a className="avatar__link" href={link || '#'}>
             <div className={`avatar ${sizeClass}`}>{child}</div>
         </a>
     );

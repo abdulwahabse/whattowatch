@@ -5,6 +5,7 @@ import Button from '../components/common/Button';
 import SearchBar from '../components/common/SearchBar';
 import Avatar from '../components/common/Avatar';
 import NavModel from './../components/nav/NavModel';
+import NavLinks from '../components/nav/NavLinks';
 
 function Header() {
     const [showNavModel, setShowNavModel] = useState(false);
@@ -22,12 +23,13 @@ function Header() {
             <div className="container">
                 <img
                     src={hamburger}
-                    className="header--hamburger"
+                    className="header__hamburger"
                     onClick={handleHamburgerClick}
                 />
-                <img className="header--logo" src={logo} />
+                <img className="header__logo" src={logo} />
+                <NavLinks className="header__nav-links" />
                 <SearchBar
-                    className="header--search-bar"
+                    className="header__search-bar"
                     placeholder="Search movies or tv shows"
                 />
                 {user.isLoggedIn ? (

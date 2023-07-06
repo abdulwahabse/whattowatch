@@ -21,16 +21,16 @@
         width: 128px;
     }
 
-    &--img {
+    &__img {
         width: 100%;
     }
 
-    &--link {
+    &__link {
         cursor: pointer;
         text-decoration: none;
     }
 
-    &--text {
+    &__text {
         text-decoration: none;
         color: $color-light;
     }

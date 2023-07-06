@@ -6,7 +6,7 @@
         gap: 1.6rem;
     }
 
-    &--hamburger {
+    &__hamburger {
         width: 2rem;
 
         @include respond(desktop) {
@@ -14,17 +14,25 @@
         }
     }
 
-    &--logo {
+    &__logo {
         width: 12rem;
         margin: 0;
         padding: 0;
     }
 
-    &--search-bar {
+    &__search-bar {
         display: none;
         flex-grow: 1;
 
         @include respond(tablet) {
+            display: flex;
+        }
+    }
+
+    &__nav-links {
+        display: none;
+
+        @include respond(desktop) {
             display: flex;
         }
     }

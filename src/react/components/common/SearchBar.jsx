@@ -4,7 +4,7 @@ import Celebrities from './../../pages/Celebrities';
 function SearchBar(props) {
     return (
         <div className={`search-bar ${props.className}`}>
-            <select name="search" className="search-bar--select">
+            <select name="search" className="search-bar__select">
                 <option value="all">All</option>
                 <option value="movies">Movies</option>
                 <option value="series">Series</option>
@@ -12,11 +12,11 @@ function SearchBar(props) {
             </select>
             <input
                 type="text"
-                className="search-bar--input"
+                className="search-bar__input"
                 placeholder={props.placeholder}
             />
             <Button
-                className="search-bar--btn"
+                className="search-bar__btn"
                 color="secondary"
                 icon="search"
             />

@@ -14,7 +14,7 @@ function NavLinks(props) {
     }
 
     return (
-        <nav className="nav">
+        <nav className={`nav ${props.className}`}>
             <ul className={`nav__ul ${ulPositionStyle}`}>
                 <li className="nav__li">
                     <NavLink
