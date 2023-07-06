@@ -1,0 +1,37 @@
+.avatar {
+    line-height: 0; /* remove line-height */
+    display: inline-block; /* circle wraps image */
+    border-radius: 50%; /* relative value */
+    height: 32px;
+    width: 32px;
+    overflow: hidden;
+    background-color: $color-secondary;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &--sm {
+        height: 32px;
+        width: 32px;
+    }
+
+    &--md {
+        height: 128px;
+        width: 128px;
+    }
+
+    &--img {
+        width: 100%;
+    }
+
+    &--link {
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    &--text {
+        text-decoration: none;
+        color: $color-light;
+    }
+}

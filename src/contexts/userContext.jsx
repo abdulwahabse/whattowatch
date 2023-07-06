@@ -8,19 +8,28 @@ const UserProvider = ({ children }) => {
     const defaultUser = {
         name: '',
         email: '',
+        picture: '',
         password: '',
         isLoggedIn: false,
         watchlist: [],
     };
 
     const [user, setUser] = useState(defaultUser);
-    const setName = (name) => setUser({ ...user, name });
-    const setEmail = (email) => setUser({ ...user, email });
-    const setPassword = (password) => setUser({ ...user, password });
-    const setIsLoggedIn = (isLoggedIn) => setUser({ ...user, isLoggedIn });
-    const setWatchlist = (watchlist) => setUser({ ...user, watchlist });
+    const setName = (name) => setUser((prevUser) => ({ ...prevUser, name }));
+    const setEmail = (email) => setUser((prevUser) => ({ ...prevUser, email }));
+    const setPicture = (picture) =>
+        setUser((prevUser) => ({ ...prevUser, picture }));
+    const setPassword = (password) =>
+        setUser((prevUser) => ({ ...prevUser, password }));
+    const setIsLoggedIn = (isLoggedIn) =>
+        setUser((prevUser) => ({ ...prevUser, isLoggedIn }));
+    const setWatchlist = (watchlist) =>
+        setUser((prevUser) => ({ ...prevUser, watchlist }));
     const addToWatchlist = (title) =>
-        setUser({ ...user, watchlist: [...user.watchlist, title] });
+        setUser((prevUser) => ({
+            ...prevUser,
+            watchlist: [...prevUser.watchlist, title],
+        }));
 
     return (
         <Provider
@@ -28,6 +37,7 @@ const UserProvider = ({ children }) => {
                 user,
                 setName,
                 setEmail,
+                setPicture,
                 setPassword,
                 setIsLoggedIn,
                 setWatchlist,
