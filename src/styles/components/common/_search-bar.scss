@@ -15,6 +15,7 @@
         -moz-appearance: none;
         /* for Chrome */
         -webkit-appearance: none;
+        transition: all $animation-speed;
 
         &:focus {
             outline: none;

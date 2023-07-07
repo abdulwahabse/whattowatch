@@ -11,9 +11,15 @@
 @import 'components/common/search-bar';
 @import 'components/common/avatar';
 @import 'components/common/model';
-
+@import 'components/common/title';
+@import 'components/common/title-sm';
+@import 'components/common/title-numbered';
+@import 'components/common/scrolling-list';
 @import 'components/nav/nav-model';
 @import 'components/nav/nav-links';
+@import 'components/section/section-heading';
+@import 'components/section/section-titles-list';
+@import 'components/section/section-numbered-titles-list';
 
 @import 'pages/home';
 @import 'pages/titles';

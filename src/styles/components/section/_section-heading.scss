@@ -1,0 +1,29 @@
+.section-heading {
+    &__container {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    &__img {
+        width: 2rem;
+        transition: all $animation-speed;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+
+    &__no-link {
+        cursor: default;
+    }
+
+    &__heading {
+        transition: all $animation-speed;
+    }
+
+    &__link-hover:hover &__heading,
+    &__link-hover:hover &__img {
+        filter: brightness(2);
+    }
+}

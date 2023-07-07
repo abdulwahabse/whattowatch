@@ -1,0 +1,19 @@
+.title-numbered {
+    display: flex;
+    align-items: flex-end;
+    width: max-content;
+    position: relative;
+
+    &__number {
+        color: $color-secondary-light;
+        font-size: 20rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    &__title {
+        margin-left: 9rem;
+        z-index: 1;
+    }
+}

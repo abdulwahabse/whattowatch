@@ -5,6 +5,9 @@
     border-radius: $radius;
     display: flex;
     font-size: 1.4rem;
+    align-items: center;
+    justify-content: center;
+    transition: all $animation-speed;
 
     &--primary {
         background-color: $color-primary;
@@ -32,5 +35,13 @@
 
     &__icon-mr {
         margin-right: 1rem;
+    }
+
+    &--sm {
+        font-size: 1rem;
+    }
+
+    &--sm &__icon {
+        width: 1rem;
     }
 }

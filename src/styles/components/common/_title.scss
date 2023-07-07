@@ -1,0 +1,53 @@
+.title {
+    background-color: $color-secondary;
+    width: max-content;
+    border-radius: $radius;
+    overflow: hidden;
+    transition: all $animation-speed;
+
+    &:hover {
+        transform: scale(1.02);
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px 0px;
+    }
+
+    &__info-container {
+        padding: 0.8rem;
+    }
+
+    &__sub-info-container {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    &__star {
+        width: 1rem;
+    }
+
+    &__rating {
+        color: $color-light;
+    }
+
+    &__type {
+        margin-left: auto;
+        color: $color-light;
+    }
+
+    &__name {
+        text-align: center;
+        margin-top: 0.8rem;
+    }
+
+    &__btn {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.8rem;
+        background-color: $color-secondary-light;
+        transition: all $animation-speed;
+
+        &:hover {
+            transform: translateY(-2px);
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px 0px;
+        }
+    }
+}

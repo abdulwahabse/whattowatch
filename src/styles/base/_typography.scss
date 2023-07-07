@@ -1,3 +1,38 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
+.typography-1 {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    @include respond(tablet) {
+        font-size: 2.4rem;
+    }
+
+    @include respond(desktop) {
+        font-size: 3.2rem;
+    }
+}
+
+.typography-2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+
+    @include respond(tablet) {
+        font-size: 2.2rem;
+    }
+
+    @include respond(desktop) {
+        font-size: 2.8rem;
+    }
+}
+
+.typography-3 {
+    font-size: 1.6rem;
+}
+
+.typography-4 {
+    font-size: 1.4rem;
+}

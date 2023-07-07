@@ -9,6 +9,10 @@ function Button(props) {
         btnClasses += ' button--full';
     }
 
+    if (props.size === 'sm') {
+        btnClasses += ' button--sm';
+    }
+
     if (props.children !== undefined) {
         iconClasses += ' button__icon-mr';
     }
@@ -21,7 +25,7 @@ function Button(props) {
         iconSrc = getImageUrl('assets/icons/search.png');
     }
     return (
-        <button className={btnClasses}>
+        <button className={btnClasses} style={props.style}>
             {iconSrc && <img src={iconSrc} className={iconClasses} />}
             {props.children}
         </button>
