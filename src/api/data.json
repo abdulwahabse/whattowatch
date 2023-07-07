@@ -1,0 +1,359 @@
+{
+    "status": "success",
+    "data": {
+        "titles": [
+            {
+                "id": "uAfBeT6PZz",
+                "name": "Harry Potter and the Philosopher's Stone",
+                "runtime": "2h 32m",
+                "release-date": "2001-11-16",
+                "genres": ["Fantasy", "Adventure", "Family"],
+                "directors": ["Chris Columbus"],
+                "writers": ["J.K. Rowling", "Steve Kloves"],
+                "age-rating": "PG",
+                "type": "movie",
+                "poster": "https://resizing.flixster.com/Q5W7m_i_f24Q_a4zLeRxNvx1WAs=/206x305/v2/https://flxt.tmsimg.com/assets/p28630_p_v8_at.jpg",
+                "short-desc": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
+                "long-desc": "This is the tale of Harry Potter (Daniel Radcliffe), an ordinary eleven-year-old boy serving as a sort of slave for his aunt and uncle who learns that he is actually a wizard and has been invited to attend the Hogwarts School for Witchcraft and Wizardry. Harry is snatched away from his mundane existence by Rubeus Hagrid (Robbie Coltrane), the groundskeeper for Hogwarts, and quickly thrown into a world completely foreign to both him and the viewer. Famous for an incident that happened at his birth, Harry makes friends easily at his new school. He soon finds, however, that the wizarding world is far more dangerous for him than he would have imagined, and he quickly learns that not all wizards are ones to be trusted.",
+                "casts": [
+                    {
+                        "name": "Daniel Radcliffe",
+                        "role": "Harry Potter",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg"
+                    },
+                    {
+                        "name": "Rupert Grint",
+                        "role": "Ron Weasley",
+                        "picture": "https://en.wikipedia.org/wiki/Rupert_Grint#/media/File:RupertGrint2018.jpg"
+                    },
+                    {
+                        "name": "Emma Watson",
+                        "role": "Hermione Granger",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg"
+                    },
+                    {
+                        "name": "Richard Harris",
+                        "role": "Albus Dumbledore",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Richard_Harris_1985.jpg"
+                    },
+                    {
+                        "name": "Maggie Smith",
+                        "role": "Minerva McGonagall",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Dame_Maggie_Smith_%28retouched%29_%28cropped%29.jpg"
+                    }
+                ],
+                "rating": 7.6,
+                "trailer": "https://www.youtube.com/watch?v=VyHV0BRtdxo",
+                "streaming-on": ["hbo-max", "amazon-prime-video", "netflix"]
+            },
+            {
+                "id": "bQG7oM8WxY",
+                "name": "Harry Potter and the Chamber of Secrets",
+                "runtime": "2h 41m",
+                "release-date": "2002-11-15",
+                "genres": ["Fantasy", "Adventure", "Family"],
+                "directors": ["Chris Columbus"],
+                "writers": ["J.K. Rowling", "Steve Kloves"],
+                "age-rating": "PG",
+                "type": "movie",
+                "poster": "https://resizing.flixster.com/hXI16eWpzhmvHh4wKtyC1_ytSZk=/206x305/v2/https://flxt.tmsimg.com/NowShowing/28900/28900_da.jpg",
+                "short-desc": "Harry Potter returns to Hogwarts for his second year, where the Chamber of Secrets has been opened and the Heir of Slytherin is causing havoc.",
+                "long-desc": "In his second year at Hogwarts School of Witchcraft and Wizardry, Harry Potter (Daniel Radcliffe) encounters a mysterious diary that holds the key to uncovering the dark secrets of Hogwarts. As students are petrified by an unseen force, Harry and his friends Ron (Rupert Grint) and Hermione (Emma Watson) must confront the malevolent entity known as the Chamber of Secrets and its connection to Hogwarts' dark past. With the help of their friends and allies, Harry and his friends embark on a dangerous journey to save the school and unravel the truth behind the Chamber of Secrets.",
+                "casts": [
+                    {
+                        "name": "Daniel Radcliffe",
+                        "role": "Harry Potter",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg"
+                    },
+                    {
+                        "name": "Rupert Grint",
+                        "role": "Ron Weasley",
+                        "picture": "https://en.wikipedia.org/wiki/Rupert_Grint#/media/File:RupertGrint2018.jpg"
+                    },
+                    {
+                        "name": "Emma Watson",
+                        "role": "Hermione Granger",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg"
+                    },
+                    {
+                        "name": "Richard Harris",
+                        "role": "Albus Dumbledore",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Richard_Harris_1985.jpg"
+                    },
+                    {
+                        "name": "Maggie Smith",
+                        "role": "Minerva McGonagall",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Dame_Maggie_Smith_%28retouched%29_%28cropped%29.jpg"
+                    }
+                ],
+                "rating": 7.4,
+                "trailer": "https://www.youtube.com/watch?v=2lSpGlsZtk0&ab_channel=WarnerBros.UK%26Ireland",
+                "streaming-on": ["hbo-max", "amazon-prime-video", "netflix"]
+            },
+            {
+                "id": "cDyP3eRXk5",
+                "name": "Harry Potter and the Prisoner of Azkaban",
+                "runtime": "2h 22m",
+                "release-date": "2004-06-04",
+                "genres": ["Fantasy", "Adventure", "Family"],
+                "directors": ["Alfonso Cuarón"],
+                "writers": ["J.K. Rowling", "Steve Kloves"],
+                "age-rating": "PG",
+                "type": "movie",
+                "poster": "https://resizing.flixster.com/XAUlXUfvRg4iLy6B1yujviDNjlY=/206x305/v2/https://flxt.tmsimg.com/assets/p34483_p_v12_bb.jpg",
+                "short-desc": "Harry Potter returns to Hogwarts for his third year, where he faces the dangerous escaped prisoner Sirius Black and learns more about his own past.",
+                "long-desc": "In his third year at Hogwarts School of Witchcraft and Wizardry, Harry Potter (Daniel Radcliffe) discovers that the dangerous prisoner Sirius Black (Gary Oldman) has escaped from Azkaban, the wizarding prison. As Harry, along with his friends Ron (Rupert Grint) and Hermione (Emma Watson), unravels the truth about Sirius Black and his connection to Harry's family, they must confront the Dementors, soul-sucking creatures guarding Hogwarts, and face their own deepest fears. With the help of new Defense Against the Dark Arts professor Remus Lupin (David Thewlis) and the enigmatic Professor Dumbledore (Michael Gambon), Harry embarks on a thrilling adventure that will test his courage and reveal shocking secrets from the past.",
+                "casts": [
+                    {
+                        "name": "Daniel Radcliffe",
+                        "role": "Harry Potter",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg"
+                    },
+                    {
+                        "name": "Rupert Grint",
+                        "role": "Ron Weasley",
+                        "picture": "https://en.wikipedia.org/wiki/Rupert_Grint#/media/File:RupertGrint2018.jpg"
+                    },
+                    {
+                        "name": "Emma Watson",
+                        "role": "Hermione Granger",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg"
+                    },
+                    {
+                        "name": "Gary Oldman",
+                        "role": "Sirius Black",
+                        "picture": "INSERT_PICTURE_URL_HERE"
+                    },
+                    {
+                        "name": "Michael Gambon",
+                        "role": "Albus Dumbledore",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/14/Michael_Gambon_as_Dumbledore.jpg"
+                    }
+                ],
+                "rating": 7.9,
+                "trailer": "https://www.youtube.com/watch?v=VwErvYgoH70&ab_channel=WarnerBros.UK%26Ireland",
+                "streaming-on": ["hbo-max", "amazon-prime-video", "netflix"]
+            },
+            {
+                "id": "eTzR4Fm7Lx",
+                "name": "Harry Potter and the Goblet of Fire",
+                "runtime": "2h 37m",
+                "release-date": "2005-11-18",
+                "genres": ["Fantasy", "Adventure", "Family"],
+                "directors": ["Mike Newell"],
+                "writers": ["J.K. Rowling", "Steve Kloves"],
+                "age-rating": "PG-13",
+                "type": "movie",
+                "poster": "https://resizing.flixster.com/EUx-SL2GSszzvhWg6PGCR9tNixc=/206x305/v2/https://flxt.tmsimg.com/assets/p90599_p_v8_aq.jpg",
+                "short-desc": "Harry Potter enters the Triwizard Tournament, facing dangerous challenges, as dark forces begin to rise again.",
+                "long-desc": "In his fourth year at Hogwarts School of Witchcraft and Wizardry, Harry Potter (Daniel Radcliffe) finds himself unexpectedly selected as a participant in the dangerous Triwizard Tournament, a competition between three wizarding schools. As Harry faces challenging tasks and deadly creatures, he must navigate the intricacies of the tournament while uncovering a dark plot that threatens not only Hogwarts but the entire wizarding world. With the support of his friends Ron (Rupert Grint) and Hermione (Emma Watson), Harry delves into the mysteries of the Goblet of Fire and confronts the growing menace of Lord Voldemort (Ralph Fiennes). The choices he makes will have far-reaching consequences for his future and the fate of the wizarding realm.",
+                "casts": [
+                    {
+                        "name": "Daniel Radcliffe",
+                        "role": "Harry Potter",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg"
+                    },
+                    {
+                        "name": "Rupert Grint",
+                        "role": "Ron Weasley",
+                        "picture": "https://en.wikipedia.org/wiki/Rupert_Grint#/media/File:RupertGrint2018.jpg"
+                    },
+                    {
+                        "name": "Emma Watson",
+                        "role": "Hermione Granger",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg"
+                    },
+                    {
+                        "name": "Ralph Fiennes",
+                        "role": "Lord Voldemort",
+                        "picture": "INSERT_PICTURE_URL_HERE"
+                    },
+                    {
+                        "name": "Michael Gambon",
+                        "role": "Albus Dumbledore",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/14/Michael_Gambon_as_Dumbledore.jpg"
+                    }
+                ],
+                "rating": 7.7,
+                "trailer": "https://www.youtube.com/watch?v=4xkFJgcCQRE&ab_channel=WarnerBros.UK%26Ireland",
+                "streaming-on": ["hbo-max", "amazon-prime-video", "netflix"]
+            },
+            {
+                "id": "mWxZ8RjQ2k",
+                "name": "Harry Potter and the Order of the Phoenix",
+                "runtime": "2h 18m",
+                "release-date": "2007-07-11",
+                "genres": ["Fantasy", "Adventure", "Family"],
+                "directors": ["David Yates"],
+                "writers": ["J.K. Rowling", "Michael Goldenberg"],
+                "age-rating": "PG-13",
+                "type": "movie",
+                "poster": "https://resizing.flixster.com/PZOBGYzTPhmkX33-0KKqp9X6ccM=/206x305/v2/https://flxt.tmsimg.com/NowShowing/58706/58706_aa.jpg",
+                "short-desc": "As Lord Voldemort returns, Harry Potter forms a secret group to fight against the dark forces infiltrating Hogwarts.",
+                "long-desc": "In his fifth year at Hogwarts School of Witchcraft and Wizardry, Harry Potter (Daniel Radcliffe) finds himself marginalized and discredited by the Ministry of Magic, which refuses to believe that Lord Voldemort (Ralph Fiennes) has returned. As dark forces infiltrate Hogwarts and threaten the safety of the students, Harry forms a secret organization called Dumbledore's Army to teach his peers defensive magic. Together, they prepare for the inevitable battle against Voldemort and his Death Eaters. As Harry faces visions and trials, he learns the importance of loyalty, friendship, and standing up for what is right in the face of adversity.",
+                "casts": [
+                    {
+                        "name": "Daniel Radcliffe",
+                        "role": "Harry Potter",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg"
+                    },
+                    {
+                        "name": "Rupert Grint",
+                        "role": "Ron Weasley",
+                        "picture": "https://en.wikipedia.org/wiki/Rupert_Grint#/media/File:RupertGrint2018.jpg"
+                    },
+                    {
+                        "name": "Emma Watson",
+                        "role": "Hermione Granger",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg"
+                    },
+                    {
+                        "name": "Ralph Fiennes",
+                        "role": "Lord Voldemort",
+                        "picture": "INSERT_PICTURE_URL_HERE"
+                    },
+                    {
+                        "name": "Michael Gambon",
+                        "role": "Albus Dumbledore",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/14/Michael_Gambon_as_Dumbledore.jpg"
+                    }
+                ],
+                "rating": 7.5,
+                "trailer": "https://www.youtube.com/watch?v=WIj9DYJ5EKk&ab_channel=WarnerBros.",
+                "streaming-on": ["hbo-max", "amazon-prime-video", "netflix"]
+            },
+            {
+                "id": "pRkW9QsB3l",
+                "name": "Harry Potter and the Half-Blood Prince",
+                "runtime": "2h 33m",
+                "release-date": "2009-07-15",
+                "genres": ["Fantasy", "Adventure", "Family"],
+                "directors": ["David Yates"],
+                "writers": ["J.K. Rowling", "Steve Kloves"],
+                "age-rating": "PG",
+                "type": "movie",
+                "poster": "https://resizing.flixster.com/Qi4ypricY_HZFig-U2J57hxQk5Y=/206x305/v2/https://flxt.tmsimg.com/NowShowing/65212/65212_an.jpg",
+                "short-desc": "As Harry Potter prepares for a final battle against Lord Voldemort, he uncovers crucial information about Voldemort's past.",
+                "long-desc": "In his sixth year at Hogwarts School of Witchcraft and Wizardry, Harry Potter (Daniel Radcliffe) receives a private tutorship from Professor Dumbledore (Michael Gambon) to learn more about Lord Voldemort's (Ralph Fiennes) past and his quest for immortality. As Harry delves into memories and secrets, he uncovers crucial information that could help him in his final battle against Voldemort. Meanwhile, romance blooms and dark forces threaten to disrupt the wizarding world. Harry and his friends must navigate love, loyalty, and sacrifice as they prepare for the ultimate confrontation with the Dark Lord.",
+                "casts": [
+                    {
+                        "name": "Daniel Radcliffe",
+                        "role": "Harry Potter",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg"
+                    },
+                    {
+                        "name": "Rupert Grint",
+                        "role": "Ron Weasley",
+                        "picture": "https://en.wikipedia.org/wiki/Rupert_Grint#/media/File:RupertGrint2018.jpg"
+                    },
+                    {
+                        "name": "Emma Watson",
+                        "role": "Hermione Granger",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg"
+                    },
+                    {
+                        "name": "Ralph Fiennes",
+                        "role": "Lord Voldemort",
+                        "picture": "INSERT_PICTURE_URL_HERE"
+                    },
+                    {
+                        "name": "Michael Gambon",
+                        "role": "Albus Dumbledore",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/14/Michael_Gambon_as_Dumbledore.jpg"
+                    }
+                ],
+                "rating": 7.6,
+                "trailer": "https://www.youtube.com/watch?v=tAiy66Xrsz4&ab_channel=HarryPotter",
+                "streaming-on": ["hbo-max", "amazon-prime-video", "netflix"]
+            },
+            {
+                "id": "gVuK6MzP2f",
+                "name": "Harry Potter and the Deathly Hallows – Part 1",
+                "runtime": "2h 26m",
+                "release-date": "2010-11-19",
+                "genres": ["Fantasy", "Adventure", "Family"],
+                "directors": ["David Yates"],
+                "writers": ["J.K. Rowling", "Steve Kloves"],
+                "age-rating": "PG-13",
+                "type": "movie",
+                "poster": "https://resizing.flixster.com/iIcfBePQY3R9i5nE79oEkr8aomM=/206x305/v2/https://flxt.tmsimg.com/NowShowing/87040/87040_aa.jpg",
+                "short-desc": "As Harry Potter embarks on a mission to destroy Voldemort's Horcruxes, he uncovers the existence of the Deathly Hallows.",
+                "long-desc": "In the seventh installment, which is split into two parts, Harry Potter (Daniel Radcliffe), along with his friends Ron (Rupert Grint) and Hermione (Emma Watson), embarks on a dangerous quest to destroy the Horcruxes—objects containing pieces of Lord Voldemort's (Ralph Fiennes) soul. As they travel across the wizarding world, they face perilous challenges and dark forces. Along the way, they uncover the existence of the Deathly Hallows, three magical artifacts that could grant ultimate power to the one who possesses them. As the trio races against time, they must make difficult choices and confront their own fears in the face of a growing war.",
+                "casts": [
+                    {
+                        "name": "Daniel Radcliffe",
+                        "role": "Harry Potter",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg"
+                    },
+                    {
+                        "name": "Rupert Grint",
+                        "role": "Ron Weasley",
+                        "picture": "https://en.wikipedia.org/wiki/Rupert_Grint#/media/File:RupertGrint2018.jpg"
+                    },
+                    {
+                        "name": "Emma Watson",
+                        "role": "Hermione Granger",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg"
+                    },
+                    {
+                        "name": "Ralph Fiennes",
+                        "role": "Lord Voldemort",
+                        "picture": "INSERT_PICTURE_URL_HERE"
+                    },
+                    {
+                        "name": "Michael Gambon",
+                        "role": "Albus Dumbledore",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/14/Michael_Gambon_as_Dumbledore.jpg"
+                    }
+                ],
+                "rating": 7.7,
+                "trailer": "https://www.youtube.com/watch?v=MxqsmsA8y5k&ab_channel=Movieclips",
+                "streaming-on": ["hbo-max", "amazon-prime-video", "netflix"]
+            },
+            {
+                "id": "rVX7wsqF8e",
+                "name": "Harry Potter and the Deathly Hallows – Part 2",
+                "runtime": "2h 10m",
+                "release-date": "2011-07-15",
+                "genres": ["Fantasy", "Adventure", "Family"],
+                "directors": ["David Yates"],
+                "writers": ["J.K. Rowling", "Steve Kloves"],
+                "age-rating": "PG-13",
+                "type": "movie",
+                "poster": "https://resizing.flixster.com/3FH1MZ04DgTiMfzjHX_U-fWG1z8=/206x305/v2/https://flxt.tmsimg.com/NowShowing/87176/87176_aa.jpg",
+                "short-desc": "In the epic finale, Harry Potter confronts Lord Voldemort in the ultimate battle between good and evil.",
+                "long-desc": "In the final chapter of the Harry Potter series, Harry Potter (Daniel Radcliffe) and his friends Ron (Rupert Grint) and Hermione (Emma Watson) continue their mission to destroy the remaining Horcruxes, objects that contain pieces of Lord Voldemort's (Ralph Fiennes) soul. As they face mounting challenges and sacrifices, they uncover the truth about the Deathly Hallows and the final confrontation with Voldemort becomes inevitable. Hogwarts School of Witchcraft and Wizardry becomes the battleground for the ultimate battle between good and evil. The fate of the wizarding world hangs in the balance as Harry prepares for the ultimate sacrifice to save his friends and fulfill his destiny.",
+                "casts": [
+                    {
+                        "name": "Daniel Radcliffe",
+                        "role": "Harry Potter",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg"
+                    },
+                    {
+                        "name": "Rupert Grint",
+                        "role": "Ron Weasley",
+                        "picture": "https://en.wikipedia.org/wiki/Rupert_Grint#/media/File:RupertGrint2018.jpg"
+                    },
+                    {
+                        "name": "Emma Watson",
+                        "role": "Hermione Granger",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg"
+                    },
+                    {
+                        "name": "Ralph Fiennes",
+                        "role": "Lord Voldemort",
+                        "picture": "INSERT_PICTURE_URL_HERE"
+                    },
+                    {
+                        "name": "Michael Gambon",
+                        "role": "Albus Dumbledore",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/14/Michael_Gambon_as_Dumbledore.jpg"
+                    }
+                ],
+                "rating": 8.1,
+                "trailer": "https://www.youtube.com/watch?v=mObK5XD8udk&ab_channel=WarnerBros.Pictures",
+                "streaming-on": ["hbo-max", "amazon-prime-video", "netflix"]
+            }
+        ]
+    }
+}
