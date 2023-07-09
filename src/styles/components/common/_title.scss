@@ -36,6 +36,14 @@
     &__name {
         text-align: center;
         margin-top: 0.8rem;
+        max-width: 13rem;
+        min-height: 5rem;
+        // three-line ellipsis
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     &__btn {

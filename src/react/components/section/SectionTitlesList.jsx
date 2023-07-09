@@ -3,8 +3,7 @@ import Title from '../common/Title';
 import ScrollingList from '../common/ScrollingList';
 
 function SectionTitlesList(props) {
-    const { heading } = props;
-    const titles = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+    const { heading, titles } = props;
 
     return (
         <section className="section-titles-list">
@@ -15,7 +14,9 @@ function SectionTitlesList(props) {
                 {heading}
             </SectionHeading>
 
-            <ScrollingList component={Title}>{titles}</ScrollingList>
+            <ScrollingList component={Title} {...props}>
+                {titles}
+            </ScrollingList>
         </section>
     );
 }

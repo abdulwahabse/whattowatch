@@ -25,7 +25,11 @@ function Button(props) {
         iconSrc = getImageUrl('assets/icons/search.png');
     }
     return (
-        <button className={btnClasses} style={props.style}>
+        <button
+            className={btnClasses}
+            style={props.style}
+            onClick={props.onClick}
+        >
             {iconSrc && <img src={iconSrc} className={iconClasses} />}
             {props.children}
         </button>

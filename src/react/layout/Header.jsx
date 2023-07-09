@@ -19,7 +19,10 @@ function Header() {
 
     return (
         <div className="header">
-            {showNavModel && <NavModel state={setShowNavModel} />}
+            <NavModel
+                show={showNavModel}
+                setShow={(value) => setShowNavModel(value)}
+            />
             <div className="container">
                 <img
                     src={hamburger}

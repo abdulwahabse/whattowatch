@@ -5,7 +5,7 @@ import NavLinks from './NavLinks';
 const NavModel = (props) => {
     return (
         <div>
-            <Model position="top" state={props.state}>
+            <Model position="top" show={props.show} setShow={props.setShow}>
                 <SearchBar className="nav__search-bar" placeholder="Search" />
                 <NavLinks position="vertical" />
             </Model>

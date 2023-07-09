@@ -11,7 +11,6 @@ function SectionHeading(props) {
                         ? 'section-heading__link-hover'
                         : 'section-heading__no-link'
                 }`}
-                exact
                 to={props.link || ''}
             >
                 <div className="section-heading__container">

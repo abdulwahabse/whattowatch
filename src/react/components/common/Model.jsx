@@ -2,6 +2,7 @@ import { getImageUrl } from '../../../utils/utils';
 
 function Model(props) {
     let className = 'model';
+    className += props.show ? '' : ' model__hide';
     const closeIcon = getImageUrl('assets/icons/close.png');
 
     if (props.position === 'top') className += ' model__top';
@@ -13,10 +14,11 @@ function Model(props) {
             e.target.classList.contains('model') ||
             e.target.classList.contains('model__close')
         ) {
-            document.getElementById('model').classList.add('model__hide');
-            props.state((prevState) => !prevState);
+            props.setShow(false);
         }
     };
+
+    className += props.size === 'lg' ? ' model__lg' : ' model__sm';
 
     return (
         <div id="model" className={className} onClick={handleModelClick}>

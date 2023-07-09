@@ -21,7 +21,7 @@ function TitleSm(props) {
                         onClick={handleBookmarkClick}
                     />
                     <img
-                        src={props.img}
+                        src={props.poster}
                         alt=""
                         className={`title-sm__img ${
                             props.isRounded ? 'title-sm__img--rounded' : ''
