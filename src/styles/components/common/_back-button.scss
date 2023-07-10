@@ -1,0 +1,24 @@
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: max-content;
+
+    &__img {
+        width: 1.6rem;
+    }
+
+    &__back-btn {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        color: $color-light;
+        font-size: 1.5rem;
+    }
+
+    &:hover &__img,
+    &:hover &__back-btn {
+        filter: brightness(2);
+    }
+}

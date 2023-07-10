@@ -1,0 +1,84 @@
+.ratings-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    @include respond(tablet) {
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+
+    @include respond(desktop) {
+        justify-content: flex-end;
+        gap: 2rem;
+    }
+
+    &__user-ratings-main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__user-ratings-heading {
+        margin: 0;
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    &__yellow-star {
+        width: 3rem;
+    }
+
+    &__your-ratings-main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__user-ratings {
+        margin: 0;
+    }
+
+    &__user-rating {
+        font-weight: 900;
+        color: $color-lightest;
+        font-size: 2rem;
+    }
+
+    &__your-ratins-container {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    &__your-ratings-heading {
+        margin: 0;
+    }
+
+    &__user-ratings-quantity {
+        margin: 0;
+    }
+
+    &__blue-star {
+        width: 3rem;
+    }
+
+    &__age-rating-main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__age-rating-heading {
+        margin: 0;
+    }
+
+    &__age-rating {
+        // margin: 0;
+    }
+}

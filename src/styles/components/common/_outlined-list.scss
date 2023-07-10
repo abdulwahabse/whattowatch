@@ -1,0 +1,15 @@
+.outlined-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+
+    &__li {
+        border: 1px solid;
+        border-radius: 5rem;
+        padding: 0.3rem 1rem;
+    }
+}
