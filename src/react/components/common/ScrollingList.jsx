@@ -59,11 +59,7 @@ function ScrollingList(props) {
                         className="scrolling-list__items-container"
                         key={index}
                     >
-                        <props.component
-                            {...child}
-                            setShowTrailerModel={props.setShowTrailerModel}
-                            setTrailerUrl={props.setTrailerUrl}
-                        />
+                        <props.component {...child} {...props} />
                     </div>
                 ))}
             </div>

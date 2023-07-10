@@ -5,6 +5,7 @@ import Button from './Button';
 function Title(props) {
     const starSrc = getImageUrl('assets/icons/star.png');
     const handleTrailerBtnClick = (trailer) => {
+        props.setTrailerUrl(trailer);
         props.setShowTrailerModel(true);
     };
 

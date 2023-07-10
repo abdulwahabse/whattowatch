@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import SectionNumberedTitlesList from './../components/section/SectionNumberedTitlesList';
 import SectionTitlesList from '../components/section/SectionTitlesList';
 import {
@@ -9,7 +9,11 @@ import {
 import YouTubeModel from '../components/common/YouTubeModel';
 
 function Home() {
-    const [showTrailerModel, setShowTrailerModel] = useState(false);
+    const [trailerModel, setTrailerModel] = useState({
+        show: false,
+        url: '',
+    });
+
     const top10Today = getTop10Today();
     const topChartsMovies = getTopChartsMovies();
     const topChartsTVShows = getTopChartsTVShows();
@@ -17,11 +21,16 @@ function Home() {
     console.log(top10Today);
     return (
         <div className="home">
-            {showTrailerModel && (
+            {trailerModel.show && (
                 <YouTubeModel
-                    show={showTrailerModel}
-                    setShow={(value) => setShowTrailerModel(value)}
-                    url="https://youtu.be/5NYt1qirBWg"
+                    show={trailerModel.show}
+                    setShow={(value) =>
+                        setTrailerModel((prevState) => ({
+                            ...prevState,
+                            show: value,
+                        }))
+                    }
+                    url={trailerModel.url}
                 />
             )}
             <div className="container">
@@ -29,7 +38,18 @@ function Home() {
                 <SectionTitlesList
                     heading="Top Chart: Movies"
                     titles={topChartsMovies}
-                    setShowTrailerModel={(value) => setShowTrailerModel(value)}
+                    setShowTrailerModel={(value) =>
+                        setTrailerModel((prevState) => ({
+                            ...prevState,
+                            show: value,
+                        }))
+                    }
+                    setTrailerUrl={(value) =>
+                        setTrailerModel((prevState) => ({
+                            ...prevState,
+                            url: value,
+                        }))
+                    }
                 />
             </div>
         </div>

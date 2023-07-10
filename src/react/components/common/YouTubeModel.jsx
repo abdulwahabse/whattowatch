@@ -1,9 +1,9 @@
+import { useEffect, useState } from 'react';
 import Model from './Model';
 import { convertToYouTubeEmbeddedUrl } from '../../../utils/utils';
 
 function YouTubeModel(props) {
     const url = convertToYouTubeEmbeddedUrl(props.url);
-    console.log(url);
 
     return (
         <Model show={props.show} setShow={props.setShow} size="lg">
@@ -13,7 +13,7 @@ function YouTubeModel(props) {
                 src={url}
                 allow="autoplay; fullscreen; encrypted-media"
                 frameBorder="0"
-                allowfullscreen
+                allowFullScreen
             ></iframe>
         </Model>
     );
