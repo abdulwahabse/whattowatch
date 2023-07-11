@@ -5,9 +5,11 @@
     overflow: hidden;
     transition: all $animation-speed;
 
-    &:hover {
-        transform: scale(1.02);
-        box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px 0px;
+    @include for-hover {
+        &:hover {
+            transform: scale(1.02);
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px 0px;
+        }
     }
 
     &__info-container {
@@ -53,9 +55,11 @@
         background-color: $color-secondary-light;
         transition: all $animation-speed;
 
-        &:hover {
-            transform: translateY(-2px);
-            box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px 0px;
+        @include for-hover {
+            &:hover {
+                transform: translateY(-2px);
+                box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px 0px;
+            }
         }
     }
 }

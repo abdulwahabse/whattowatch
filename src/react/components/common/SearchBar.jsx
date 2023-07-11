@@ -12,7 +12,7 @@ function SearchBar(props) {
             </select>
             <input
                 type="text"
-                className="search-bar__input"
+                className="search-bar__input typography-3"
                 placeholder={props.placeholder}
             />
             <Button

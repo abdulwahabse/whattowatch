@@ -21,7 +21,7 @@
             display: none;
         }
 
-        @include is-touch {
+        @include for-touch {
             display: none;
         }
     }
@@ -31,7 +31,7 @@
         width: 2rem;
         opacity: 0;
 
-        @include is-touch {
+        @include for-touch {
             opacity: 1;
         }
     }
@@ -61,7 +61,7 @@
             display: none;
         }
 
-        @include is-touch {
+        @include for-touch {
             display: none;
         }
     }
@@ -90,7 +90,7 @@
     overflow: hidden;
     width: 100%;
 
-    @include is-touch {
+    @include for-touch {
         overflow-x: scroll;
     }
 }

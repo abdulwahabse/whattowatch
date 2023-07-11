@@ -6,25 +6,41 @@
 
     &__number {
         color: $color-secondary-light;
-        font-size: 20rem;
         font-weight: 700;
         position: absolute;
         bottom: 0;
         left: 0;
-        letter-spacing: -2.5rem;
+        letter-spacing: -1.5rem;
+        font-size: 10rem;
+
+        @include respond(tablet) {
+            font-size: 20rem;
+            letter-spacing: -2.5rem;
+            bottom: -3rem;
+        }
     }
 
     &__title {
-        margin-left: 9rem;
         z-index: 1;
         transition: all $animation-speed;
+        margin-left: 4.5rem;
 
-        &:hover {
-            transform: scale(1.05);
+        @include respond(tablet) {
+            margin-left: 9rem;
+        }
+
+        @include for-hover {
+            &:hover {
+                transform: scale(1.05);
+            }
         }
     }
 
     &--double-digit &__title {
-        margin-left: 18rem;
+        margin-left: 8rem;
+
+        @include respond(tablet) {
+            margin-left: 18rem;
+        }
     }
 }

@@ -21,8 +21,14 @@ $breakpoint arguement choices:
     }
 }
 
-@mixin is-touch {
+@mixin for-touch {
     @media (hover: none) {
+        @content;
+    }
+}
+
+@mixin for-hover {
+    @media (hover: hover) {
         @content;
     }
 }
