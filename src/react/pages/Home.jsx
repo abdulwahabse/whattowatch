@@ -7,6 +7,7 @@ import {
     getTopChartsTVShows,
 } from '../../api/titlesAndUserFetcher';
 import YouTubeModel from '../components/common/YouTubeModel';
+import SectionCategories from '../components/section/SectionCategories';
 
 function Home() {
     const [trailerModel, setTrailerModel] = useState({
@@ -65,6 +66,48 @@ function Home() {
                             url: value,
                         }))
                     }
+                />
+
+                <SectionCategories
+                    heading="Browse by category"
+                    categories={[
+                        {
+                            name: 'Action',
+                            link: '/categories/action',
+                        },
+                        {
+                            name: 'Adventure',
+                            link: '/categories/adventure',
+                        },
+                        {
+                            name: 'Comedy',
+                            link: '/categories/comedy',
+                        },
+                        {
+                            name: 'Crime',
+                            link: '/categories/crime',
+                        },
+                        {
+                            name: 'Drama',
+                            link: '/categories/drama',
+                        },
+                        {
+                            name: 'Fantasy',
+                            link: '/categories/fantasy',
+                        },
+                        {
+                            name: 'Horror',
+                            link: '/categories/horror',
+                        },
+                        {
+                            name: 'Mystery',
+                            link: '/categories/mystery',
+                        },
+                        {
+                            name: 'Romance',
+                            link: '/categories/romance',
+                        },
+                    ]}
                 />
             </div>
         </div>

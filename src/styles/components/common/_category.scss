@@ -1,0 +1,31 @@
+.category {
+    cursor: pointer;
+    width: 15rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: $radius;
+    background-position: center;
+    background-size: 130%;
+    transition: all $animation-speed ease-out;
+
+    &:hover {
+        background-size: 100%;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+
+    &__name {
+        text-transform: capitalize;
+        font-weight: bold;
+        width: 8rem;
+        color: white;
+        opacity: 0.5;
+    }
+}

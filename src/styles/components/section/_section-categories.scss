@@ -1,0 +1,12 @@
+.section-categories {
+    &__heading {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    &__container {
+        display: flex;
+        // flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+}
