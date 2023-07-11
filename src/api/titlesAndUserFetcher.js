@@ -1,7 +1,7 @@
 import Data from './data.json';
 
 // change body to fetch relevant data
-export const getTop10Today = () => Data.data.titles;
+export const getTop10Today = () => Data.data.titles.slice(0, 10);
 
 export const getTopChartsMovies = () => getTop10Today();
 

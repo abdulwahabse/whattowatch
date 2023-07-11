@@ -34,7 +34,22 @@ function Home() {
                 />
             )}
             <div className="container">
-                <SectionNumberedTitlesList heading="Top 10 Movies today" />
+                <SectionNumberedTitlesList
+                    heading="Top 10 Movies today"
+                    titles={top10Today}
+                    setShowTrailerModel={(value) =>
+                        setTrailerModel((prevState) => ({
+                            ...prevState,
+                            show: value,
+                        }))
+                    }
+                    setTrailerUrl={(value) =>
+                        setTrailerModel((prevState) => ({
+                            ...prevState,
+                            url: value,
+                        }))
+                    }
+                />
                 <SectionTitlesList
                     heading="Top Chart: Movies"
                     titles={topChartsMovies}

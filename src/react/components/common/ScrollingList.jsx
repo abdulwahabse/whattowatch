@@ -6,8 +6,10 @@ function ScrollingList(props) {
     const elementRef = useRef(null);
     const [leftArrowDisable, setLeftArrowDisable] = useState(true);
     const [rightArrowDisable, setRightArrowDisable] = useState(false);
-    const speed = 5;
-    const distance = 2000;
+    // const speed = 5;
+    // const distance = 2000;
+    const speed = props.speed || 5;
+    const distance = props.distance || 2000;
 
     useEffect(() => {
         const element = elementRef.current;
@@ -59,7 +61,11 @@ function ScrollingList(props) {
                         className="scrolling-list__items-container"
                         key={index}
                     >
-                        <props.component {...child} {...props} />
+                        <props.component
+                            {...child}
+                            {...props}
+                            number={index + 1}
+                        />
                     </div>
                 ))}
             </div>

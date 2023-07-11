@@ -1,8 +1,38 @@
+import { useEffect, useState } from 'react';
 import SectionHeading from './SectionHeading';
 import TitleNumbered from '../common/TitleNumbered';
+import ScrollingList from '../common/ScrollingList';
 
 function SectionNumberedTitlesList(props) {
-    const { heading } = props;
+    const { heading, titles } = props;
+    // const { listConfig, setListConfig } = useState({
+    //     speed: 5,
+    //     distance: 2000,
+    // });
+
+    const [isTablet, setIsTablet] = useState(
+        window.matchMedia('(min-width: 37.56em)').matches
+    );
+    const [isDesktop, setIsDesktop] = useState(
+        window.matchMedia('(min-width: 77.56em)').matches
+    );
+
+    useEffect(() => {
+        window.addEventListener('resize', () => {
+            setIsTablet(window.matchMedia('(min-width: 37.56em)').matches);
+            setIsDesktop(window.matchMedia('(min-width: 77.56em)').matches);
+        });
+    }, []);
+
+    useEffect(() => {
+        if (isTablet && !isDesktop) {
+            console.log('tablet');
+            // TABLET CONFIG
+        } else if (isTablet && isDesktop) {
+            console.log('desktop');
+            // DESKTOP CONFIG
+        }
+    }, [isTablet, isDesktop]);
 
     return (
         <section className="section-numbered-titles-list">
@@ -12,7 +42,15 @@ function SectionNumberedTitlesList(props) {
             >
                 {heading}
             </SectionHeading>
-            <TitleNumbered number={1} />
+            <ScrollingList
+                component={TitleNumbered}
+                speed="5"
+                distance="100"
+                {...props}
+            >
+                {titles}
+            </ScrollingList>
+            {/* <TitleNumbered number={1} /> */}
         </section>
     );
 }
