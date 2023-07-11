@@ -14,7 +14,7 @@
                 "type": "Movie",
                 "poster": "https://resizing.flixster.com/Q5W7m_i_f24Q_a4zLeRxNvx1WAs=/206x305/v2/https://flxt.tmsimg.com/assets/p28630_p_v8_at.jpg",
                 "short-desc": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
-                "long-desc": "This is the tale of Harry Potter (Daniel Radcliffe), an ordinary eleven-year-old boy serving as a sort of slave for his aunt and uncle who learns that he is actually a wizard and has been invited to attend the Hogwarts School for Witchcraft and Wizardry. Harry is snatched away from his mundane existence by Rubeus Hagrid (Robbie Coltrane), the groundskeeper for Hogwarts, and quickly thrown into a world completely foreign to both him and the viewer. Famous for an incident that happened at his birth, Harry makes friends easily at his new school. He soon finds, however, that the wizarding world is far more dangerous for him than he would have imagined, and he quickly learns that not all wizards are ones to be trusted.",
+                "story": "This is the tale of Harry Potter (Daniel Radcliffe), an ordinary eleven-year-old boy serving as a sort of slave for his aunt and uncle who learns that he is actually a wizard and has been invited to attend the Hogwarts School for Witchcraft and Wizardry. Harry is snatched away from his mundane existence by Rubeus Hagrid (Robbie Coltrane), the groundskeeper for Hogwarts, and quickly thrown into a world completely foreign to both him and the viewer. Famous for an incident that happened at his birth, Harry makes friends easily at his new school. He soon finds, however, that the wizarding world is far more dangerous for him than he would have imagined, and he quickly learns that not all wizards are ones to be trusted.",
                 "casts": [
                     {
                         "name": "Daniel Radcliffe",
@@ -24,7 +24,7 @@
                     {
                         "name": "Rupert Grint",
                         "role": "Ron Weasley",
-                        "picture": "https://en.wikipedia.org/wiki/Rupert_Grint#/media/File:RupertGrint2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg"
                     },
                     {
                         "name": "Emma Watson",
@@ -58,7 +58,7 @@
                 "type": "Movie",
                 "poster": "https://resizing.flixster.com/hXI16eWpzhmvHh4wKtyC1_ytSZk=/206x305/v2/https://flxt.tmsimg.com/NowShowing/28900/28900_da.jpg",
                 "short-desc": "Harry Potter returns to Hogwarts for his second year, where the Chamber of Secrets has been opened and the Heir of Slytherin is causing havoc.",
-                "long-desc": "In his second year at Hogwarts School of Witchcraft and Wizardry, Harry Potter (Daniel Radcliffe) encounters a mysterious diary that holds the key to uncovering the dark secrets of Hogwarts. As students are petrified by an unseen force, Harry and his friends Ron (Rupert Grint) and Hermione (Emma Watson) must confront the malevolent entity known as the Chamber of Secrets and its connection to Hogwarts' dark past. With the help of their friends and allies, Harry and his friends embark on a dangerous journey to save the school and unravel the truth behind the Chamber of Secrets.",
+                "story": "In his second year at Hogwarts School of Witchcraft and Wizardry, Harry Potter (Daniel Radcliffe) encounters a mysterious diary that holds the key to uncovering the dark secrets of Hogwarts. As students are petrified by an unseen force, Harry and his friends Ron (Rupert Grint) and Hermione (Emma Watson) must confront the malevolent entity known as the Chamber of Secrets and its connection to Hogwarts' dark past. With the help of their friends and allies, Harry and his friends embark on a dangerous journey to save the school and unravel the truth behind the Chamber of Secrets.",
                 "casts": [
                     {
                         "name": "Daniel Radcliffe",
@@ -68,7 +68,7 @@
                     {
                         "name": "Rupert Grint",
                         "role": "Ron Weasley",
-                        "picture": "https://en.wikipedia.org/wiki/Rupert_Grint#/media/File:RupertGrint2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg"
                     },
                     {
                         "name": "Emma Watson",
@@ -102,7 +102,7 @@
                 "type": "Movie",
                 "poster": "https://resizing.flixster.com/XAUlXUfvRg4iLy6B1yujviDNjlY=/206x305/v2/https://flxt.tmsimg.com/assets/p34483_p_v12_bb.jpg",
                 "short-desc": "Harry Potter returns to Hogwarts for his third year, where he faces the dangerous escaped prisoner Sirius Black and learns more about his own past.",
-                "long-desc": "In his third year at Hogwarts School of Witchcraft and Wizardry, Harry Potter (Daniel Radcliffe) discovers that the dangerous prisoner Sirius Black (Gary Oldman) has escaped from Azkaban, the wizarding prison. As Harry, along with his friends Ron (Rupert Grint) and Hermione (Emma Watson), unravels the truth about Sirius Black and his connection to Harry's family, they must confront the Dementors, soul-sucking creatures guarding Hogwarts, and face their own deepest fears. With the help of new Defense Against the Dark Arts professor Remus Lupin (David Thewlis) and the enigmatic Professor Dumbledore (Michael Gambon), Harry embarks on a thrilling adventure that will test his courage and reveal shocking secrets from the past.",
+                "story": "In his third year at Hogwarts School of Witchcraft and Wizardry, Harry Potter (Daniel Radcliffe) discovers that the dangerous prisoner Sirius Black (Gary Oldman) has escaped from Azkaban, the wizarding prison. As Harry, along with his friends Ron (Rupert Grint) and Hermione (Emma Watson), unravels the truth about Sirius Black and his connection to Harry's family, they must confront the Dementors, soul-sucking creatures guarding Hogwarts, and face their own deepest fears. With the help of new Defense Against the Dark Arts professor Remus Lupin (David Thewlis) and the enigmatic Professor Dumbledore (Michael Gambon), Harry embarks on a thrilling adventure that will test his courage and reveal shocking secrets from the past.",
                 "casts": [
                     {
                         "name": "Daniel Radcliffe",
@@ -112,7 +112,7 @@
                     {
                         "name": "Rupert Grint",
                         "role": "Ron Weasley",
-                        "picture": "https://en.wikipedia.org/wiki/Rupert_Grint#/media/File:RupertGrint2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg"
                     },
                     {
                         "name": "Emma Watson",
@@ -127,7 +127,7 @@
                     {
                         "name": "Michael Gambon",
                         "role": "Albus Dumbledore",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/14/Michael_Gambon_as_Dumbledore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Michael_Gambon_cropped.jpg"
                     }
                 ],
                 "rating": 7.9,
@@ -146,7 +146,7 @@
                 "type": "Movie",
                 "poster": "https://resizing.flixster.com/EUx-SL2GSszzvhWg6PGCR9tNixc=/206x305/v2/https://flxt.tmsimg.com/assets/p90599_p_v8_aq.jpg",
                 "short-desc": "Harry Potter finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
-                "long-desc": "In his fourth year at Hogwarts School of Witchcraft and Wizardry, Harry Potter (Daniel Radcliffe) finds himself unexpectedly selected as a participant in the dangerous Triwizard Tournament, a competition between three wizarding schools. As Harry faces challenging tasks and deadly creatures, he must navigate the intricacies of the tournament while uncovering a dark plot that threatens not only Hogwarts but the entire wizarding world. With the support of his friends Ron (Rupert Grint) and Hermione (Emma Watson), Harry delves into the mysteries of the Goblet of Fire and confronts the growing menace of Lord Voldemort (Ralph Fiennes). The choices he makes will have far-reaching consequences for his future and the fate of the wizarding realm.",
+                "story": "In his fourth year at Hogwarts School of Witchcraft and Wizardry, Harry Potter (Daniel Radcliffe) finds himself unexpectedly selected as a participant in the dangerous Triwizard Tournament, a competition between three wizarding schools. As Harry faces challenging tasks and deadly creatures, he must navigate the intricacies of the tournament while uncovering a dark plot that threatens not only Hogwarts but the entire wizarding world. With the support of his friends Ron (Rupert Grint) and Hermione (Emma Watson), Harry delves into the mysteries of the Goblet of Fire and confronts the growing menace of Lord Voldemort (Ralph Fiennes). The choices he makes will have far-reaching consequences for his future and the fate of the wizarding realm.",
                 "casts": [
                     {
                         "name": "Daniel Radcliffe",
@@ -156,7 +156,7 @@
                     {
                         "name": "Rupert Grint",
                         "role": "Ron Weasley",
-                        "picture": "https://en.wikipedia.org/wiki/Rupert_Grint#/media/File:RupertGrint2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg"
                     },
                     {
                         "name": "Emma Watson",
@@ -166,12 +166,12 @@
                     {
                         "name": "Ralph Fiennes",
                         "role": "Lord Voldemort",
-                        "picture": "INSERT_PICTURE_URL_HERE"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ralph_Fiennes_from_%22The_White_Crow%22_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2018_%2831747095048%29.jpg"
                     },
                     {
                         "name": "Michael Gambon",
                         "role": "Albus Dumbledore",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/14/Michael_Gambon_as_Dumbledore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Michael_Gambon_cropped.jpg"
                     }
                 ],
                 "rating": 7.7,
@@ -190,7 +190,7 @@
                 "type": "Movie",
                 "poster": "https://resizing.flixster.com/PZOBGYzTPhmkX33-0KKqp9X6ccM=/206x305/v2/https://flxt.tmsimg.com/NowShowing/58706/58706_aa.jpg",
                 "short-desc": "As Lord Voldemort returns, Harry Potter forms a secret group to fight against the dark forces infiltrating Hogwarts.",
-                "long-desc": "In his fifth year at Hogwarts School of Witchcraft and Wizardry, Harry Potter (Daniel Radcliffe) finds himself marginalized and discredited by the Ministry of Magic, which refuses to believe that Lord Voldemort (Ralph Fiennes) has returned. As dark forces infiltrate Hogwarts and threaten the safety of the students, Harry forms a secret organization called Dumbledore's Army to teach his peers defensive magic. Together, they prepare for the inevitable battle against Voldemort and his Death Eaters. As Harry faces visions and trials, he learns the importance of loyalty, friendship, and standing up for what is right in the face of adversity.",
+                "story": "In his fifth year at Hogwarts School of Witchcraft and Wizardry, Harry Potter (Daniel Radcliffe) finds himself marginalized and discredited by the Ministry of Magic, which refuses to believe that Lord Voldemort (Ralph Fiennes) has returned. As dark forces infiltrate Hogwarts and threaten the safety of the students, Harry forms a secret organization called Dumbledore's Army to teach his peers defensive magic. Together, they prepare for the inevitable battle against Voldemort and his Death Eaters. As Harry faces visions and trials, he learns the importance of loyalty, friendship, and standing up for what is right in the face of adversity.",
                 "casts": [
                     {
                         "name": "Daniel Radcliffe",
@@ -200,7 +200,7 @@
                     {
                         "name": "Rupert Grint",
                         "role": "Ron Weasley",
-                        "picture": "https://en.wikipedia.org/wiki/Rupert_Grint#/media/File:RupertGrint2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg"
                     },
                     {
                         "name": "Emma Watson",
@@ -210,12 +210,12 @@
                     {
                         "name": "Ralph Fiennes",
                         "role": "Lord Voldemort",
-                        "picture": "INSERT_PICTURE_URL_HERE"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ralph_Fiennes_from_%22The_White_Crow%22_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2018_%2831747095048%29.jpg"
                     },
                     {
                         "name": "Michael Gambon",
                         "role": "Albus Dumbledore",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/14/Michael_Gambon_as_Dumbledore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Michael_Gambon_cropped.jpg"
                     }
                 ],
                 "rating": 7.5,
@@ -234,7 +234,7 @@
                 "type": "Movie",
                 "poster": "https://resizing.flixster.com/Qi4ypricY_HZFig-U2J57hxQk5Y=/206x305/v2/https://flxt.tmsimg.com/NowShowing/65212/65212_an.jpg",
                 "short-desc": "As Harry Potter prepares for a final battle against Lord Voldemort, he uncovers crucial information about Voldemort's past.",
-                "long-desc": "In his sixth year at Hogwarts School of Witchcraft and Wizardry, Harry Potter (Daniel Radcliffe) receives a private tutorship from Professor Dumbledore (Michael Gambon) to learn more about Lord Voldemort's (Ralph Fiennes) past and his quest for immortality. As Harry delves into memories and secrets, he uncovers crucial information that could help him in his final battle against Voldemort. Meanwhile, romance blooms and dark forces threaten to disrupt the wizarding world. Harry and his friends must navigate love, loyalty, and sacrifice as they prepare for the ultimate confrontation with the Dark Lord.",
+                "story": "In his sixth year at Hogwarts School of Witchcraft and Wizardry, Harry Potter (Daniel Radcliffe) receives a private tutorship from Professor Dumbledore (Michael Gambon) to learn more about Lord Voldemort's (Ralph Fiennes) past and his quest for immortality. As Harry delves into memories and secrets, he uncovers crucial information that could help him in his final battle against Voldemort. Meanwhile, romance blooms and dark forces threaten to disrupt the wizarding world. Harry and his friends must navigate love, loyalty, and sacrifice as they prepare for the ultimate confrontation with the Dark Lord.",
                 "casts": [
                     {
                         "name": "Daniel Radcliffe",
@@ -244,7 +244,7 @@
                     {
                         "name": "Rupert Grint",
                         "role": "Ron Weasley",
-                        "picture": "https://en.wikipedia.org/wiki/Rupert_Grint#/media/File:RupertGrint2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg"
                     },
                     {
                         "name": "Emma Watson",
@@ -254,12 +254,12 @@
                     {
                         "name": "Ralph Fiennes",
                         "role": "Lord Voldemort",
-                        "picture": "INSERT_PICTURE_URL_HERE"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ralph_Fiennes_from_%22The_White_Crow%22_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2018_%2831747095048%29.jpg"
                     },
                     {
                         "name": "Michael Gambon",
                         "role": "Albus Dumbledore",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/14/Michael_Gambon_as_Dumbledore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Michael_Gambon_cropped.jpg"
                     }
                 ],
                 "rating": 7.6,
@@ -278,7 +278,7 @@
                 "type": "Movie",
                 "poster": "https://resizing.flixster.com/iIcfBePQY3R9i5nE79oEkr8aomM=/206x305/v2/https://flxt.tmsimg.com/NowShowing/87040/87040_aa.jpg",
                 "short-desc": "As Harry Potter embarks on a mission to destroy Voldemort's Horcruxes, he uncovers the existence of the Deathly Hallows.",
-                "long-desc": "In the seventh installment, which is split into two parts, Harry Potter (Daniel Radcliffe), along with his friends Ron (Rupert Grint) and Hermione (Emma Watson), embarks on a dangerous quest to destroy the Horcruxes—objects containing pieces of Lord Voldemort's (Ralph Fiennes) soul. As they travel across the wizarding world, they face perilous challenges and dark forces. Along the way, they uncover the existence of the Deathly Hallows, three magical artifacts that could grant ultimate power to the one who possesses them. As the trio races against time, they must make difficult choices and confront their own fears in the face of a growing war.",
+                "story": "In the seventh installment, which is split into two parts, Harry Potter (Daniel Radcliffe), along with his friends Ron (Rupert Grint) and Hermione (Emma Watson), embarks on a dangerous quest to destroy the Horcruxes—objects containing pieces of Lord Voldemort's (Ralph Fiennes) soul. As they travel across the wizarding world, they face perilous challenges and dark forces. Along the way, they uncover the existence of the Deathly Hallows, three magical artifacts that could grant ultimate power to the one who possesses them. As the trio races against time, they must make difficult choices and confront their own fears in the face of a growing war.",
                 "casts": [
                     {
                         "name": "Daniel Radcliffe",
@@ -288,7 +288,7 @@
                     {
                         "name": "Rupert Grint",
                         "role": "Ron Weasley",
-                        "picture": "https://en.wikipedia.org/wiki/Rupert_Grint#/media/File:RupertGrint2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg"
                     },
                     {
                         "name": "Emma Watson",
@@ -298,12 +298,12 @@
                     {
                         "name": "Ralph Fiennes",
                         "role": "Lord Voldemort",
-                        "picture": "INSERT_PICTURE_URL_HERE"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ralph_Fiennes_from_%22The_White_Crow%22_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2018_%2831747095048%29.jpg"
                     },
                     {
                         "name": "Michael Gambon",
                         "role": "Albus Dumbledore",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/14/Michael_Gambon_as_Dumbledore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Michael_Gambon_cropped.jpg"
                     }
                 ],
                 "rating": 7.7,
@@ -322,7 +322,7 @@
                 "type": "Movie",
                 "poster": "https://resizing.flixster.com/3FH1MZ04DgTiMfzjHX_U-fWG1z8=/206x305/v2/https://flxt.tmsimg.com/NowShowing/87176/87176_aa.jpg",
                 "short-desc": "In the epic finale, Harry Potter confronts Lord Voldemort in the ultimate battle between good and evil.",
-                "long-desc": "In the final chapter of the Harry Potter series, Harry Potter (Daniel Radcliffe) and his friends Ron (Rupert Grint) and Hermione (Emma Watson) continue their mission to destroy the remaining Horcruxes, objects that contain pieces of Lord Voldemort's (Ralph Fiennes) soul. As they face mounting challenges and sacrifices, they uncover the truth about the Deathly Hallows and the final confrontation with Voldemort becomes inevitable. Hogwarts School of Witchcraft and Wizardry becomes the battleground for the ultimate battle between good and evil. The fate of the wizarding world hangs in the balance as Harry prepares for the ultimate sacrifice to save his friends and fulfill his destiny.",
+                "story": "In the final chapter of the Harry Potter series, Harry Potter (Daniel Radcliffe) and his friends Ron (Rupert Grint) and Hermione (Emma Watson) continue their mission to destroy the remaining Horcruxes, objects that contain pieces of Lord Voldemort's (Ralph Fiennes) soul. As they face mounting challenges and sacrifices, they uncover the truth about the Deathly Hallows and the final confrontation with Voldemort becomes inevitable. Hogwarts School of Witchcraft and Wizardry becomes the battleground for the ultimate battle between good and evil. The fate of the wizarding world hangs in the balance as Harry prepares for the ultimate sacrifice to save his friends and fulfill his destiny.",
                 "casts": [
                     {
                         "name": "Daniel Radcliffe",
@@ -332,7 +332,7 @@
                     {
                         "name": "Rupert Grint",
                         "role": "Ron Weasley",
-                        "picture": "https://en.wikipedia.org/wiki/Rupert_Grint#/media/File:RupertGrint2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg"
                     },
                     {
                         "name": "Emma Watson",
@@ -342,12 +342,12 @@
                     {
                         "name": "Ralph Fiennes",
                         "role": "Lord Voldemort",
-                        "picture": "INSERT_PICTURE_URL_HERE"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ralph_Fiennes_from_%22The_White_Crow%22_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2018_%2831747095048%29.jpg"
                     },
                     {
                         "name": "Michael Gambon",
                         "role": "Albus Dumbledore",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/14/Michael_Gambon_as_Dumbledore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Michael_Gambon_cropped.jpg"
                     }
                 ],
                 "rating": 8.1,
@@ -376,7 +376,7 @@
                 "no-of-seasons": 8,
                 "poster": "https://resizing.flixster.com/S9avaJq_hKgj_lt8nphqPV5FqAE=/206x305/v2/https://flxt.tmsimg.com/assets/p8553063_b_v13_ax.jpg",
                 "short-desc": "A fantasy drama series set in the fictional continents of Westeros and Essos, where noble families vie for control of the Iron Throne.",
-                "long-desc": "Game of Thrones is a critically acclaimed fantasy drama television series based on the series of novels titled 'A Song of Ice and Fire' by George R.R. Martin. Set in the fictional continents of Westeros and Essos, the series follows the power struggles among noble families as they vie for control of the Iron Throne of Westeros. The show is known for its complex characters, intricate plotlines, and political intrigue, as well as its gritty and realistic portrayal of the fantasy genre. Game of Thrones has received widespread praise for its production values, storytelling, and ensemble cast.",
+                "story": "Game of Thrones is a critically acclaimed fantasy drama television series based on the series of novels titled 'A Song of Ice and Fire' by George R.R. Martin. Set in the fictional continents of Westeros and Essos, the series follows the power struggles among noble families as they vie for control of the Iron Throne of Westeros. The show is known for its complex characters, intricate plotlines, and political intrigue, as well as its gritty and realistic portrayal of the fantasy genre. Game of Thrones has received widespread praise for its production values, storytelling, and ensemble cast.",
                 "casts": [
                     {
                         "name": "Sean Bean",
@@ -428,7 +428,7 @@
                 "no-of-seasons": 4,
                 "poster": "https://resizing.flixster.com/4_p9J7Z2HP6jQo-d2nb_1j97m7Y=/206x305/v2/https://flxt.tmsimg.com/assets/p12991665_b_v13_am.jpg",
                 "short-desc": "A group of kids in a small town encounter supernatural creatures and government conspiracies when their friend goes missing.",
-                "long-desc": "Stranger Things is a popular science fiction horror drama television series created by The Duffer Brothers. Set in the 1980s in the fictional town of Hawkins, Indiana, the series follows a group of kids who become friends and embark on a quest to find their missing friend, encountering supernatural creatures and uncovering government conspiracies along the way. Stranger Things pays homage to 80s pop culture and is known for its nostalgic atmosphere, compelling storytelling, and a talented ensemble cast.",
+                "story": "Stranger Things is a popular science fiction horror drama television series created by The Duffer Brothers. Set in the 1980s in the fictional town of Hawkins, Indiana, the series follows a group of kids who become friends and embark on a quest to find their missing friend, encountering supernatural creatures and uncovering government conspiracies along the way. Stranger Things pays homage to 80s pop culture and is known for its nostalgic atmosphere, compelling storytelling, and a talented ensemble cast.",
                 "casts": [
                     {
                         "name": "Millie Bobby Brown",
@@ -474,7 +474,7 @@
                 "no-of-seasons": 3,
                 "poster": "https://resizing.flixster.com/ttpBX0141Ykdo61cBvpsW4DHHaQ=/206x305/v2/https://resizing.flixster.com/kYEXHrk9hjYpZgv7_3FAFOsTlcQ=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNDY1OGI0MzctYzQwYS00OWM5LWI5ZjUtY2E5NzQ3NDliZDIxLmpwZw==",
                 "short-desc": "A young girl embarks on a perilous journey through parallel universes, where she discovers secrets about her own identity and the nature of Dust.",
-                "long-desc": "His Dark Materials is a fantasy adventure drama television series based on the book series of the same name by Philip Pullman. The story follows Lyra Belacqua, a young girl who lives in a world where people's souls manifest as animal companions called daemons. When her friend goes missing, Lyra embarks on a dangerous journey through multiple parallel universes, encountering mysterious beings, magical creatures, and uncovering a sinister plot involving the enigmatic substance called Dust. The series explores themes of self-discovery, free will, and the complex interplay between religion, science, and power.",
+                "story": "His Dark Materials is a fantasy adventure drama television series based on the book series of the same name by Philip Pullman. The story follows Lyra Belacqua, a young girl who lives in a world where people's souls manifest as animal companions called daemons. When her friend goes missing, Lyra embarks on a dangerous journey through multiple parallel universes, encountering mysterious beings, magical creatures, and uncovering a sinister plot involving the enigmatic substance called Dust. The series explores themes of self-discovery, free will, and the complex interplay between religion, science, and power.",
                 "casts": [
                     {
                         "name": "Dafne Keen",

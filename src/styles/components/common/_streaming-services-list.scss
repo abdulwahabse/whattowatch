@@ -1,0 +1,28 @@
+.streaming-services {
+    &__list-container {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    &__icon-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    &__icon {
+        width: 6rem;
+        height: 6rem;
+        border-radius: $radius;
+    }
+
+    &__name {
+        width: 100%;
+        text-align: center;
+        font-size: 1.1rem;
+        width: 6rem;
+    }
+}

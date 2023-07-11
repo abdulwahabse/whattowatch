@@ -7,7 +7,7 @@
         gap: 1.5rem;
         grid-template-columns: 1fr 1fr 1fr;
         align-items: start;
-        grid-template-rows: auto auto 1fr max-content 1fr;
+        grid-template-rows: auto auto 1fr max-content max-content;
         grid-template-areas:
             'name name name'
             'description description description'
@@ -50,9 +50,15 @@
 
     &__poster {
         grid-area: poster;
+
         @include respond(tablet) {
             width: 20rem;
             height: 29.5rem;
+        }
+
+        @include respond(desktop) {
+            width: 30rem;
+            height: 39.5rem;
         }
     }
 
@@ -64,6 +70,10 @@
 
         @include respond(tablet) {
             height: 100%;
+        }
+
+        @include respond(desktop) {
+            height: 44.5rem;
         }
     }
 
@@ -83,14 +93,49 @@
 
     &__rating-container {
         grid-area: rating-container;
-        width: max-content;
 
         @include respond(tablet) {
+            width: max-content;
             margin-right: auto;
         }
 
         @include respond(desktop) {
             margin-left: auto;
         }
+    }
+
+    &__hr {
+        width: 100%;
+        border: 1px solid $color-secondary;
+    }
+
+    &__director-writer {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    &__streaming-container {
+        margin-top: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    &__casts-container {
+        margin-top: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    &__story {
+        margin: 0;
+    }
+
+    &__story-container {
+        margin-top: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
     }
 }

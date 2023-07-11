@@ -6,6 +6,7 @@
 
     &__img {
         width: 1.6rem;
+        transition: all $animation-speed ease-out;
     }
 
     &__back-btn {
@@ -15,6 +16,7 @@
         outline: none;
         color: $color-light;
         font-size: 1.5rem;
+        transition: all $animation-speed;
     }
 
     &:hover &__img,

@@ -8,9 +8,15 @@
 
     &__hamburger {
         width: 2rem;
+        transition: all $animation-speed ease-out;
 
         @include respond(desktop) {
             display: none;
+        }
+
+        &:hover {
+            cursor: pointer;
+            filter: brightness(2);
         }
     }
 

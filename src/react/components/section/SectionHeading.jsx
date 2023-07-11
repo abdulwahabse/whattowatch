@@ -14,9 +14,9 @@ function SectionHeading(props) {
                 to={props.link || ''}
             >
                 <div className="section-heading__container">
-                    <h1 className="section-heading__heading typography-1 color-light">
+                    <h2 className="section-heading__heading typography-1 color-light">
                         {props.children}
-                    </h1>
+                    </h2>
                     {props.showArrow && (
                         <img
                             className="section-heading__img"

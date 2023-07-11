@@ -12,13 +12,18 @@
     justify-content: center;
 
     &--sm {
-        height: 32px;
-        width: 32px;
+        height: 3.2rem;
+        width: 3.2rem;
     }
 
     &--md {
-        height: 128px;
-        width: 128px;
+        height: 6.4rem;
+        width: 6.4rem;
+    }
+
+    &--lg {
+        height: 9.6rem;
+        width: 9.6rem;
     }
 
     &__img {

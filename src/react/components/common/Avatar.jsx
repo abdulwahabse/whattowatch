@@ -18,6 +18,8 @@ function Avatar(props) {
         sizeClass = 'avatar--sm';
     } else if (size === 'md') {
         sizeClass = 'avatar--md';
+    } else if (size === 'lg') {
+        sizeClass = 'avatar--lg';
     }
 
     return (
