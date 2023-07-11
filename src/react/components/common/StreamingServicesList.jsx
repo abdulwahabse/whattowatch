@@ -62,7 +62,9 @@ function StreamingServicesList(props) {
 
     return (
         <div className="streaming-services">
-            <div className="streaming-services__list-container">
+            <div
+                className={`streaming-services__list-container ${props.className}`}
+            >
                 {listToRender}
             </div>
         </div>

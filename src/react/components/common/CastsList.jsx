@@ -25,11 +25,7 @@ function CastsList(props) {
 
     console.log(list);
 
-    return (
-        <div className="casts-list">
-            <div className="casts-list__casts-container">{casts}</div>
-        </div>
-    );
+    return <div className={`casts-list ${props.className}`}>{casts}</div>;
 }
 
 export default CastsList;

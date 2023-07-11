@@ -1,9 +1,6 @@
 .casts-list {
-    &__casts-container {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1.5rem;
-    }
+    display: flex;
+    gap: 1.5rem;
 
     &__cast-container {
         display: flex;
@@ -13,9 +10,11 @@
 
     &__name {
         margin-bottom: 0.5rem;
+        text-align: center;
     }
 
     &__role {
         margin: 0;
+        text-align: center;
     }
 }

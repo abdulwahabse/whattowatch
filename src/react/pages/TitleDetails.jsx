@@ -102,14 +102,20 @@ function TitlesDetails() {
                         <h3 className="typography-3 color-lightest">
                             Streaming on
                         </h3>
-                        <StreamingServicesList list={title['streaming-on']} />
+                        <StreamingServicesList
+                            className="title-details__streaming-list"
+                            list={title['streaming-on']}
+                        />
                     </div>
                 )}
 
                 {title.casts && (
                     <div className="title-details__casts-container">
                         <h3 className="typography-3 color-lightest">Casts</h3>
-                        <CastsList list={title.casts} />
+                        <CastsList
+                            className="title-details__cast-list"
+                            list={title.casts}
+                        />
                     </div>
                 )}
 

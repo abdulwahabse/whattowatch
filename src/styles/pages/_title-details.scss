@@ -121,11 +121,25 @@
         gap: 1.5rem;
     }
 
+    &__streaming-list {
+        overflow-x: auto;
+        @include respond(tablet) {
+            flex-wrap: wrap;
+        }
+    }
+
     &__casts-container {
         margin-top: 2.5rem;
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
+    }
+
+    &__cast-list {
+        overflow-x: auto;
+        @include respond(tablet) {
+            flex-wrap: wrap;
+        }
     }
 
     &__story {
