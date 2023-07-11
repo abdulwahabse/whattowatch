@@ -44,13 +44,15 @@ function TitlesDetails() {
                         url={title.trailer}
                         className="title-details__trailer"
                     />
-                    <OutlinedList
-                        items={title.genres}
-                        className="title-details__genres typography-4 color-light"
-                    />
-                    <p className="title-details__short-desc typography-4 color-light">
-                        {title['short-desc']}
-                    </p>
+                    <div className="title-details__genres-and-shortdesc-container">
+                        <OutlinedList
+                            items={title.genres}
+                            className="title-details__genres typography-4 color-light"
+                        />
+                        <p className="title-details__short-desc typography-4 color-light">
+                            {title['short-desc']}
+                        </p>
+                    </div>
                     <div className="title-details__rating-container">
                         <RatingsList
                             className="title-details__rating-container typography-2 color-light"

@@ -4,16 +4,15 @@
     &__header {
         margin-top: 2rem;
         display: grid;
-        gap: 1rem;
+        gap: 1.5rem;
         grid-template-columns: 1fr 1fr 1fr;
         align-items: start;
-        grid-template-rows: auto auto 1fr max-content max-content 1fr;
+        grid-template-rows: auto auto 1fr max-content 1fr;
         grid-template-areas:
             'name name name'
             'description description description'
             'trailer trailer trailer'
-            'poster genres genres'
-            'poster short-desc short-desc'
+            'poster genresshortdesc genresshortdesc'
             'rating-container rating-container rating-container';
 
         @include respond(tablet) {
@@ -24,8 +23,7 @@
                 'name name name'
                 'description description description'
                 'poster trailer trailer'
-                'genres genres genres'
-                'short-desc short-desc short-desc'
+                'genresshortdesc genresshortdesc genresshortdesc'
                 'rating-container rating-container rating-container';
         }
 
@@ -37,8 +35,7 @@
                 'name name rating-container'
                 'description description rating-container'
                 'poster trailer trailer'
-                'genres genres genres'
-                'short-desc short-desc short-desc';
+                'genresshortdesc genresshortdesc genresshortdesc';
         }
     }
 
@@ -53,27 +50,47 @@
 
     &__poster {
         grid-area: poster;
+        @include respond(tablet) {
+            width: 20rem;
+            height: 29.5rem;
+        }
     }
 
     &__trailer {
         grid-area: trailer;
         height: 20rem;
+        border-radius: $radius;
+        overflow: hidden;
 
         @include respond(tablet) {
             height: 100%;
         }
     }
 
+    &__genres-and-shortdesc-container {
+        grid-area: genresshortdesc;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
     &__genres {
-        grid-area: genres;
     }
 
     &__short-desc {
-        grid-area: short-desc;
         margin: 0;
     }
 
     &__rating-container {
         grid-area: rating-container;
+        width: max-content;
+
+        @include respond(tablet) {
+            margin-right: auto;
+        }
+
+        @include respond(desktop) {
+            margin-left: auto;
+        }
     }
 }

@@ -1,43 +1,36 @@
 .ratings-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        'userratingsheading yourratingsheading ageratingheading'
+        'userratingscontainer yourratingscontainer agerating';
     width: 100%;
 
     @include respond(tablet) {
-        justify-content: flex-start;
-        gap: 2rem;
-    }
-
-    @include respond(desktop) {
-        justify-content: flex-end;
-        gap: 2rem;
-    }
-
-    &__user-ratings-main-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        grid-template-columns: max-content max-content max-content;
+        column-gap: 1.5rem;
+        grid-template-areas:
+            'userratingsheading yourratingsheading ageratingheading'
+            'userratingscontainer yourratingscontainer agerating';
     }
 
     &__user-ratings-heading {
+        grid-area: userratingsheading;
         margin: 0;
+        text-align: center;
     }
 
-    &__container {
+    &__user-ratings-container {
+        grid-area: userratingscontainer;
         display: flex;
+        flex-direction: row;
         align-items: center;
+        justify-content: center;
         gap: 1rem;
     }
 
     &__yellow-star {
-        width: 3rem;
-    }
-
-    &__your-ratings-main-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        width: 2rem;
     }
 
     &__user-ratings {
@@ -47,38 +40,44 @@
     &__user-rating {
         font-weight: 900;
         color: $color-lightest;
-        font-size: 2rem;
-    }
-
-    &__your-ratins-container {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
     }
 
     &__your-ratings-heading {
+        grid-area: yourratingsheading;
         margin: 0;
+        text-align: center;
+    }
+
+    &__your-ratings-container {
+        grid-area: yourratingscontainer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+        &:hover {
+            cursor: pointer;
+            filter: brightness(0) invert(1);
+        }
     }
 
     &__user-ratings-quantity {
         margin: 0;
+        font-size: 1.1rem;
     }
 
     &__blue-star {
-        width: 3rem;
-    }
-
-    &__age-rating-main-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        width: 2rem;
     }
 
     &__age-rating-heading {
+        grid-area: ageratingheading;
         margin: 0;
+        text-align: center;
     }
 
     &__age-rating {
-        // margin: 0;
+        grid-area: agerating;
+        text-align: center;
     }
 }
