@@ -45,7 +45,7 @@ function SectionNumberedTitlesList(props) {
             <ScrollingList
                 component={TitleNumbered}
                 speed="5"
-                distance="100"
+                distance="1000"
                 {...props}
             >
                 {titles}

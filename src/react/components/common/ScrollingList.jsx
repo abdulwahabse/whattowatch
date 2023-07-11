@@ -8,8 +8,8 @@ function ScrollingList(props) {
     const [rightArrowDisable, setRightArrowDisable] = useState(false);
     // const speed = 5;
     // const distance = 2000;
-    const speed = props.speed || 5;
-    const distance = props.distance || 2000;
+    // const speed = props.speed || 5;
+    // const distance = props.distance || 100;
 
     useEffect(() => {
         const element = elementRef.current;
@@ -33,6 +33,39 @@ function ScrollingList(props) {
             );
         }, speed);
     };
+
+    // Adjust speed and distance based on viewport width
+    // const viewportWidth = window.innerWidth;
+    // const speed = Math.floor(viewportWidth / 2000); // Adjust the divisor as needed
+    // const distance = Math.floor(viewportWidth / 3); // Adjust the divisor as needed
+    const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
+    const [speed, setSpeed] = useState(calculateSpeed(viewportWidth));
+    const [distance, setDistance] = useState(calculateDistance(viewportWidth));
+
+    useEffect(() => {
+        const handleResize = () => {
+            setViewportWidth(window.innerWidth);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+    useEffect(() => {
+        setSpeed(calculateSpeed(viewportWidth));
+        setDistance(calculateDistance(viewportWidth));
+    }, [viewportWidth]);
+
+    function calculateSpeed(width) {
+        return Math.floor(width / 400); // Adjust the divisor as needed
+    }
+
+    function calculateDistance(width) {
+        return Math.floor(width / 3); // Adjust the divisor as needed
+    }
 
     return (
         <div className="scrolling-list">

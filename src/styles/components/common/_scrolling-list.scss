@@ -15,8 +15,13 @@
             rgba(255, 255, 255, 0) 100%
         );
         border: none;
+        z-index: 100;
 
         &:disabled {
+            display: none;
+        }
+
+        @include is-touch {
             display: none;
         }
     }
@@ -25,6 +30,10 @@
         transition: all $animation-speed ease-in-out;
         width: 2rem;
         opacity: 0;
+
+        @include is-touch {
+            opacity: 1;
+        }
     }
 
     &__left-arrow-btn:hover &__left-arrow-img {
@@ -46,8 +55,13 @@
             rgba(255, 255, 255, 0) 100%
         );
         border: none;
+        z-index: 100;
 
         &:disabled {
+            display: none;
+        }
+
+        @include is-touch {
             display: none;
         }
     }
@@ -75,4 +89,8 @@
     display: flex;
     overflow: hidden;
     width: 100%;
+
+    @include is-touch {
+        overflow-x: scroll;
+    }
 }

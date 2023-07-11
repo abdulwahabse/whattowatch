@@ -20,3 +20,9 @@ $breakpoint arguement choices:
         } // 1241px
     }
 }
+
+@mixin is-touch {
+    @media (hover: none) {
+        @content;
+    }
+}
