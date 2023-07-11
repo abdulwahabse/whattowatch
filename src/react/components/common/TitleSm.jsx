@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { getImageUrl } from './../../../utils/utils';
 
 function TitleSm(props) {
+    const link = `/titles/${props.id}`;
     const bookMarkSrc = getImageUrl('assets/icons/bookmark.png');
     const handleBookmarkClick = () => {
         console.log('BookMark clicked');
@@ -12,7 +13,7 @@ function TitleSm(props) {
 
     return (
         <div className={`title-sm ${props.className}`}>
-            <Link to="">
+            <Link to={link}>
                 <div className="title-sm__container">
                     <img
                         src={bookMarkSrc}

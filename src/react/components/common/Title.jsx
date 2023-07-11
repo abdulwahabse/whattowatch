@@ -11,7 +11,11 @@ function Title(props) {
 
     return (
         <div className={`title ${props.className || ''}`}>
-            <TitleSm className="title__sm" poster={props.poster} />
+            <TitleSm
+                className="title__sm"
+                poster={props.poster}
+                id={props.id}
+            />
             <div className="title__info-container">
                 <div className="title__sub-info-container">
                     <img src={starSrc} alt="star" className="title__star" />
