@@ -7,17 +7,32 @@ import TitleSm from '../components/common/TitleSm';
 import YouTube from '../components/common/YouTube';
 import OutlinedList from '../components/common/OutlinedList';
 import RatingsList from '../components/common/RatingsList';
-import SectionHeading from '../components/section/SectionHeading';
 import StreamingServicesList from '../components/common/StreamingServicesList';
 import CastsList from '../components/common/CastsList';
 function TitlesDetails() {
     const titleId = useParams().id;
     const [title, setTitle] = useState({});
+    const [quickFacts, setQuickFacts] = useState([]);
+    const updateQuickFacts = (title) => {
+        const quickFacts = [];
+        quickFacts.push(title.type);
+        quickFacts.push(title.runtime);
+        quickFacts.push(title['airing-period'] || title['release-date']);
+        if (title['no-of-seasons']) {
+            if (title['no-of-seasons'] > 1) {
+                quickFacts.push(`${title['no-of-seasons']} seasons`);
+            } else {
+                quickFacts.push(`${title['no-of-seasons']} season`);
+            }
+        }
+        setQuickFacts(quickFacts);
+    };
 
     useEffect(() => {
         (async function () {
             const title = await getTitle(titleId);
             setTitle(title);
+            updateQuickFacts(title);
             console.log('title', title);
         })();
     }, [titleId]);
@@ -30,11 +45,7 @@ function TitlesDetails() {
                         {title.name}
                     </h1>
                     <BulletedList
-                        items={[
-                            title.type,
-                            title.runtime,
-                            title['release-date'],
-                        ]}
+                        items={quickFacts}
                         component="p"
                         className="title-details__description typography-4 color-light"
                     />

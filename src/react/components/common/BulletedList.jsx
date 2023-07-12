@@ -3,14 +3,16 @@ function BulletedList(props) {
 
     return (
         <Component className={className}>
-            {items.map((item, index) => (
-                <span key={index}>
-                    {item}
-                    {index !== items.length - 1 && (
-                        <>&nbsp;&nbsp;•&nbsp;&nbsp;</>
-                    )}
-                </span>
-            ))}
+            {items.map((item, index) => {
+                const nextItem = items[index + 1];
+
+                return (
+                    <span key={index}>
+                        {item}
+                        {nextItem && item && <>&nbsp;&nbsp;•&nbsp;&nbsp;</>}
+                    </span>
+                );
+            })}
         </Component>
     );
 }

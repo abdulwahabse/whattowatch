@@ -23,8 +23,6 @@ function CastsList(props) {
         );
     });
 
-    console.log(list);
-
     return <div className={`casts-list ${props.className}`}>{casts}</div>;
 }
 
