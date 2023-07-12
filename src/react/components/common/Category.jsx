@@ -3,22 +3,23 @@ import { getImageUrl } from '../../../utils/utils';
 
 function Category(props) {
     const { name, link } = props;
+    console.log('Link: ', link);
     const generatorRandomNum = (number) => Math.floor(Math.random() * number);
     const backgroundImg = getImageUrl(
         `assets/images/backgrounds/${generatorRandomNum(12)}.jpg`
     );
 
     return (
-        <div
-            className="category"
-            style={{
-                backgroundImage: `url(${backgroundImg})`,
-            }}
-        >
-            <Link to={link} className="category__link">
+        <Link to={link} className="category__link">
+            <div
+                className="category"
+                style={{
+                    backgroundImage: `url(${backgroundImg})`,
+                }}
+            >
                 <h3 className="category__name">{name}</h3>
-            </Link>
-        </div>
+            </div>
+        </Link>
     );
 }
 
