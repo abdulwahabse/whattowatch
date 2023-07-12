@@ -11,6 +11,7 @@ import {
     capitalizeFirstLetter,
 } from '../../utils/utils';
 import Title from '../components/common/Title';
+import YouTubeModel from '../components/common/YouTubeModel';
 
 function Titles() {
     const location = useLocation();
@@ -19,6 +20,10 @@ function Titles() {
     let heading = '';
     let titlesToRender = [];
     let noResultsText = 'No results found';
+    const [trailerModel, setTrailerModel] = useState({
+        show: false,
+        url: '',
+    });
 
     useEffect(() => {
         setCurrentPath(location.pathname);
@@ -27,12 +32,20 @@ function Titles() {
     const mapTitles = (titles) =>
         titles.map((title, index) => (
             <Title
+                {...title}
                 key={index}
-                id={title.id}
-                name={title.name}
-                poster={title.poster}
-                rating={title.rating}
-                index={index}
+                setShowTrailerModel={(value) =>
+                    setTrailerModel((prevState) => ({
+                        ...prevState,
+                        show: value,
+                    }))
+                }
+                setTrailerUrl={(value) =>
+                    setTrailerModel((prevState) => ({
+                        ...prevState,
+                        url: value,
+                    }))
+                }
             />
         ));
 
@@ -56,6 +69,18 @@ function Titles() {
 
     return (
         <div className="titles">
+            {trailerModel.show && (
+                <YouTubeModel
+                    show={trailerModel.show}
+                    setShow={(value) =>
+                        setTrailerModel((prevState) => ({
+                            ...prevState,
+                            show: value,
+                        }))
+                    }
+                    url={trailerModel.url}
+                />
+            )}
             <div className="container">
                 <SectionHeading className="titles__heading">
                     {heading}
