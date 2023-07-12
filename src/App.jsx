@@ -24,7 +24,7 @@ function App() {
                             <Home />
                         </Route>
                         <Route exact path="/titles">
-                            <Titles />
+                            <Home />
                         </Route>
                         <Route exact path="/titles/:id">
                             <TitleDetails />
@@ -36,9 +36,12 @@ function App() {
                             <Titles />
                         </Route>
                         <Route exact path="/search">
-                            <Titles />
+                            <Home />
                         </Route>
                         <Route exact path="/search/:search">
+                            <Titles />
+                        </Route>
+                        <Route exact path="/watchlist">
                             <Titles />
                         </Route>
                         <Route exact path="/celebrities">

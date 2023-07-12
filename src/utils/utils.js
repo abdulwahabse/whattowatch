@@ -12,3 +12,17 @@ export function convertToYouTubeEmbeddedUrl(url) {
         'https://www.youtube.com/embed/' + videoId + '?autoplay=1';
     return embeddedUrl;
 }
+
+// encode spaces in url
+export function encodeSpacesInUrl(url) {
+    return url.replaceAll(' ', '%20');
+}
+
+// decode spaces in url
+export function decodeSpacesInUrl(url) {
+    return url.replaceAll('%20', ' ');
+}
+
+export function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}

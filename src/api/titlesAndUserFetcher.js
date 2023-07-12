@@ -23,3 +23,22 @@ export const getCategoriesWithLinks = () => {
     });
     return categoriesWithLinks;
 };
+
+export const getTitlesByCategory = (category) => {
+    const lowercaseCategory = category.toLowerCase();
+    const titles = Data.data.titles.filter((title) => {
+        return title.genres.some(
+            (genre) => genre.toLowerCase() === lowercaseCategory
+        );
+    });
+    return titles;
+};
+
+export const searchTitles = (searchString) => {
+    const lowercaseSearchString = searchString.toLowerCase();
+    const titles = Data.data.titles.filter((title) => {
+        const lowercaseTitleName = title.name.toLowerCase();
+        return lowercaseTitleName.includes(lowercaseSearchString);
+    });
+    return titles;
+};
