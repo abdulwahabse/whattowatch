@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import SectionNumberedTitlesList from './../components/section/SectionNumberedTitlesList';
 import SectionTitlesList from '../components/section/SectionTitlesList';
 import {
+    getCategoriesWithLinks,
     getTop10Today,
     getTopChartsMovies,
     getTopChartsTVShows,
@@ -10,6 +11,14 @@ import YouTubeModel from '../components/common/YouTubeModel';
 import SectionCategories from '../components/section/SectionCategories';
 
 function Home() {
+    const [categories, setCategories] = useState([]);
+    useEffect(() => {
+        (async () => {
+            const categoriesFetched = await getCategoriesWithLinks();
+            setCategories(categoriesFetched);
+        })();
+    }, []);
+
     const [trailerModel, setTrailerModel] = useState({
         show: false,
         url: '',
@@ -70,44 +79,7 @@ function Home() {
 
                 <SectionCategories
                     heading="Browse by category"
-                    categories={[
-                        {
-                            name: 'Action',
-                            link: '/categories/action',
-                        },
-                        {
-                            name: 'Adventure',
-                            link: '/categories/adventure',
-                        },
-                        {
-                            name: 'Comedy',
-                            link: '/categories/comedy',
-                        },
-                        {
-                            name: 'Crime',
-                            link: '/categories/crime',
-                        },
-                        {
-                            name: 'Drama',
-                            link: '/categories/drama',
-                        },
-                        {
-                            name: 'Fantasy',
-                            link: '/categories/fantasy',
-                        },
-                        {
-                            name: 'Horror',
-                            link: '/categories/horror',
-                        },
-                        {
-                            name: 'Mystery',
-                            link: '/categories/mystery',
-                        },
-                        {
-                            name: 'Romance',
-                            link: '/categories/romance',
-                        },
-                    ]}
+                    categories={categories}
                 />
             </div>
         </div>

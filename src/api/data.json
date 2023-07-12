@@ -1,6 +1,7 @@
 {
     "status": "success",
     "data": {
+        "categories": ["Fantasy", "Adventure", "Family", "Drama", "Horror"],
         "titles": [
             {
                 "id": "uAfBeT6PZz",

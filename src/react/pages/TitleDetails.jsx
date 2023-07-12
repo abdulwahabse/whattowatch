@@ -33,7 +33,6 @@ function TitlesDetails() {
             const title = await getTitle(titleId);
             setTitle(title);
             updateQuickFacts(title);
-            console.log('title', title);
         })();
     }, [titleId]);
     return (

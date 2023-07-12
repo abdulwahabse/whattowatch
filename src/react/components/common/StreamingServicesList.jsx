@@ -7,7 +7,6 @@ function StreamingServicesList(props) {
     const disneyIcon = getImageUrl('assets/icons/disney-plus.png');
     const primeIcon = getImageUrl('assets/icons/prime-video.png');
     const hboIcon = getImageUrl('assets/icons/hbo-max.png');
-    console.log(list);
 
     const getIcon = (item) => {
         switch (item) {

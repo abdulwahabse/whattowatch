@@ -5,7 +5,7 @@ function Category(props) {
     const { name, link } = props;
     const generatorRandomNum = (number) => Math.floor(Math.random() * number);
     const backgroundImg = getImageUrl(
-        `assets/images/backgrounds/${generatorRandomNum(13)}.jpg`
+        `assets/images/backgrounds/${generatorRandomNum(12)}.jpg`
     );
 
     return (
@@ -16,7 +16,7 @@ function Category(props) {
             }}
         >
             <Link to={link} className="category__link">
-                <h3 className="category__name typography-2">{name}</h3>
+                <h3 className="category__name">{name}</h3>
             </Link>
         </div>
     );

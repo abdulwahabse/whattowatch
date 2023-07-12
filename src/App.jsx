@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Header from './react/layout/Header';
 import Footer from './react/layout/Footer';
@@ -10,6 +11,7 @@ import Celebrity from './react/pages/Celebrity';
 import SignUp from './react/pages/SignUp';
 import SignIn from './react/pages/SignIn';
 import { UserProvider } from './contexts/userContext';
+import { getCategoriesWithLinks } from './api/titlesAndUserFetcher';
 
 function App() {
     return (

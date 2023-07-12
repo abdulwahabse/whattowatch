@@ -3,10 +3,10 @@ import Avatar from './Avatar';
 function CastsList(props) {
     const { list } = props;
 
-    const casts = list.map((cast) => {
+    const casts = list.map((cast, index) => {
         const link = `celebrities/${cast.name}`;
         return (
-            <div className="casts-list__cast-container" key={cast.id}>
+            <div className="casts-list__cast-container" key={index}>
                 <Avatar
                     src={cast.picture}
                     alt={cast.name}

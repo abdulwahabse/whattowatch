@@ -17,9 +17,6 @@ function SectionCategories(props) {
             <SectionHeading className="section-categories__heading">
                 {heading}
             </SectionHeading>
-            {/* <div className="section-categories__container">
-                {categoriesToRender}
-            </div> */}
             <ScrollingList component={Category}>{categories}</ScrollingList>
         </div>
     );

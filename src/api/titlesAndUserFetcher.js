@@ -9,3 +9,17 @@ export const getTopChartsTVShows = () => getTop10Today();
 
 export const getTitle = (id) =>
     Data.data.titles.find((title) => title.id === id);
+
+export const getCategories = () => Data.data.categories;
+
+export const getCategoriesWithLinks = () => {
+    const categories = getCategories();
+    const basicLink = '/categories/';
+    const categoriesWithLinks = categories.map((category) => {
+        return {
+            name: category,
+            link: basicLink + category.toLowerCase().replaceAll(' ', '-'),
+        };
+    });
+    return categoriesWithLinks;
+};
