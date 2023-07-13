@@ -49,16 +49,6 @@ function NavLinks(props) {
                 <li className="nav__li">
                     <NavLink
                         exact
-                        to="/categories"
-                        activeStyle={activeStyle}
-                        className="nav__link"
-                    >
-                        Categories
-                    </NavLink>
-                </li>
-                <li className="nav__li">
-                    <NavLink
-                        exact
                         to="/watchlist"
                         activeStyle={activeStyle}
                         className="nav__link"

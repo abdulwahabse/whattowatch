@@ -1,31 +1,17 @@
 import { Link } from 'react-router-dom';
+import NavLinks from './../components/nav/NavLinks';
 function Footer() {
+    const currentYear = new Date().getFullYear();
     return (
         <footer className="footer">
             <div className="container footer__container">
-                <p className="typography-4 color-light footer__copyright">
-                    Copyright © 2023 What to Watch. All rights reserved
-                </p>
                 <div className="footer__links">
-                    <Link
-                        to="/"
-                        className="typography-3 color-light footer__link "
-                    >
-                        Privacy Policy
-                    </Link>
-                    <Link
-                        to="/"
-                        className="typography-3 color-light footer__link "
-                    >
-                        Careers
-                    </Link>
-                    <Link
-                        to="/"
-                        className="typography-3 color-light footer__link "
-                    >
-                        Help
-                    </Link>
+                    <NavLinks />
                 </div>
+                <p className="typography-4 color-light footer__copyright">
+                    Copyright © {currentYear} What to Watch. All rights reserved
+                </p>
+
                 <p className="typography-3 color-light">
                     Coded by{' '}
                     <a
