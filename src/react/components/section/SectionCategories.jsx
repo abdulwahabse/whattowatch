@@ -17,7 +17,9 @@ function SectionCategories(props) {
             <SectionHeading className="section-categories__heading">
                 {heading}
             </SectionHeading>
-            <ScrollingList component={Category}>{categories}</ScrollingList>
+            <ScrollingList component={Category} scrollable={true}>
+                {categories}
+            </ScrollingList>
         </div>
     );
 }

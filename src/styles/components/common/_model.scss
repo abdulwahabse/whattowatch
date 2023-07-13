@@ -31,6 +31,14 @@
     &__close {
         width: 1.2rem;
         margin-left: auto;
+        transition: all $animation-speed ease-in-out;
+
+        @include for-hover {
+            &:hover {
+                cursor: pointer;
+                filter: brightness(2);
+            }
+        }
     }
 
     &__top &__close {

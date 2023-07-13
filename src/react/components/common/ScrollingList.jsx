@@ -87,7 +87,14 @@ function ScrollingList(props) {
                     alt="left-arrow"
                 />
             </button>
-            <div className="img-container" ref={elementRef}>
+            <div
+                className={`scrolling-list__list-container ${
+                    props.scrollable
+                        ? 'scrolling-list__list-container--scrollable'
+                        : ''
+                }`}
+                ref={elementRef}
+            >
                 {/* List iteration */}
                 {props.children.map((child, index) => (
                     <div

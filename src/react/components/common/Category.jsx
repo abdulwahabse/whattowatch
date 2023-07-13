@@ -3,7 +3,6 @@ import { getImageUrl } from '../../../utils/utils';
 
 function Category(props) {
     const { name, link } = props;
-    console.log('Link: ', link);
     const generatorRandomNum = (number) => Math.floor(Math.random() * number);
     const backgroundImg = getImageUrl(
         `assets/images/backgrounds/${generatorRandomNum(12)}.jpg`
