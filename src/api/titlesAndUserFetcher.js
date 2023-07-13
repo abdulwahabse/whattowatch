@@ -42,3 +42,23 @@ export const searchTitles = (searchString) => {
     });
     return titles;
 };
+
+export const getCelebrityByName = (name) => {
+    const celebrity = {
+        info: {},
+        appearedIn: [],
+    };
+
+    for (const title of Data.data.titles) {
+        for (const cast of title.casts) {
+            if (cast.name.toLowerCase() === name.toLowerCase()) {
+                if (Object.keys(celebrity.info).length === 0) {
+                    celebrity.info = cast;
+                }
+                celebrity.appearedIn.push(title);
+            }
+        }
+    }
+
+    return celebrity;
+};

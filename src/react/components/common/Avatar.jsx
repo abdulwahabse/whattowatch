@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import { getImageUrl } from '../../../utils/utils';
 
 function Avatar(props) {
@@ -23,9 +24,9 @@ function Avatar(props) {
     }
 
     return (
-        <a className="avatar__link" href={link || '#'}>
+        <Link className="avatar__link" to={link || '/'}>
             <div className={`avatar ${sizeClass}`}>{child}</div>
-        </a>
+        </Link>
     );
 }
 

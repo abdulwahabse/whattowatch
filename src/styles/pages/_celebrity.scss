@@ -1,0 +1,23 @@
+.celebrity {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: max-content;
+    }
+
+    &__name {
+        text-align: center;
+    }
+
+    &__titles {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}

@@ -1,10 +1,11 @@
 import Avatar from './Avatar';
+import { encodeSpacesInUrl } from '../../../utils/utils';
 
 function CastsList(props) {
     const { list } = props;
 
     const casts = list.map((cast, index) => {
-        const link = `celebrities/${cast.name}`;
+        const link = `/celebrities/${encodeSpacesInUrl(cast.name)}`;
         return (
             <div className="casts-list__cast-container" key={index}>
                 <Avatar

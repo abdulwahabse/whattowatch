@@ -45,9 +45,9 @@ function App() {
                             <Titles />
                         </Route>
                         <Route exact path="/celebrities">
-                            <Celebrities />
+                            <Home />
                         </Route>
-                        <Route exact path="/celebrities/:id">
+                        <Route exact path="/celebrities/:name">
                             <Celebrity />
                         </Route>
                         <Route exact path="/signup">
