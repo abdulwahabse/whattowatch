@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Header from './react/layout/Header';
 import Footer from './react/layout/Footer';
@@ -16,9 +16,9 @@ import { getCategoriesWithLinks } from './api/titlesAndUserFetcher';
 function App() {
     return (
         <UserProvider>
-            <div>
+            <div className="app">
                 <Header />
-                <main>
+                <main className="main">
                     <Switch>
                         <Route exact path={['/', '/home']}>
                             <Home />
