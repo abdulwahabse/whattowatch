@@ -12,6 +12,7 @@ import {
 } from '../../utils/utils';
 import Title from '../components/common/Title';
 import YouTubeModel from '../components/common/YouTubeModel';
+import BackButton from '../components/common/BackButton';
 
 function Titles() {
     const location = useLocation();
@@ -82,6 +83,7 @@ function Titles() {
                 />
             )}
             <div className="container">
+                <BackButton />
                 <SectionHeading className="titles__heading">
                     {heading}
                 </SectionHeading>

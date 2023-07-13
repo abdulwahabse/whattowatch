@@ -5,6 +5,7 @@ import Avatar from './../components/common/Avatar';
 import SectionHeading from './../components/section/SectionHeading';
 import Title from '../components/common/Title';
 import YouTubeModel from '../components/common/YouTubeModel';
+import BackButton from './../components/common/BackButton';
 
 function Celebrity() {
     const { name } = useParams();
@@ -47,6 +48,7 @@ function Celebrity() {
                     url={trailerModel.url}
                 />
             )}
+            <BackButton />
             <SectionHeading>Celebrity</SectionHeading>
             <div className="celebrity__info">
                 <Avatar src={celebrityDetails.info.picture} size="lg" />

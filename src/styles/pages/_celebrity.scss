@@ -9,10 +9,12 @@
         flex-direction: column;
         align-items: center;
         width: max-content;
+        gap: 1rem;
     }
 
     &__name {
         text-align: center;
+        margin: 0;
     }
 
     &__titles {
