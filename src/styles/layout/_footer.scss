@@ -1,0 +1,35 @@
+.footer {
+    margin-top: 5rem;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__copyright {
+        text-align: center;
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        justify-content: center;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-size: 1.4rem;
+    }
+
+    &__credit-name {
+        text-decoration: none;
+        transition: all $animation-speed;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
