@@ -11,7 +11,7 @@ function SectionHeading(props) {
                         ? 'section-heading__link-hover'
                         : 'section-heading__no-link'
                 }`}
-                to={props.link || ''}
+                to={props.link || '/'}
             >
                 <div className="section-heading__container">
                     <h2 className="section-heading__heading typography-1 color-light">

@@ -24,6 +24,7 @@ function TitlesByType(props) {
         highestRated: [],
         family: [],
         scifi: [],
+        thriller: [],
     });
     const [trailerModel, setTrailerModel] = useState({
         show: false,
@@ -37,13 +38,15 @@ function TitlesByType(props) {
             drama = [],
             highestRated = [],
             family = [],
-            scifi = [];
+            scifi = [],
+            thriller = [];
         if (type.toLowerCase() === 'tvshows') {
             top10 = getTop10TVShowsToday();
             crime = getTVShowsByGenre('Crime');
             fantasy = getTVShowsByGenre('Fantasy');
             drama = getTVShowsByGenre('Drama');
             highestRated = getHighestRatedTVShows().splice(0, 10);
+            thriller = getTVShowsByGenre('Thriller');
         } else {
             top10 = getTop10MoviesToday();
             family = getMoviesByGenre('Family');
@@ -61,6 +64,7 @@ function TitlesByType(props) {
             highestRated,
             family,
             scifi,
+            thriller,
         };
     };
 
@@ -189,6 +193,25 @@ function TitlesByType(props) {
                     <SectionTitlesList
                         heading={`Crime ${titles.typeHeading} 🕵️‍♂️`}
                         titles={titles.crime}
+                        setShowTrailerModel={(value) =>
+                            setTrailerModel((prevState) => ({
+                                ...prevState,
+                                show: value,
+                            }))
+                        }
+                        setTrailerUrl={(value) =>
+                            setTrailerModel((prevState) => ({
+                                ...prevState,
+                                url: value,
+                            }))
+                        }
+                    />
+                )}
+
+                {titles.thriller.length > 0 && (
+                    <SectionTitlesList
+                        heading={`Thriller ${titles.typeHeading} 🔪`}
+                        titles={titles.thriller}
                         setShowTrailerModel={(value) =>
                             setTrailerModel((prevState) => ({
                                 ...prevState,
