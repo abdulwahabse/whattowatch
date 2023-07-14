@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useUser } from '../../contexts/userContext';
 import SectionNumberedTitlesList from './../components/section/SectionNumberedTitlesList';
 import SectionTitlesList from '../components/section/SectionTitlesList';
 import {
@@ -12,8 +13,10 @@ import {
 import YouTubeModel from '../components/common/YouTubeModel';
 import SectionCategories from '../components/section/SectionCategories';
 import SectionPlatform from '../components/section/SectionPlatform';
+import Model from '../components/common/Model';
 
 function Home() {
+    const { user, setIsLoggedIn } = useUser();
     const [titles, setTitles] = useState({
         top10Today: [],
         topChartsMovies: [],

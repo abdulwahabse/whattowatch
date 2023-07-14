@@ -51,8 +51,6 @@ function SectionPlatform(props) {
         }
     }, [platform]);
 
-    console.log(images);
-
     return (
         <section
             className="section-platform"

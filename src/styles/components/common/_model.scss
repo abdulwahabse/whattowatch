@@ -11,13 +11,14 @@
         0,
         0.5
     ); /* Dark background with transparency */
+    backdrop-filter: blur(1px);
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding-top: 0px;
     padding-left: $spacing-md;
     padding-right: $spacing-md;
-    z-index: 100;
+    z-index: 1000;
 
     &__hide {
         display: none;
@@ -31,7 +32,7 @@
     &__close {
         width: 1.2rem;
         margin-left: auto;
-        transition: all $animation-speed ease-in-out;
+        transition: all $animation-speed ease-out;
 
         @include for-hover {
             &:hover {
@@ -63,6 +64,10 @@
         padding: 2rem;
         border-radius: $radius;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     // experiment

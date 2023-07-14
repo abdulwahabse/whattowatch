@@ -7,8 +7,10 @@ import Avatar from '../components/common/Avatar';
 import NavModel from './../components/nav/NavModel';
 import NavLinks from '../components/nav/NavLinks';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+import AuthenticatorModel from '../components/common/AuthenticatorModel';
 
 function Header() {
+    const [showAuthenticator, setAuthenticator] = useState(false);
     const [showNavModel, setShowNavModel] = useState(false);
     const { user } = useUser();
     const hamburger = getImageUrl('assets/icons/hamburger.png');
@@ -18,8 +20,21 @@ function Header() {
         setShowNavModel((prevState) => !prevState);
     };
 
+    const handleSignInClick = () => {
+        setAuthenticator((prevState) => ({
+            ...prevState,
+            show: true,
+        }));
+    };
+
     return (
         <div className="header">
+            {showAuthenticator && (
+                <AuthenticatorModel
+                    show={showAuthenticator}
+                    setShow={(value) => setAuthenticator(value)}
+                />
+            )}
             <NavModel
                 show={showNavModel}
                 setShow={(value) => setShowNavModel(value)}
@@ -41,7 +56,9 @@ function Header() {
                 {user.isLoggedIn ? (
                     <Avatar src={user.picture} alt="user avatar" />
                 ) : (
-                    <Button color="secondary">Sign In</Button>
+                    <Button color="secondary" onClick={handleSignInClick}>
+                        Sign In
+                    </Button>
                 )}
             </div>
         </div>

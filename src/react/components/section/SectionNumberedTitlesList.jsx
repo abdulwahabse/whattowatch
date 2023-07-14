@@ -22,10 +22,8 @@ function SectionNumberedTitlesList(props) {
 
     useEffect(() => {
         if (isTablet && !isDesktop) {
-            console.log('tablet');
             // TABLET CONFIG
         } else if (isTablet && isDesktop) {
-            console.log('desktop');
             // DESKTOP CONFIG
         }
     }, [isTablet, isDesktop]);

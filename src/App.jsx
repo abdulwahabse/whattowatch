@@ -6,10 +6,7 @@ import Home from './react/pages/Home';
 import Titles from './react/pages/Titles';
 import TitleDetails from './react/pages/TitleDetails';
 import Categories from './react/pages/Categories';
-import Celebrities from './react/pages/Celebrities';
 import Celebrity from './react/pages/Celebrity';
-import SignUp from './react/pages/SignUp';
-import SignIn from './react/pages/SignIn';
 import { UserProvider } from './contexts/userContext';
 import { getCategoriesWithLinks } from './api/titlesAndUserFetcher';
 import TitlesByType from './react/pages/TitlesByType';
@@ -61,12 +58,6 @@ function App() {
                         </Route>
                         <Route exact path="/celebrities/:name">
                             <Celebrity />
-                        </Route>
-                        <Route exact path="/signup">
-                            <SignUp />
-                        </Route>
-                        <Route exact path="/signin">
-                            <SignIn />
                         </Route>
                     </Switch>
                 </main>

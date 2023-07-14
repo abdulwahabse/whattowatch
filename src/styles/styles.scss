@@ -22,6 +22,8 @@
 @import 'components/common/streaming-services-list';
 @import 'components/common/casts-list';
 @import 'components/common/category';
+@import 'components/common/sign-in';
+@import 'components/common/sign-up';
 @import 'components/nav/nav-model';
 @import 'components/nav/nav-links';
 @import 'components/section/section-heading';
@@ -29,14 +31,12 @@
 @import 'components/section/section-numbered-titles-list';
 @import 'components/section/section-categories';
 @import 'components/section/section-platform';
+@import 'components/form/input';
 
 @import 'pages/home';
 @import 'pages/titles';
 @import 'pages/title-details';
-@import 'pages/celebrities';
 @import 'pages/celebrity';
-@import 'pages/sign-up';
-@import 'pages/sign-in';
 @import 'pages/categories';
 @import 'pages/titles-by-type';
 
