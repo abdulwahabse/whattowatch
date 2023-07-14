@@ -1567,7 +1567,13 @@
                 "runtime": "55m",
                 "airing-period": "2019–present",
                 "release-date": "2019-12-20",
-                "genres": ["Action", "Adventure", "Fantasy", "Drama"],
+                "genres": [
+                    "Action",
+                    "Adventure",
+                    "Fantasy",
+                    "Drama",
+                    "Thriller"
+                ],
                 "creators": ["Lauren Schmidt Hissrich"],
                 "writers": [
                     "Lauren Schmidt Hissrich",

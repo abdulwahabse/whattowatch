@@ -15,21 +15,15 @@ function getRandomElements(array, count) {
 }
 
 // change body to fetch relevant data
-export const getTop10Today = () => Data.data.titles.slice(0, 10);
+export const getTop10Today = () => {
+    const titles = Data.data.titles;
+    const top10Today = getRandomElements(titles, 10);
+    return top10Today;
+};
 
-export const getTopChartsMovies = () =>
-    Data.data.titles.filter((title) => title.type.toLowerCase() === 'movie');
-// Data.data.titles
-//     .slice(0, 14)
-//     .filter((title) => title.type.toLowerCase() === 'movie');
+export const getTopChartsMovies = () => getHighestRatedMovies();
 
-export const getTopChartsTVShows = () =>
-    Data.data.titles.filter(
-        (title) => title.type.toLowerCase() === 'tv series'
-    );
-// Data.data.titles
-//     .slice(0, 14)
-//     .filter((title) => title.type.toLowerCase() === 'tv series');
+export const getTopChartsTVShows = () => getHighestRatedTVShows();
 
 const getTVShows = () =>
     Data.data.titles.filter(
@@ -89,6 +83,15 @@ export const getTop10MoviesToday = () => {
 
 export const getTitle = (id) =>
     Data.data.titles.find((title) => title.id === id);
+
+export const getTitlesByGenre = (genre) => {
+    const titles = Data.data.titles.filter((title) => {
+        return title.genres.some(
+            (titleGenre) => titleGenre.toLowerCase() === genre.toLowerCase()
+        );
+    });
+    return titles;
+};
 
 export const getCategories = () => Data.data.categories;
 
