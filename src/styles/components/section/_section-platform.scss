@@ -10,7 +10,9 @@
     }
 
     &__heading h2 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         color: $color-lightest;
-        text-shadow: 0.5rem 0.5rem 1rem rgba(black, 0.5);
+        text-shadow: 0rem 1px 5px rgba(black, 5);
     }
 }

@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react';
 import { getImageUrl } from '../../../utils/utils';
 import { capitalizeFirstLetter } from './../../../utils/utils';
 import SectionTitlesList from './SectionTitlesList';
+import SectionHeading from './SectionHeading';
+import ScrollingList from '../common/ScrollingList';
+import TitleSm from '../common/TitleSm';
 
 function SectionPlatform(props) {
     const { titles, platform } = props;
@@ -64,12 +67,29 @@ function SectionPlatform(props) {
                     className="section-platform__icon"
                 />
 
-                <SectionTitlesList
+                <SectionHeading
+                    className="section-platform__heading"
+                    showArrow={false}
+                >
+                    {'Popular on ' + capitalizeFirstLetter(platform)}
+                </SectionHeading>
+
+                <ScrollingList
+                    component={TitleSm}
+                    speed="5"
+                    distance="1000"
+                    isRounded={true}
+                    {...props}
+                >
+                    {titles}
+                </ScrollingList>
+
+                {/* <SectionTitlesList
                     heading="Popular on Netflix"
                     headingClassName="section-platform__heading"
                     titles={titles}
                     showArrow={false}
-                />
+                /> */}
             </div>
         </section>
     );
