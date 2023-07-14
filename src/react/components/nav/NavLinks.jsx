@@ -20,46 +20,42 @@ function NavLinks(props) {
     return (
         <nav className={`nav ${props.className}`}>
             <ul className={`nav__ul ${ulPositionStyle}`}>
-                <li className="nav__li">
+                <li className="nav__li" onClick={handleNavClick}>
                     <NavLink
                         exact
                         to="/"
                         activeStyle={activeStyle}
                         className="nav__link"
-                        onClick={handleNavClick}
                     >
                         Home
                     </NavLink>
                 </li>
-                <li className="nav__li">
+                <li className="nav__li" onClick={handleNavClick}>
                     <NavLink
                         exact
                         to="/types/movies"
                         activeStyle={activeStyle}
                         className="nav__link"
-                        onClick={handleNavClick}
                     >
                         Movies
                     </NavLink>
                 </li>
-                <li className="nav__li">
+                <li className="nav__li" onClick={handleNavClick}>
                     <NavLink
                         exact
                         to="/types/tvshows"
                         activeStyle={activeStyle}
                         className="nav__link"
-                        onClick={handleNavClick}
                     >
                         TV Shows
                     </NavLink>
                 </li>
-                <li className="nav__li">
+                <li className="nav__li" onClick={handleNavClick}>
                     <NavLink
                         exact
                         to="/watchlist"
                         activeStyle={activeStyle}
                         className="nav__link"
-                        onClick={handleNavClick}
                     >
                         Watchlist
                     </NavLink>

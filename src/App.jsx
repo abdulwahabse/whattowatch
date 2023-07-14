@@ -15,10 +15,10 @@ import { getCategoriesWithLinks } from './api/titlesAndUserFetcher';
 import TitlesByType from './react/pages/TitlesByType';
 
 function App() {
-    // const location = useLocation();
-    // useLayoutEffect(() => {
-    //     window.scrollTo(0, 0);
-    // }, [location.pathname]);
+    const location = useLocation();
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    }, [location.pathname]);
 
     return (
         <UserProvider>
