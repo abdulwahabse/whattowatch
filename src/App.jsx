@@ -12,6 +12,7 @@ import SignUp from './react/pages/SignUp';
 import SignIn from './react/pages/SignIn';
 import { UserProvider } from './contexts/userContext';
 import { getCategoriesWithLinks } from './api/titlesAndUserFetcher';
+import TitlesByType from './react/pages/TitlesByType';
 
 function App() {
     return (
@@ -34,6 +35,12 @@ function App() {
                         </Route>
                         <Route exact path="/categories/:category">
                             <Titles />
+                        </Route>
+                        <Route exact path="/type">
+                            <Home />
+                        </Route>
+                        <Route exact path="/types/:type">
+                            <TitlesByType />
                         </Route>
                         <Route exact path="/search">
                             <Home />

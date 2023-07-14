@@ -96,18 +96,19 @@ function ScrollingList(props) {
                 ref={elementRef}
             >
                 {/* List iteration */}
-                {props.children.map((child, index) => (
-                    <div
-                        className="scrolling-list__items-container"
-                        key={index}
-                    >
-                        <props.component
-                            {...child}
-                            {...props}
-                            number={index + 1}
-                        />
-                    </div>
-                ))}
+                {props.children &&
+                    props.children.map((child, index) => (
+                        <div
+                            className="scrolling-list__items-container"
+                            key={index}
+                        >
+                            <props.component
+                                {...child}
+                                {...props}
+                                number={index + 1}
+                            />
+                        </div>
+                    ))}
             </div>
             <button
                 className="scrolling-list__right-arrow-btn"

@@ -1,5 +1,19 @@
 import Data from './data.json';
 
+// Helper function to get random elements from an array
+function getRandomElements(array, count) {
+    const shuffled = array.slice();
+    let i = array.length;
+    let temp, randomIndex;
+    while (i--) {
+        randomIndex = Math.floor((i + 1) * Math.random());
+        temp = shuffled[randomIndex];
+        shuffled[randomIndex] = shuffled[i];
+        shuffled[i] = temp;
+    }
+    return shuffled.slice(0, count);
+}
+
 // change body to fetch relevant data
 export const getTop10Today = () => Data.data.titles.slice(0, 10);
 
@@ -16,6 +30,62 @@ export const getTopChartsTVShows = () =>
 // Data.data.titles
 //     .slice(0, 14)
 //     .filter((title) => title.type.toLowerCase() === 'tv series');
+
+const getTVShows = () =>
+    Data.data.titles.filter(
+        (title) => title.type.toLowerCase() === 'tv series'
+    );
+
+export const getTop10TVShowsToday = () => {
+    const tvShows = getTVShows();
+    const top10TVShowsToday = getRandomElements(tvShows, 10);
+    return top10TVShowsToday;
+};
+
+export const getTVShowsByGenre = (genre) => {
+    const tvShows = getTVShows();
+    const tvShowsByGenre = tvShows.filter((tvShow) => {
+        return tvShow.genres.some(
+            (tvShowGenre) => tvShowGenre.toLowerCase() === genre.toLowerCase()
+        );
+    });
+    return tvShowsByGenre;
+};
+
+export const getHighestRatedTVShows = (genre) => {
+    const tvShows = getTVShows();
+    const highestRatedTVShows = tvShows.sort((a, b) => {
+        return b.rating - a.rating;
+    });
+    return highestRatedTVShows;
+};
+
+export const getMovies = () =>
+    Data.data.titles.filter((title) => title.type.toLowerCase() === 'movie');
+
+export const getMoviesByGenre = (genre) => {
+    const movies = getMovies();
+    const moviesByGenre = movies.filter((movie) => {
+        return movie.genres.some(
+            (movieGenre) => movieGenre.toLowerCase() === genre.toLowerCase()
+        );
+    });
+    return moviesByGenre;
+};
+
+export const getHighestRatedMovies = (genre) => {
+    const movies = getMovies();
+    const highestRatedMovies = movies.sort((a, b) => {
+        return b.rating - a.rating;
+    });
+    return highestRatedMovies;
+};
+
+export const getTop10MoviesToday = () => {
+    const movies = getMovies();
+    const top10MoviesToday = getRandomElements(movies, 10);
+    return top10MoviesToday;
+};
 
 export const getTitle = (id) =>
     Data.data.titles.find((title) => title.id === id);

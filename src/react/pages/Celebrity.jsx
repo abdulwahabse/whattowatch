@@ -52,7 +52,7 @@ function Celebrity() {
             <SectionHeading>Celebrity</SectionHeading>
             <div className="celebrity__info">
                 <Avatar src={celebrityDetails.info.picture} size="lg" />
-                <p className="typography-3 color-light celebrity__name">
+                <p className="typography-2 color-lightest celebrity__name">
                     {celebrityDetails.info.name}
                 </p>
             </div>

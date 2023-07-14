@@ -5,10 +5,6 @@ import ScrollingList from '../common/ScrollingList';
 
 function SectionNumberedTitlesList(props) {
     const { heading, titles } = props;
-    // const { listConfig, setListConfig } = useState({
-    //     speed: 5,
-    //     distance: 2000,
-    // });
 
     const [isTablet, setIsTablet] = useState(
         window.matchMedia('(min-width: 37.56em)').matches

@@ -654,7 +654,7 @@
                 ],
                 "rating": 7.1,
                 "trailer": "https://youtu.be/wKtcmiifycU",
-                "streaming-on": ["disney-plus", "hbo-max", "peacock"]
+                "streaming-on": ["disney-plus", "hbo-max"]
             },
             {
                 "id": "uAfBeT6PasffZ1qwz",
@@ -698,7 +698,7 @@
                 ],
                 "rating": 7.2,
                 "trailer": "https://youtu.be/YLorLVa95Xo",
-                "streaming-on": ["disney-plus", "hbo-max", "peacock"]
+                "streaming-on": ["disney-plus", "hbo-max"]
             },
             {
                 "id": "uAfBe35zbs2T6PZz",
@@ -742,7 +742,7 @@
                 ],
                 "rating": 6.7,
                 "trailer": "https://youtu.be/xbqNb2PFKKA",
-                "streaming-on": ["disney-plus", "hbo-max", "peacock"]
+                "streaming-on": ["disney-plus", "hbo-max"]
             },
             {
                 "id": "uAfBagatwqeT6PZz",
@@ -790,7 +790,7 @@
                 ],
                 "rating": 7.1,
                 "trailer": "https://youtu.be/JOddp-nlNvQ",
-                "streaming-on": ["disney-plus", "hbo-max", "peacock"]
+                "streaming-on": ["disney-plus", "hbo-max"]
             },
             {
                 "id": "uAfBeT6sgsPZz",
@@ -834,7 +834,7 @@
                 ],
                 "rating": 7.8,
                 "trailer": "https://youtu.be/JerVrbLldXw",
-                "streaming-on": ["disney-plus", "hbo-max", "peacock"]
+                "streaming-on": ["disney-plus", "hbo-max"]
             },
             {
                 "id": "uAfBeT6PZz",
@@ -888,7 +888,7 @@
                 ],
                 "rating": 6.7,
                 "trailer": "https://youtu.be/npvJ9FTgZbM",
-                "streaming-on": ["disney-plus", "hbo-max", "peacock"]
+                "streaming-on": ["disney-plus", "hbo-max"]
             },
             {
                 "id": "uAfBeT6P33Zz",
@@ -932,7 +932,7 @@
                 ],
                 "rating": 7.8,
                 "trailer": "https://youtu.be/7SlILk2WMTI",
-                "streaming-on": ["disney-plus", "hbo-max", "peacock"]
+                "streaming-on": ["disney-plus", "hbo-max"]
             },
             {
                 "id": "abc1ttww23j",
@@ -1796,6 +1796,323 @@
                 "rating": 7.6,
                 "trailer": "https://youtu.be/iH44Z0QwrWQ",
                 "streaming-on": ["netflix"]
+            },
+            {
+                "id": "uAfBeT6qrqPZezr",
+                "name": "Guardians of the Galaxy",
+                "runtime": "2h 1m",
+                "release-date": "2014-08-01",
+                "genres": ["Action", "Adventure", "Sci-Fi"],
+                "directors": ["James Gunn"],
+                "writers": ["James Gunn", "Nicole Perlman"],
+                "age-rating": "PG-13",
+                "type": "Movie",
+                "poster": "https://resizing.flixster.com/hm_6mU7FhfCorXD5kiJRyneEA78=/206x305/v2/https://resizing.flixster.com/SneFHH-BDOhBkh7h1A-aNwcrxLM=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2U3YTY2YTQzLTU5NDgtNDNiMC04ZTI1LTFiZDYyMTMxMjc5MC5qcGc=",
+                "short-desc": "A group of intergalactic misfits, including a rogue adventurer, a talking raccoon, and a humanoid tree, join forces to save the universe from a powerful villain.",
+                "story": "Peter Quill (Chris Pratt), a rogue adventurer, steals an orb coveted by Ronan the Accuser (Lee Pace), a powerful villain. In order to evade Ronan's forces, Quill forms an uneasy alliance with a group of misfits including Gamora (Zoe Saldana), a deadly assassin; Drax the Destroyer (Dave Bautista), a vengeful warrior; Rocket (Bradley Cooper), a genetically engineered raccoon; and Groot (Vin Diesel), a humanoid tree-like creature. Together, they become the Guardians of the Galaxy and embark on a mission to save the universe.",
+                "casts": [
+                    {
+                        "name": "Chris Pratt",
+                        "role": "Peter Quill / Star-Lord",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/99/Chris_Pratt_2018.jpg"
+                    },
+                    {
+                        "name": "Zoe Saldana",
+                        "role": "Gamora",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Avatar_The_Way_of_Water_Tokyo_Press_Conference_Zoe_Salda%C3%B1a_%2852563431865%29_%28cropped2%29.jpg"
+                    },
+                    {
+                        "name": "Dave Bautista",
+                        "role": "Drax the Destroyer",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/40/Dave_Bautista_Photo_Op_GalaxyCon_Minneapolis_2019.jpg"
+                    },
+                    {
+                        "name": "Bradley Cooper",
+                        "role": "Rocket (voice)",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Glasto17-44_%2835547413626%29_Cropped.jpg"
+                    },
+                    {
+                        "name": "Vin Diesel",
+                        "role": "Groot (voice)",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/83/Vin_Diesel_by_Gage_Skidmore_2.jpg"
+                    }
+                ],
+                "rating": 8.0,
+                "trailer": "https://youtu.be/d96cjJhvlMA",
+                "streaming-on": ["disney-plus", "hbo-max", "amazon-prime-video"]
+            },
+            {
+                "id": "uAfBe12T6PZy7",
+                "name": "Avengers: Age of Ultron",
+                "runtime": "2h 21m",
+                "release-date": "2015-05-01",
+                "genres": ["Action", "Adventure", "Sci-Fi"],
+                "directors": ["Joss Whedon"],
+                "writers": ["Joss Whedon"],
+                "age-rating": "PG-13",
+                "type": "Movie",
+                "poster": "https://resizing.flixster.com/oBoj_izUFIdfifnQMMg-y85AIHM=/206x305/v2/https://flxt.tmsimg.com/assets/p10745606_p_v13_bh.jpg",
+                "short-desc": "The Avengers must assemble once again to defeat Ultron, an artificial intelligence determined to eradicate humanity.",
+                "story": "The Avengers, including Iron Man (Robert Downey Jr.), Captain America (Chris Evans), Thor (Chris Hemsworth), Hulk (Mark Ruffalo), Black Widow (Scarlett Johansson), and Hawkeye (Jeremy Renner), must come together to defeat Ultron (James Spader), a rogue artificial intelligence created by Tony Stark. Ultron is determined to eradicate humanity and the Avengers must stop him before it's too late. Along the way, they face new allies and formidable challenges that test their unity and strength.",
+                "casts": [
+                    {
+                        "name": "Robert Downey Jr.",
+                        "role": "Tony Stark / Iron Man",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/94/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg"
+                    },
+                    {
+                        "name": "Chris Evans",
+                        "role": "Steve Rogers / Captain America",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/33/Mark_Kassen%2C_Tony_C%C3%A1rdenas_and_Chris_Evans_%28cropped%29.jpg"
+                    },
+                    {
+                        "name": "Chris Hemsworth",
+                        "role": "Thor",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Chris_Hemsworth_by_Gage_Skidmore_2_%28cropped%29.jpg"
+                    },
+                    {
+                        "name": "Mark Ruffalo",
+                        "role": "Bruce Banner / Hulk",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/11/Mark_Ruffalo_%2836201774756%29_%28cropped%29.jpg"
+                    },
+                    {
+                        "name": "Scarlett Johansson",
+                        "role": "Natasha Romanoff / Black Widow",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Scarlett_Johansson_by_Gage_Skidmore_2_%28cropped%2C_2%29.jpg"
+                    }
+                ],
+                "rating": 7.3,
+                "trailer": "https://youtu.be/JAUoeqvedMo",
+                "streaming-on": ["disney-plus", "hbo-max", "amazon-prime-video"]
+            },
+            {
+                "id": "uAfBeaaT6PZy9",
+                "name": "Ant-Man",
+                "runtime": "1h 57m",
+                "release-date": "2015-07-17",
+                "genres": ["Action", "Adventure", "Sci-Fi"],
+                "directors": ["Peyton Reed"],
+                "writers": [
+                    "Edgar Wright",
+                    "Joe Cornish",
+                    "Adam McKay",
+                    "Paul Rudd"
+                ],
+                "age-rating": "PG-13",
+                "type": "Movie",
+                "poster": "https://resizing.flixster.com/ynsuPcbGw-kaGcQ8-zpw_v14Lyw=/206x305/v2/https://flxt.tmsimg.com/assets/p10951814_p_v8_al.jpg",
+                "short-desc": "A former thief must embrace his inner hero and help his mentor protect the secret of the Ant-Man suit from a new generation of threats.",
+                "story": "Scott Lang (Paul Rudd), a former thief, is given a chance at redemption when he is recruited by Dr. Hank Pym (Michael Douglas) to become the Ant-Man. Using a suit that allows him to shrink in size but increase in strength, Lang must embrace his inner hero and help Pym protect the secret of the Ant-Man suit from a new generation of threats. Along the way, Lang must confront his past and become the hero he was destined to be.",
+                "casts": [
+                    {
+                        "name": "Paul Rudd",
+                        "role": "Scott Lang / Ant-Man",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/92/Paul_Rudd_%28cropped%29_2.jpg"
+                    },
+                    {
+                        "name": "Michael Douglas",
+                        "role": "Dr. Hank Pym",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/38/Michael_Douglas_C%C3%A9sar_2016_3.jpg"
+                    },
+                    {
+                        "name": "Evangeline Lilly",
+                        "role": "Hope van Dyne",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/69/Evangeline_Lilly_2014_Comic_Con_01_%28cropped%29.jpg"
+                    },
+                    {
+                        "name": "Corey Stoll",
+                        "role": "Darren Cross / Yellowjacket",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Corey_Stoll_by_Gage_Skidmore.jpg"
+                    },
+                    {
+                        "name": "Michael Peña",
+                        "role": "Luis",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/14/Michael_Pe%C3%B1a_TIFF_2015.jpg"
+                    }
+                ],
+                "rating": 7.3,
+                "trailer": "https://youtu.be/pWdKf3MneyI",
+                "streaming-on": ["disney-plus", "hbo-max", "amazon-prime-video"]
+            },
+            {
+                "id": "uAfBeT6PZy12a",
+                "name": "Captain America: Civil War",
+                "runtime": "2h 27m",
+                "release-date": "2016-05-06",
+                "genres": ["Action", "Adventure", "Sci-Fi"],
+                "directors": ["Anthony Russo", "Joe Russo"],
+                "writers": ["Christopher Markus", "Stephen McFeely"],
+                "age-rating": "PG-13",
+                "type": "Movie",
+                "poster": "https://resizing.flixster.com/JbXw8Y5fwrZxzLKUwoFoMGY1JxE=/206x305/v2/https://resizing.flixster.com/1nBX_V-Cyl3s_VE5LBBZR0sXvvo=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2M3NGMwNGE0LTE2MWMtNDIzYS1hMTQyLWY0ZWM0MGU4ZGIxNC53ZWJw",
+                "short-desc": "Captain America and Iron Man find themselves on opposing sides when political interference in the Avengers' activities causes a rift between the former allies.",
+                "story": "After another incident involving the Avengers results in collateral damage, political pressure mounts to oversee and control the team. Captain America (Chris Evans) believes the Avengers should remain free to defend humanity without government interference, while Iron Man (Robert Downey Jr.) supports oversight and accountability. The disagreement escalates into an all-out feud and the Avengers become divided into two opposing factions. As the battle between Captain America's team and Iron Man's team intensifies, a new threat emerges, forcing them to put aside their differences and confront a common enemy.",
+                "casts": [
+                    {
+                        "name": "Chris Evans",
+                        "role": "Steve Rogers / Captain America",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/33/Mark_Kassen%2C_Tony_C%C3%A1rdenas_and_Chris_Evans_%28cropped%29.jpg"
+                    },
+                    {
+                        "name": "Robert Downey Jr.",
+                        "role": "Tony Stark / Iron Man",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/94/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg"
+                    },
+                    {
+                        "name": "Scarlett Johansson",
+                        "role": "Natasha Romanoff / Black Widow",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Scarlett_Johansson_by_Gage_Skidmore_2_%28cropped%2C_2%29.jpg"
+                    },
+                    {
+                        "name": "Sebastian Stan",
+                        "role": "Bucky Barnes / Winter Soldier",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sebastian_Stan_by_Gage_Skidmore_2_%28cropped%29.jpg"
+                    },
+                    {
+                        "name": "Anthony Mackie",
+                        "role": "Sam Wilson / Falcon",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Anthony_Mackie_by_Gage_Skidmore_2.jpg"
+                    }
+                ],
+                "rating": 7.8,
+                "trailer": "https://youtu.be/FkTybqcX-Yo",
+                "streaming-on": ["disney-plus", "hbo-max", "amazon-prime-video"]
+            },
+            {
+                "id": "uAfBeT6PZy115",
+                "name": "Doctor Strange",
+                "runtime": "1h 55m",
+                "release-date": "2016-11-04",
+                "genres": ["Action", "Adventure", "Fantasy"],
+                "directors": ["Scott Derrickson"],
+                "writers": [
+                    "Jon Spaihts",
+                    "Scott Derrickson",
+                    "C. Robert Cargill"
+                ],
+                "age-rating": "PG-13",
+                "type": "Movie",
+                "poster": "https://resizing.flixster.com/35FB4rNQ8DhnEGwwzx4KpAyN6RI=/206x305/v2/https://resizing.flixster.com/vK77TbbXQYgkJ2HpvPp1p_W0tj4=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2FkNDZiMzU2LTFmYTQtNDgwMS1iOWM5LTgxNTg2NDMxNjBmNi53ZWJw",
+                "short-desc": "A brilliant but arrogant surgeon, Doctor Stephen Strange, learns the mystical arts to heal himself and becomes a powerful sorcerer tasked with protecting the world from dark forces.",
+                "story": "Dr. Stephen Strange (Benedict Cumberbatch), a brilliant yet arrogant neurosurgeon, suffers a career-ending accident that leaves his hands severely injured. Desperate to find a cure, he travels to Kamar-Taj in Nepal, where he encounters the Ancient One (Tilda Swinton), a powerful sorcerer. Under her guidance, Strange learns the mystical arts and discovers a world of alternate dimensions and realities. As he trains to become the new Sorcerer Supreme, Strange must defend the Earth from the dark sorcerer Kaecilius (Mads Mikkelsen) and his zealots who threaten to unleash dark forces upon the world.",
+                "casts": [
+                    {
+                        "name": "Benedict Cumberbatch",
+                        "role": "Dr. Stephen Strange",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6e/BCumberbatch_Comic-Con_2019.jpg"
+                    },
+                    {
+                        "name": "Tilda Swinton",
+                        "role": "The Ancient One",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Tilda_Swinton_Viennale_2018.jpg"
+                    },
+                    {
+                        "name": "Chiwetel Ejiofor",
+                        "role": "Karl Mordo",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Chiwetel_Ejiofor_by_Gage_Skidmore.jpg"
+                    },
+                    {
+                        "name": "Rachel McAdams",
+                        "role": "Christine Palmer",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Rachel_McAdams_2016.jpg"
+                    },
+                    {
+                        "name": "Mads Mikkelsen",
+                        "role": "Kaecilius",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mads_Mikkelsen_Cannes_2013_2.jpg"
+                    }
+                ],
+                "rating": 7.5,
+                "trailer": "https://youtu.be/h7gvFravm4A",
+                "streaming-on": ["disney-plus", "hbo-max", "amazon-prime-video"]
+            },
+            {
+                "id": "R6Pm81Ts9ApVUn7D",
+                "name": "Guardians of the Galaxy Vol. 2",
+                "runtime": "2h 16m",
+                "release-date": "2017-05-05",
+                "genres": ["Action", "Adventure", "Sci-Fi"],
+                "directors": ["James Gunn"],
+                "writers": ["James Gunn"],
+                "age-rating": "PG-13",
+                "type": "Movie",
+                "poster": "https://resizing.flixster.com/MUpU9G5bejwhffALcOhV_ORj7sA=/206x305/v2/https://resizing.flixster.com/SY3NRybei-FtvHL-p2LrtZb0elY=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzI0ZDRiZmQ0LTI0ZjUtNDg5MC05NDUxLTdhMzdhMmU3NTMzOC53ZWJw",
+                "short-desc": "The Guardians of the Galaxy embark on a new adventure as they unravel the mystery of Peter Quill's parentage.",
+                "story": "Set to the backdrop of Awesome Mixtape #2, the Guardians of the Galaxy continue their adventures as they traverse the outer reaches of the cosmos. The team must fight to keep their newfound family together as they unravel the mysteries of Peter Quill's true parentage. Old foes become new allies, and fan-favorite characters from the classic comics will come to our heroes' aid as the Marvel Cinematic Universe continues to expand.",
+                "casts": [
+                    {
+                        "name": "Chris Pratt",
+                        "role": "Peter Quill / Star-Lord",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/99/Chris_Pratt_2018.jpg"
+                    },
+                    {
+                        "name": "Zoe Saldana",
+                        "role": "Gamora",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Avatar_The_Way_of_Water_Tokyo_Press_Conference_Zoe_Salda%C3%B1a_%2852563431865%29_%28cropped2%29.jpg"
+                    },
+                    {
+                        "name": "Dave Bautista",
+                        "role": "Drax the Destroyer",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/40/Dave_Bautista_Photo_Op_GalaxyCon_Minneapolis_2019.jpg"
+                    },
+                    {
+                        "name": "Bradley Cooper",
+                        "role": "Rocket (voice)",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Glasto17-44_%2835547413626%29_Cropped.jpg"
+                    },
+                    {
+                        "name": "Vin Diesel",
+                        "role": "Groot (voice)",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/83/Vin_Diesel_by_Gage_Skidmore_2.jpg"
+                    }
+                ],
+                "rating": 7.6,
+                "trailer": "https://youtu.be/wUn05hdkhjM",
+                "streaming-on": ["disney-plus", "hbo-max", "amazon-prime-video"]
+            },
+            {
+                "id": "hVgt8bFfJkqLwS5",
+                "name": "Guardians of the Galaxy Vol. 3",
+                "runtime": "TBD",
+                "release-date": "2023-12-31",
+                "genres": ["Action", "Adventure", "Sci-Fi"],
+                "directors": ["James Gunn"],
+                "writers": ["James Gunn"],
+                "age-rating": "TBD",
+                "type": "Movie",
+                "poster": "https://resizing.flixster.com/7BvHbqYVikal2I8DAX-HnNSdrdU=/206x305/v2/https://resizing.flixster.com/p8g-u3ZgPuxrg4x7aq1tidyffGg=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2FiZDg0OTc0LWVkMTktNDVhYS05ODljLTNkMjYxMjA0OTdjMy5qcGc=",
+                "short-desc": "The Guardians of the Galaxy return for another thrilling adventure.",
+                "story": "Plot details for Guardians of the Galaxy Vol. 3 are currently under wraps. Stay tuned for more updates as the Marvel Cinematic Universe continues to expand.",
+                "casts": [
+                    {
+                        "name": "Chris Pratt",
+                        "role": "Peter Quill / Star-Lord",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/99/Chris_Pratt_2018.jpg"
+                    },
+                    {
+                        "name": "Zoe Saldana",
+                        "role": "Gamora",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Avatar_The_Way_of_Water_Tokyo_Press_Conference_Zoe_Salda%C3%B1a_%2852563431865%29_%28cropped2%29.jpg"
+                    },
+                    {
+                        "name": "Dave Bautista",
+                        "role": "Drax the Destroyer",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/40/Dave_Bautista_Photo_Op_GalaxyCon_Minneapolis_2019.jpg"
+                    },
+                    {
+                        "name": "Bradley Cooper",
+                        "role": "Rocket (voice)",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Glasto17-44_%2835547413626%29_Cropped.jpg"
+                    },
+                    {
+                        "name": "Vin Diesel",
+                        "role": "Groot (voice)",
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/83/Vin_Diesel_by_Gage_Skidmore_2.jpg"
+                    }
+                ],
+                "rating": "8.1",
+                "trailer": "https://youtu.be/JqcncLPi9zw",
+                "streaming-on": []
             }
         ]
     }

@@ -29,7 +29,7 @@ function NavLinks(props) {
                 <li className="nav__li">
                     <NavLink
                         exact
-                        to="/categories/movies"
+                        to="/types/movies"
                         activeStyle={activeStyle}
                         className="nav__link"
                     >
@@ -39,7 +39,7 @@ function NavLinks(props) {
                 <li className="nav__li">
                     <NavLink
                         exact
-                        to="/categories/tvshows"
+                        to="/types/tvshows"
                         activeStyle={activeStyle}
                         className="nav__link"
                     >
