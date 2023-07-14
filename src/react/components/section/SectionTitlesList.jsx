@@ -8,8 +8,10 @@ function SectionTitlesList(props) {
     return (
         <section className="section-titles-list">
             <SectionHeading
-                className="section-titles-list__heading"
-                showArrow={true}
+                className={`section-titles-list__heading ${props.headingClassName}`}
+                showArrow={
+                    props.showArrow === undefined ? true : props.showArrow
+                }
             >
                 {heading}
             </SectionHeading>

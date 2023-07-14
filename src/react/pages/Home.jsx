@@ -7,9 +7,11 @@ import {
     getTopChartsMovies,
     getTopChartsTVShows,
     getTitlesByGenre,
+    getTitlesByPlatform,
 } from '../../api/titlesAndUserFetcher';
 import YouTubeModel from '../components/common/YouTubeModel';
 import SectionCategories from '../components/section/SectionCategories';
+import SectionPlatform from '../components/section/SectionPlatform';
 
 function Home() {
     const [titles, setTitles] = useState({
@@ -21,6 +23,7 @@ function Home() {
         drama: [],
         scifi: [],
         thriller: [],
+        netflix: [],
     });
     const [categories, setCategories] = useState([]);
     const [trailerModel, setTrailerModel] = useState({
@@ -39,6 +42,7 @@ function Home() {
             const drama = await getTitlesByGenre('Drama');
             const scifi = await getTitlesByGenre('Sci-Fi');
             const thriller = await getTitlesByGenre('Thriller');
+            const netflix = await getTitlesByPlatform('netflix');
 
             setCategories(categoriesFetched);
             setTitles({
@@ -50,6 +54,7 @@ function Home() {
                 drama,
                 scifi,
                 thriller,
+                netflix,
             });
         })();
     }, []);
@@ -224,6 +229,9 @@ function Home() {
                     categories={categories}
                 />
             </div>
+            {titles.netflix.length > 0 && (
+                <SectionPlatform titles={titles.netflix} platform="netflix" />
+            )}
         </div>
     );
 }

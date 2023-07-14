@@ -6,10 +6,6 @@ function ScrollingList(props) {
     const elementRef = useRef(null);
     const [leftArrowDisable, setLeftArrowDisable] = useState(true);
     const [rightArrowDisable, setRightArrowDisable] = useState(false);
-    // const speed = 5;
-    // const distance = 2000;
-    // const speed = props.speed || 5;
-    // const distance = props.distance || 100;
 
     useEffect(() => {
         const element = elementRef.current;
@@ -34,10 +30,6 @@ function ScrollingList(props) {
         }, speed);
     };
 
-    // Adjust speed and distance based on viewport width
-    // const viewportWidth = window.innerWidth;
-    // const speed = Math.floor(viewportWidth / 2000); // Adjust the divisor as needed
-    // const distance = Math.floor(viewportWidth / 3); // Adjust the divisor as needed
     const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
     const [speed, setSpeed] = useState(calculateSpeed(viewportWidth));
     const [distance, setDistance] = useState(calculateDistance(viewportWidth));

@@ -145,3 +145,11 @@ export const getCelebrityByName = (name) => {
 
     return celebrity;
 };
+
+export const getTitlesByPlatform = (platform) => {
+    const title = Data.data.titles.filter((title) =>
+        title['streaming-on'].includes(platform)
+    );
+    const randomTitle = getRandomElements(title, 15);
+    return randomTitle;
+};

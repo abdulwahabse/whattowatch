@@ -6,6 +6,7 @@ import SearchBar from '../components/common/SearchBar';
 import Avatar from '../components/common/Avatar';
 import NavModel from './../components/nav/NavModel';
 import NavLinks from '../components/nav/NavLinks';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 function Header() {
     const [showNavModel, setShowNavModel] = useState(false);
@@ -29,7 +30,9 @@ function Header() {
                     className="header__hamburger"
                     onClick={handleHamburgerClick}
                 />
-                <img className="header__logo" src={logo} />
+                <Link to="/">
+                    <img className="header__logo" src={logo} />
+                </Link>
                 <NavLinks className="header__nav-links" />
                 <SearchBar
                     className="header__search-bar"

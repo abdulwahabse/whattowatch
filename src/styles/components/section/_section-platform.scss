@@ -1,0 +1,16 @@
+.section-platform {
+    margin-top: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-size: cover;
+    background-position: bottom;
+
+    &__icon {
+        width: 6.4rem;
+    }
+
+    &__heading h2 {
+        color: $color-lightest;
+        text-shadow: 0.5rem 0.5rem 1rem rgba(black, 0.5);
+    }
+}
