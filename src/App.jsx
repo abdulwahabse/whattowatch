@@ -1,5 +1,5 @@
-import { useState, useEffect, useRef } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { useState, useEffect, useRef, useLayoutEffect } from 'react';
+import { Switch, Route, useLocation } from 'react-router-dom';
 import Header from './react/layout/Header';
 import Footer from './react/layout/Footer';
 import Home from './react/pages/Home';
@@ -15,6 +15,11 @@ import { getCategoriesWithLinks } from './api/titlesAndUserFetcher';
 import TitlesByType from './react/pages/TitlesByType';
 
 function App() {
+    // const location = useLocation();
+    // useLayoutEffect(() => {
+    //     window.scrollTo(0, 0);
+    // }, [location.pathname]);
+
     return (
         <UserProvider>
             <div className="app">

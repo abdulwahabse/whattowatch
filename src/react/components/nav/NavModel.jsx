@@ -7,7 +7,7 @@ const NavModel = (props) => {
         <div>
             <Model position="top" show={props.show} setShow={props.setShow}>
                 <SearchBar className="nav__search-bar" placeholder="Search" />
-                <NavLinks position="vertical" />
+                <NavLinks position="vertical" setShow={props.setShow} />
             </Model>
         </div>
     );

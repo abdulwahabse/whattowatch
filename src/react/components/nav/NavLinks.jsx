@@ -13,6 +13,10 @@ function NavLinks(props) {
         ulPositionStyle = 'nav__ul--vertical';
     }
 
+    const handleNavClick = () => {
+        props.setShow(false);
+    };
+
     return (
         <nav className={`nav ${props.className}`}>
             <ul className={`nav__ul ${ulPositionStyle}`}>
@@ -22,6 +26,7 @@ function NavLinks(props) {
                         to="/"
                         activeStyle={activeStyle}
                         className="nav__link"
+                        onClick={handleNavClick}
                     >
                         Home
                     </NavLink>
@@ -32,6 +37,7 @@ function NavLinks(props) {
                         to="/types/movies"
                         activeStyle={activeStyle}
                         className="nav__link"
+                        onClick={handleNavClick}
                     >
                         Movies
                     </NavLink>
@@ -42,6 +48,7 @@ function NavLinks(props) {
                         to="/types/tvshows"
                         activeStyle={activeStyle}
                         className="nav__link"
+                        onClick={handleNavClick}
                     >
                         TV Shows
                     </NavLink>
@@ -52,6 +59,7 @@ function NavLinks(props) {
                         to="/watchlist"
                         activeStyle={activeStyle}
                         className="nav__link"
+                        onClick={handleNavClick}
                     >
                         Watchlist
                     </NavLink>
