@@ -97,6 +97,7 @@ function Home() {
                     <SectionTitlesList
                         heading="Family 👪"
                         titles={titles.family}
+                        link="/categories/family"
                         setShowTrailerModel={(value) =>
                             setTrailerModel((prevState) => ({
                                 ...prevState,
@@ -115,6 +116,7 @@ function Home() {
                 {titles.fantasy.length > 0 && (
                     <SectionTitlesList
                         heading="Fantasy 🧙‍♂️"
+                        link="/categories/fantasy"
                         titles={titles.fantasy}
                         setShowTrailerModel={(value) =>
                             setTrailerModel((prevState) => ({
@@ -134,6 +136,7 @@ function Home() {
                 {titles.drama.length > 0 && (
                     <SectionTitlesList
                         heading="Drama 🎭"
+                        link="/categories/drama"
                         titles={titles.drama}
                         setShowTrailerModel={(value) =>
                             setTrailerModel((prevState) => ({
@@ -153,6 +156,7 @@ function Home() {
                 {titles.scifi.length > 0 && (
                     <SectionTitlesList
                         heading="Sci-Fi 🤖"
+                        link="/categories/sci-fi"
                         titles={titles.scifi}
                         setShowTrailerModel={(value) =>
                             setTrailerModel((prevState) => ({
@@ -172,6 +176,7 @@ function Home() {
                 {titles.thriller.length > 0 && (
                     <SectionTitlesList
                         heading="Thriller 🔪"
+                        link="/categories/thriller"
                         titles={titles.thriller}
                         setShowTrailerModel={(value) =>
                             setTrailerModel((prevState) => ({

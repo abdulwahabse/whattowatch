@@ -76,9 +76,6 @@ function TitlesByType(props) {
         })();
     }, [type]);
 
-    console.log('SciFi', getTVShowsByGenre('Sci-Fi'));
-    console.log('TitlesByType', titles);
-
     return (
         <div className="titles-by-type">
             {trailerModel.show && (
@@ -116,6 +113,7 @@ function TitlesByType(props) {
                 {titles.scifi.length > 0 && (
                     <SectionTitlesList
                         heading={`Sci-Fi ${titles.typeHeading} 🤖`}
+                        link="/categories/sci-fi"
                         titles={titles.scifi}
                         setShowTrailerModel={(value) =>
                             setTrailerModel((prevState) => ({
@@ -135,6 +133,7 @@ function TitlesByType(props) {
                 {titles.family.length > 0 && (
                     <SectionTitlesList
                         heading={`Family ${titles.typeHeading} 👨‍👩‍👧‍👦`}
+                        link="/categories/family"
                         titles={titles.family}
                         setShowTrailerModel={(value) =>
                             setTrailerModel((prevState) => ({
@@ -154,6 +153,7 @@ function TitlesByType(props) {
                 {titles.drama.length > 0 && (
                     <SectionTitlesList
                         heading={`Drama ${titles.typeHeading} 🎭`}
+                        link="/categories/drama"
                         titles={titles.drama}
                         setShowTrailerModel={(value) =>
                             setTrailerModel((prevState) => ({
@@ -173,6 +173,7 @@ function TitlesByType(props) {
                 {titles.fantasy.length > 0 && (
                     <SectionTitlesList
                         heading={`Fantasy ${titles.typeHeading} 🧙‍♂️`}
+                        link="/categories/fantasy"
                         titles={titles.fantasy}
                         setShowTrailerModel={(value) =>
                             setTrailerModel((prevState) => ({
@@ -192,6 +193,7 @@ function TitlesByType(props) {
                 {titles.crime.length > 0 && (
                     <SectionTitlesList
                         heading={`Crime ${titles.typeHeading} 🕵️‍♂️`}
+                        link="/categories/crime"
                         titles={titles.crime}
                         setShowTrailerModel={(value) =>
                             setTrailerModel((prevState) => ({
@@ -211,6 +213,7 @@ function TitlesByType(props) {
                 {titles.thriller.length > 0 && (
                     <SectionTitlesList
                         heading={`Thriller ${titles.typeHeading} 🔪`}
+                        link="/categories/thriller"
                         titles={titles.thriller}
                         setShowTrailerModel={(value) =>
                             setTrailerModel((prevState) => ({

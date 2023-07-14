@@ -83,13 +83,6 @@ function SectionPlatform(props) {
                 >
                     {titles}
                 </ScrollingList>
-
-                {/* <SectionTitlesList
-                    heading="Popular on Netflix"
-                    headingClassName="section-platform__heading"
-                    titles={titles}
-                    showArrow={false}
-                /> */}
             </div>
         </section>
     );
