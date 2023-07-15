@@ -3,8 +3,10 @@ import Button from './Button';
 import Celebrities from './../../pages/Celebrities';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import { encodeSpacesInUrl } from './../../../utils/utils';
+import { useModel } from '../../../contexts/modelContext';
 
 function SearchBar(props) {
+    const { hideNav } = useModel();
     const [search, setSearch] = useState({
         query: '',
         type: 'movies',
@@ -16,6 +18,9 @@ function SearchBar(props) {
             ...prevState,
             [e.target.name]: e.target.value,
         }));
+    };
+    const handleSearchClick = (e) => {
+        hideNav();
     };
 
     return (
@@ -39,7 +44,11 @@ function SearchBar(props) {
                 name="query"
                 onChange={handleChange}
             />
-            <Link to={link} className="search-bar__btn">
+            <Link
+                to={link}
+                className="search-bar__btn"
+                onClick={(e) => handleSearchClick(e)}
+            >
                 <Button
                     to="/search/"
                     className="search-bar__btn"
