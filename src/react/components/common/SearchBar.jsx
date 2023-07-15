@@ -1,11 +1,33 @@
+import { useState } from 'react';
 import Button from './Button';
 import Celebrities from './../../pages/Celebrities';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+import { encodeSpacesInUrl } from './../../../utils/utils';
 
 function SearchBar(props) {
+    const [search, setSearch] = useState({
+        query: '',
+        type: 'movies',
+    });
+    const link = `/search/${search.type}/${encodeSpacesInUrl(search.query)}`;
+
+    const handleChange = (e) => {
+        setSearch((prevState) => ({
+            ...prevState,
+            [e.target.name]: e.target.value,
+        }));
+    };
+
     return (
         <div className={`search-bar ${props.className}`}>
-            <select name="search" className="search-bar__select">
-                <option value="all">All</option>
+            <select
+                name="type"
+                className="search-bar__select"
+                onChange={handleChange}
+                style={{
+                    width: 20 + search.type.length * 8 + 'px',
+                }}
+            >
                 <option value="movies">Movies</option>
                 <option value="series">Series</option>
                 <option value="celebrities">Celebrities</option>
@@ -14,12 +36,17 @@ function SearchBar(props) {
                 type="text"
                 className="search-bar__input typography-3"
                 placeholder={props.placeholder}
+                name="query"
+                onChange={handleChange}
             />
-            <Button
-                className="search-bar__btn"
-                color="secondary"
-                icon="search"
-            />
+            <Link to={link} className="search-bar__btn">
+                <Button
+                    to="/search/"
+                    className="search-bar__btn"
+                    color="secondary"
+                    icon="search"
+                />
+            </Link>
         </div>
     );
 }

@@ -9,7 +9,7 @@
         font-weight: bold;
         padding-left: 1.5rem;
         border-radius: $radius 0 0 $radius;
-        width: 4.5rem;
+        width: min-content;
         // remove default arrow
         /* for Firefox */
         -moz-appearance: none;

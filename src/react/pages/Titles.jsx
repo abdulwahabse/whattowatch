@@ -4,17 +4,24 @@ import SectionHeading from '../components/section/SectionHeading';
 import {
     getTitlesByCategory,
     searchTitles,
+    searchData,
 } from '../../api/titlesAndUserFetcher';
-import { decodeSpacesInUrl, capitalizeFirstLetter } from '../../utils/utils';
+import {
+    decodeSpacesInUrl,
+    capitalizeFirstLetter,
+    encodeSpacesInUrl,
+} from '../../utils/utils';
 import Title from '../components/common/Title';
 import BackButton from '../components/common/BackButton';
+import Avatar from './../components/common/Avatar';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 function Titles() {
     const location = useLocation();
     const [currentPath, setCurrentPath] = useState('');
-    const { category, search } = useParams();
+    const { category, type, query } = useParams();
     let heading = '';
-    let titlesToRender = [];
+    let listsToRender = [];
     let noResultsText = 'No results found';
 
     useEffect(() => {
@@ -24,20 +31,38 @@ function Titles() {
     const mapTitles = (titles) =>
         titles.map((title, index) => <Title {...title} key={index} />);
 
+    const mapCelebrities = (celebrities) =>
+        celebrities.map((celebrity, index) => (
+            <div key={index}>
+                <Link
+                    to={`/celebrities/${encodeSpacesInUrl(celebrity.name)}`}
+                    className="titles__link"
+                >
+                    <Avatar size="lg" src={celebrity.picture} />
+                    <p className="titles__celebrity-name typography-3 color-light">
+                        {celebrity.name}
+                    </p>
+                </Link>
+            </div>
+        ));
+
     if (currentPath === '/watchlist') {
         heading = 'Watchlist';
         noResultsText = 'Your watchlist is empty';
-        const titles = [];
     } else if (currentPath.includes('/categories/')) {
         const decodedCategory = decodeSpacesInUrl(category);
         heading = `${capitalizeFirstLetter(decodedCategory)} titles`;
         const titles = getTitlesByCategory(category);
-        titlesToRender = mapTitles(titles);
+        listsToRender = mapTitles(titles);
     } else if (currentPath.includes('/search/')) {
-        const decodedSearch = decodeSpacesInUrl(search);
-        heading = `Search results for "${decodedSearch}"`;
-        const titles = searchTitles(decodedSearch);
-        titlesToRender = mapTitles(titles);
+        const results = searchData(type, query);
+        if (type === 'movies' || type === 'series') {
+            listsToRender = mapTitles(results);
+        } else {
+            listsToRender = mapCelebrities(results);
+        }
+
+        heading = `Search results for "${query}"`;
     }
 
     return (
@@ -48,12 +73,12 @@ function Titles() {
                     {heading}
                 </SectionHeading>
                 <div className="titles__list-container">
-                    {titlesToRender.length === 0 ? (
+                    {listsToRender.length === 0 ? (
                         <p className="titles__no-result typography-3 color-light">
                             {noResultsText}
                         </p>
                     ) : (
-                        titlesToRender
+                        listsToRender
                     )}
                 </div>
             </div>

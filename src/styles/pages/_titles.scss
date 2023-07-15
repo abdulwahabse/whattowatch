@@ -15,4 +15,13 @@
         width: 100%;
         text-align: center;
     }
+
+    &__link {
+        text-decoration: none;
+    }
+
+    &__celebrity-name {
+        width: 11rem;
+        text-align: center;
+    }
 }

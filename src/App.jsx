@@ -51,7 +51,7 @@ function App() {
                             <Route exact path="/search">
                                 <Home />
                             </Route>
-                            <Route exact path="/search/:search">
+                            <Route exact path="/search/:type/:query">
                                 <Titles />
                             </Route>
                             <Route exact path="/watchlist">

@@ -163,3 +163,88 @@ export const getTitlesByPlatform = (platform) => {
     const randomTitle = getRandomElements(title, 15);
     return randomTitle;
 };
+
+export const searchData = (type, query) => {
+    const lowercaseQuery = query.toLowerCase();
+    const results = [];
+
+    if (type === 'movies') {
+        for (const title of Data.data.titles) {
+            if (
+                title.type === 'Movie' &&
+                title.name.toLowerCase().includes(lowercaseQuery)
+            ) {
+                results.push(title);
+            }
+        }
+    } else if (type === 'series') {
+        for (const title of Data.data.titles) {
+            if (
+                title.type === 'TV Series' &&
+                title.name.toLowerCase().includes(lowercaseQuery)
+            ) {
+                results.push(title);
+            }
+        }
+    } else if (type === 'celebrities') {
+        const uniqueCelebrities = new Map(); // To store unique celebrities (using Map for key-value pairs)
+
+        for (const title of Data.data.titles) {
+            for (const cast of title.casts) {
+                if (cast.name.toLowerCase().includes(lowercaseQuery)) {
+                    uniqueCelebrities.set(cast.name, cast); // Store the whole cast object as value in the Map, using name as the key
+                    break;
+                }
+            }
+        }
+
+        for (const [name, celebrity] of uniqueCelebrities) {
+            results.push({ name, picture: celebrity.picture }); // Add the name and picture of the celebrity to the results array
+        }
+    }
+
+    return results;
+};
+
+// export const searchData = (type, query) => {
+//     const lowercaseQuery = query.toLowerCase();
+//     const results = [];
+
+//     if (type === 'movies') {
+//         for (const title of Data.data.titles) {
+//             if (
+//                 title.type === 'Movie' &&
+//                 title.name.toLowerCase().includes(lowercaseQuery)
+//             ) {
+//                 results.push(title);
+//             }
+//         }
+//     } else if (type === 'series') {
+//         for (const title of Data.data.titles) {
+//             if (
+//                 title.type.toLowerCase() === 'tv series' &&
+//                 title.name.toLowerCase().includes(lowercaseQuery)
+//             ) {
+//                 results.push(title);
+//             }
+//         }
+//     } else if (type === 'celebrities') {
+//         const uniqueCelebrities = new Set(); // To store unique celebrities
+
+//         for (const title of Data.data.titles) {
+//             for (const cast of title.casts) {
+//                 if (cast.name.toLowerCase().includes(lowercaseQuery)) {
+//                     uniqueCelebrities.add(cast.name);
+//                     break;
+//                 }
+//             }
+//         }
+
+//         // for (const name of uniqueCelebrities) {
+//         //     results.push();
+//         // }
+//         results.push(...uniqueCelebrities);
+//     }
+
+//     return results;
+// };
