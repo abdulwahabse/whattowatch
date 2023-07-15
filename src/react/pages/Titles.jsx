@@ -38,7 +38,13 @@ function Titles() {
                     to={`/celebrities/${encodeSpacesInUrl(celebrity.name)}`}
                     className="titles__link"
                 >
-                    <Avatar size="lg" src={celebrity.picture} />
+                    <Avatar
+                        size="lg"
+                        src={celebrity.picture}
+                        link={`/celebrities/${encodeSpacesInUrl(
+                            celebrity.name
+                        )}`}
+                    />
                     <p className="titles__celebrity-name typography-3 color-light">
                         {celebrity.name}
                     </p>

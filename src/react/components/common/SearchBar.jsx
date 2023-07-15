@@ -21,6 +21,10 @@ function SearchBar(props) {
     };
     const handleSearchClick = (e) => {
         hideNav();
+        setSearch({
+            query: '',
+            type: 'movies',
+        });
     };
 
     return (
@@ -32,6 +36,7 @@ function SearchBar(props) {
                 style={{
                     width: 20 + search.type.length * 8 + 'px',
                 }}
+                value={search.type}
             >
                 <option value="movies">Movies</option>
                 <option value="series">Series</option>
