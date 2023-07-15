@@ -28,10 +28,20 @@ function RatingsList(props) {
                 </div>
             </div>
 
-            <p className="ratings-list__your-ratings-heading typography-4 color-light">
+            <p
+                style={{
+                    display: 'none',
+                }}
+                className="ratings-list__your-ratings-heading typography-4 color-light"
+            >
                 Your Ratings
             </p>
-            <div className="ratings-list__your-ratings-container">
+            <div
+                style={{
+                    display: 'none',
+                }}
+                className="ratings-list__your-ratings-container"
+            >
                 <img
                     src={start2UnfilledIcon}
                     alt="star"
