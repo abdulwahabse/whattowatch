@@ -3,7 +3,7 @@ import NavModel from '../nav/NavModel';
 import AuthenticatorModel from './AuthenticatorModel';
 import YouTubeModel from './YouTubeModel';
 
-function ModelsHandler(props) {
+function ModelsHandler() {
     const { model, hideNav, hideAuth, hideBookmarkAuth, hideTrailer } =
         useModel();
     return (
@@ -18,6 +18,7 @@ function ModelsHandler(props) {
                 <AuthenticatorModel
                     show={model.bookmarkAuth}
                     hide={hideBookmarkAuth}
+                    feedback="Please login to add to your watchlist"
                 />
             )}
 

@@ -10,6 +10,7 @@ function AuthenticatorModel(props) {
     const user = useUser();
     const { hideAuth } = useModel();
     const [showSignIn, setShowSignIn] = useState(true);
+    const [feedback, setFeedback] = useState(props.feedback || '');
     const [signInForm, setSignInForm] = useState({
         email: '',
         password: '',
@@ -33,10 +34,7 @@ function AuthenticatorModel(props) {
             user.setIsLoggedIn(true);
             hideAuth();
         } else {
-            setSignInForm((prevState) => ({
-                ...prevState,
-                feedback: 'Invalid email or password',
-            }));
+            setFeedback('Invalid email or password');
         }
     };
 
@@ -59,7 +57,7 @@ function AuthenticatorModel(props) {
                             setForm={setSignInForm}
                             handleSignIn={handleSignIn}
                             handleSignUp={() => setShowSignIn(false)}
-                            feedback={props.feedback}
+                            feedback={feedback}
                         />
                     ) : (
                         <SignUp

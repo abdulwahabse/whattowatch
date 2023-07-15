@@ -15,7 +15,7 @@ function SignInModel(props) {
                 <div className="sign-in__header">
                     <h1 className="sign-in__heading">Sign In</h1>
                     <p className="typography-3 color-light sign-in__sub-heading">
-                        {form.feedback}
+                        {props.feedback}
                     </p>
                 </div>
                 <div className="sign-in__body">
