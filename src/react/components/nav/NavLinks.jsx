@@ -1,6 +1,8 @@
 import { NavLink } from 'react-router-dom';
+import { useModel } from '../../../contexts/modelContext';
 
 function NavLinks(props) {
+    const { hideNav } = useModel();
     let ulPositionStyle = '';
     const activeStyle = {
         color: '#d9e8df',
@@ -14,7 +16,7 @@ function NavLinks(props) {
     }
 
     const handleNavClick = () => {
-        props.setShow(false);
+        hideNav();
     };
 
     return (

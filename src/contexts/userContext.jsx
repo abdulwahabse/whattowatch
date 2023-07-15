@@ -30,6 +30,11 @@ const UserProvider = ({ children }) => {
             ...prevUser,
             watchlist: [...prevUser.watchlist, title],
         }));
+    const removeFromWatchlist = (title) =>
+        setUser((prevUser) => ({
+            ...prevUser,
+            watchlist: prevUser.watchlist.filter((t) => t !== title),
+        }));
 
     return (
         <Provider
@@ -42,6 +47,7 @@ const UserProvider = ({ children }) => {
                 setIsLoggedIn,
                 setWatchlist,
                 addToWatchlist,
+                removeFromWatchlist,
             }}
         >
             {children}

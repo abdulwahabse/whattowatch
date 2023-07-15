@@ -1,44 +1,28 @@
-import { useState } from 'react';
 import { useUser } from '../../contexts/userContext';
+import { useModel } from '../../contexts/modelContext';
 import { getImageUrl } from '../../utils/utils';
 import Button from '../components/common/Button';
 import SearchBar from '../components/common/SearchBar';
 import Avatar from '../components/common/Avatar';
-import NavModel from './../components/nav/NavModel';
 import NavLinks from '../components/nav/NavLinks';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
-import AuthenticatorModel from '../components/common/AuthenticatorModel';
 
 function Header() {
-    const [showAuthenticator, setAuthenticator] = useState(false);
-    const [showNavModel, setShowNavModel] = useState(false);
     const { user } = useUser();
+    const { showNav, showAuth } = useModel();
     const hamburger = getImageUrl('assets/icons/hamburger.png');
     const logo = getImageUrl('assets/logo.png');
 
     const handleHamburgerClick = () => {
-        setShowNavModel((prevState) => !prevState);
+        showNav();
     };
 
     const handleSignInClick = () => {
-        setAuthenticator((prevState) => ({
-            ...prevState,
-            show: true,
-        }));
+        showAuth();
     };
 
     return (
         <div className="header">
-            {showAuthenticator && (
-                <AuthenticatorModel
-                    show={showAuthenticator}
-                    setShow={(value) => setAuthenticator(value)}
-                />
-            )}
-            <NavModel
-                show={showNavModel}
-                setShow={(value) => setShowNavModel(value)}
-            />
             <div className="container">
                 <img
                     src={hamburger}

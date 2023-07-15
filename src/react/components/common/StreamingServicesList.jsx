@@ -57,8 +57,6 @@ function StreamingServicesList(props) {
         );
     });
 
-    console.log(listToRender);
-
     return (
         <div className="streaming-services">
             <div

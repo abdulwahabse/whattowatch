@@ -18,6 +18,10 @@
         &:hover {
             opacity: 0.8;
         }
+
+        &--bookmarked {
+            opacity: 1;
+        }
     }
 
     &__img {

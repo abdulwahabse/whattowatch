@@ -5,16 +5,18 @@ function Input(props) {
                 {props.label}
             </label>
             <input
+                name={props.name}
                 type={props.type}
                 className="input__input"
                 placeholder={props.placeholder}
                 value={props.value}
-                onChange={props.onChange}
+                onChange={props.setValue}
                 accept={
                     props.type === 'file'
                         ? 'image/png, image/gif, image/jpeg'
                         : null
                 }
+                required={props.isRequired}
             />
         </div>
     );

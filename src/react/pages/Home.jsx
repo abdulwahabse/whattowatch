@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { useUser } from '../../contexts/userContext';
 import SectionNumberedTitlesList from './../components/section/SectionNumberedTitlesList';
 import SectionTitlesList from '../components/section/SectionTitlesList';
 import {
@@ -10,13 +9,10 @@ import {
     getTitlesByGenre,
     getTitlesByPlatform,
 } from '../../api/titlesAndUserFetcher';
-import YouTubeModel from '../components/common/YouTubeModel';
 import SectionCategories from '../components/section/SectionCategories';
 import SectionPlatform from '../components/section/SectionPlatform';
-import Model from '../components/common/Model';
 
 function Home() {
-    const { user, setIsLoggedIn } = useUser();
     const [titles, setTitles] = useState({
         top10Today: [],
         topChartsMovies: [],
@@ -29,10 +25,6 @@ function Home() {
         netflix: [],
     });
     const [categories, setCategories] = useState([]);
-    const [trailerModel, setTrailerModel] = useState({
-        show: false,
-        url: '',
-    });
 
     useEffect(() => {
         (async () => {
@@ -64,35 +56,11 @@ function Home() {
 
     return (
         <div className="home">
-            {trailerModel.show && (
-                <YouTubeModel
-                    show={trailerModel.show}
-                    setShow={(value) =>
-                        setTrailerModel((prevState) => ({
-                            ...prevState,
-                            show: value,
-                        }))
-                    }
-                    url={trailerModel.url}
-                />
-            )}
             <div className="container">
                 {titles.top10Today.length > 0 && (
                     <SectionNumberedTitlesList
                         heading="Top 10 today 🔥"
                         titles={titles.top10Today}
-                        setShowTrailerModel={(value) =>
-                            setTrailerModel((prevState) => ({
-                                ...prevState,
-                                show: value,
-                            }))
-                        }
-                        setTrailerUrl={(value) =>
-                            setTrailerModel((prevState) => ({
-                                ...prevState,
-                                url: value,
-                            }))
-                        }
                     />
                 )}
 
@@ -101,18 +69,6 @@ function Home() {
                         heading="Family 👪"
                         titles={titles.family}
                         link="/categories/family"
-                        setShowTrailerModel={(value) =>
-                            setTrailerModel((prevState) => ({
-                                ...prevState,
-                                show: value,
-                            }))
-                        }
-                        setTrailerUrl={(value) =>
-                            setTrailerModel((prevState) => ({
-                                ...prevState,
-                                url: value,
-                            }))
-                        }
                     />
                 )}
 
@@ -121,18 +77,6 @@ function Home() {
                         heading="Fantasy 🧙‍♂️"
                         link="/categories/fantasy"
                         titles={titles.fantasy}
-                        setShowTrailerModel={(value) =>
-                            setTrailerModel((prevState) => ({
-                                ...prevState,
-                                show: value,
-                            }))
-                        }
-                        setTrailerUrl={(value) =>
-                            setTrailerModel((prevState) => ({
-                                ...prevState,
-                                url: value,
-                            }))
-                        }
                     />
                 )}
 
@@ -141,18 +85,6 @@ function Home() {
                         heading="Drama 🎭"
                         link="/categories/drama"
                         titles={titles.drama}
-                        setShowTrailerModel={(value) =>
-                            setTrailerModel((prevState) => ({
-                                ...prevState,
-                                show: value,
-                            }))
-                        }
-                        setTrailerUrl={(value) =>
-                            setTrailerModel((prevState) => ({
-                                ...prevState,
-                                url: value,
-                            }))
-                        }
                     />
                 )}
 
@@ -161,18 +93,6 @@ function Home() {
                         heading="Sci-Fi 🤖"
                         link="/categories/sci-fi"
                         titles={titles.scifi}
-                        setShowTrailerModel={(value) =>
-                            setTrailerModel((prevState) => ({
-                                ...prevState,
-                                show: value,
-                            }))
-                        }
-                        setTrailerUrl={(value) =>
-                            setTrailerModel((prevState) => ({
-                                ...prevState,
-                                url: value,
-                            }))
-                        }
                     />
                 )}
 
@@ -181,18 +101,6 @@ function Home() {
                         heading="Thriller 🔪"
                         link="/categories/thriller"
                         titles={titles.thriller}
-                        setShowTrailerModel={(value) =>
-                            setTrailerModel((prevState) => ({
-                                ...prevState,
-                                show: value,
-                            }))
-                        }
-                        setTrailerUrl={(value) =>
-                            setTrailerModel((prevState) => ({
-                                ...prevState,
-                                url: value,
-                            }))
-                        }
                     />
                 )}
 
@@ -200,36 +108,12 @@ function Home() {
                     <SectionTitlesList
                         heading="Top Chart: Movies 🎬"
                         titles={titles.topChartsMovies}
-                        setShowTrailerModel={(value) =>
-                            setTrailerModel((prevState) => ({
-                                ...prevState,
-                                show: value,
-                            }))
-                        }
-                        setTrailerUrl={(value) =>
-                            setTrailerModel((prevState) => ({
-                                ...prevState,
-                                url: value,
-                            }))
-                        }
                     />
                 )}
                 {titles.topChartsTVShows.length > 0 && (
                     <SectionTitlesList
                         heading="Top Chart: TV Shows 📺"
                         titles={titles.topChartsTVShows}
-                        setShowTrailerModel={(value) =>
-                            setTrailerModel((prevState) => ({
-                                ...prevState,
-                                show: value,
-                            }))
-                        }
-                        setTrailerUrl={(value) =>
-                            setTrailerModel((prevState) => ({
-                                ...prevState,
-                                url: value,
-                            }))
-                        }
                     />
                 )}
                 <SectionCategories

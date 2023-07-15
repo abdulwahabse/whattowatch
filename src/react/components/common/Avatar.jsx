@@ -12,7 +12,7 @@ function Avatar(props) {
         child = <p className="avatar__text">{children}</p>;
     } else {
         const defaultAvatar = getImageUrl('assets/icons/user.png');
-        child = <img className="avatar--img" src={defaultAvatar} alt="user" />;
+        child = <img className="avatar__img" src={defaultAvatar} alt="user" />;
     }
 
     if (size === 'sm') {

@@ -1,5 +1,15 @@
 import Data from './data.json';
 
+export const authenticateUser = (email, password) => {
+    if (
+        (email === 'admin' && password === 'admin') ||
+        (email === 'user' && password === 'user')
+    ) {
+        return true;
+    }
+    return false;
+};
+
 // Helper function to get random elements from an array
 function getRandomElements(array, count) {
     const shuffled = array.slice();

@@ -14,7 +14,7 @@ function Model(props) {
             e.target.classList.contains('model') ||
             e.target.classList.contains('model__close')
         ) {
-            props.setShow(false);
+            props.hide();
         }
     };
 

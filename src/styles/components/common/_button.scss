@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: center;
     transition: all $animation-speed;
+    cursor: pointer;
 
     &--primary {
         background-color: $color-primary;
