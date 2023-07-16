@@ -1493,7 +1493,7 @@
                     {
                         "name": "Keisha Castle-Hughes",
                         "role": "Special Agent Hana Gibson",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Keisha_Castle-Hughes_at_TIFF_2009_%28headshot%29.jpgg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Keisha_Castle-Hughes_at_TIFF_2009_%28headshot%29.jpg"
                     },
                     {
                         "name": "Roxy Sternberg",
@@ -1513,7 +1513,7 @@
                 ],
                 "rating": 7.6,
                 "trailer": "https://youtu.be/WWGE29d34iU",
-                "streaming-on": ["cbs", "hulu"]
+                "streaming-on": ["hulu"]
             },
             {
                 "id": "uytrdesdf",
