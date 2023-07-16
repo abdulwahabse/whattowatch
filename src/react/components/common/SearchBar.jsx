@@ -21,10 +21,14 @@ function SearchBar(props) {
     };
     const handleSearchClick = (e) => {
         hideNav();
-        setSearch({
-            query: '',
-            type: 'movies',
-        });
+        if (search.query === '') {
+            e.preventDefault();
+        } else {
+            setSearch({
+                query: '',
+                type: 'movies',
+            });
+        }
     };
 
     return (
