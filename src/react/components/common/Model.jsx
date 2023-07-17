@@ -1,9 +1,8 @@
-import { getImageUrl } from '../../../utils/utils';
+import closeIcon from '/assets/icons/close.png';
 
 function Model(props) {
     let className = 'model';
     className += props.show ? '' : ' model__hide';
-    const closeIcon = getImageUrl('assets/icons/close.png');
 
     if (props.position === 'top') className += ' model__top';
     else if (props.position === 'center') className += ' model__center';
