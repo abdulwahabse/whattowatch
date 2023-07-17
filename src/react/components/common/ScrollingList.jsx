@@ -1,8 +1,8 @@
 import { useRef, useState, useEffect } from 'react';
-import { getImageUrl } from '../../../utils/utils';
+import leftArrow from '/assets/icons/left-arrow.png';
+import rightArrow from '/assets/icons/right-arrow.png';
+
 function ScrollingList(props) {
-    const leftArrowSrc = getImageUrl('assets/icons/left-arrow.png');
-    const rightArrowSrc = getImageUrl('assets/icons/right-arrow.png');
     const elementRef = useRef(null);
     const [leftArrowDisable, setLeftArrowDisable] = useState(true);
     const [rightArrowDisable, setRightArrowDisable] = useState(false);
@@ -75,7 +75,7 @@ function ScrollingList(props) {
             >
                 <img
                     className="scrolling-list__left-arrow-img"
-                    src={leftArrowSrc}
+                    src={leftArrow}
                     alt="left-arrow"
                 />
             </button>
@@ -116,7 +116,7 @@ function ScrollingList(props) {
             >
                 <img
                     className="scrolling-list__right-arrow-img"
-                    src={rightArrowSrc}
+                    src={rightArrow}
                     alt="right-arrow"
                 />
             </button>

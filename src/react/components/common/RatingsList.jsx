@@ -1,9 +1,7 @@
-import { getImageUrl } from '../../../utils/utils';
+import starIcon from '/assets/icons/star.png';
+import star2UnfilledIcon from '/assets/icons/star-2-unfilled.png';
 
 function RatingsList(props) {
-    const starIcon = getImageUrl('assets/icons/star.png');
-    const star2Icon = getImageUrl('assets/icons/star-2.png');
-    const start2UnfilledIcon = getImageUrl('assets/icons/star-2-unfilled.png');
     return (
         <div className={`ratings-list ${props.className || ''}`}>
             <p className="ratings-list__user-ratings-heading typography-4 color-light">
@@ -43,7 +41,7 @@ function RatingsList(props) {
                 className="ratings-list__your-ratings-container"
             >
                 <img
-                    src={start2UnfilledIcon}
+                    src={star2UnfilledIcon}
                     alt="star"
                     className="ratings-list__blue-star"
                 />

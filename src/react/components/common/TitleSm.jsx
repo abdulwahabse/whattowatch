@@ -1,15 +1,12 @@
-import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { getImageUrl } from './../../../utils/utils';
 import { useUser } from '../../../contexts/userContext';
 import { useModel } from '../../../contexts/modelContext';
-import AuthenticatorModel from './AuthenticatorModel';
+import bookMarkSrc from '/assets/icons/bookmark.png';
 
 function TitleSm(props) {
     const { user, addToWatchlist, removeFromWatchlist } = useUser();
     const { showBookmarkAuth } = useModel();
     const link = `/titles/${props.id}`;
-    const bookMarkSrc = getImageUrl('assets/icons/bookmark.png');
     const bookmarked = user.watchlist.includes(props.id);
 
     const handleBookmarkClick = (e) => {

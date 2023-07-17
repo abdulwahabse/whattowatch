@@ -1,10 +1,14 @@
 import { useEffect, useState } from 'react';
-import { getImageUrl } from '../../../utils/utils';
 import { capitalizeFirstLetter } from './../../../utils/utils';
-import SectionTitlesList from './SectionTitlesList';
 import SectionHeading from './SectionHeading';
 import ScrollingList from '../common/ScrollingList';
 import TitleSm from '../common/TitleSm';
+import netflixIcon from '/assets/icons/netflix.png';
+import netflixCover from '/assets/images/backgrounds/netflix-cover.jpg';
+import primeVideoIcon from '/assets/icons/prime-video.png';
+import disneyPlusIcon from '/assets/icons/disney-plus.png';
+import huluIcon from '/assets/icons/hulu.jpg';
+import hboMaxIcon from '/assets/icons/hbo-max.png';
 
 function SectionPlatform(props) {
     const { titles, platform } = props;
@@ -17,35 +21,33 @@ function SectionPlatform(props) {
         switch (platform) {
             case 'netflix':
                 setImages({
-                    icon: getImageUrl('assets/icons/netflix.png'),
-                    background: getImageUrl(
-                        'assets/images/backgrounds/netflix-cover.jpg'
-                    ),
+                    icon: netflixIcon,
+                    background: netflixCover,
                 });
                 break;
             case 'amazon-prime-video':
                 setImages({
-                    icon: getImageUrl('assets/icons/prime-video.png'),
+                    icon: primeVideoIcon,
                 });
                 break;
             case 'disney-plus':
                 setImages({
-                    icon: getImageUrl('assets/icons/disney-pllus.png'),
+                    icon: disneyPlusIcon,
                 });
                 break;
             case 'hulu':
                 setImages({
-                    icon: getImageUrl('assets/icons/hulu.png'),
+                    icon: huluIcon,
                 });
                 break;
             case 'hbo-max':
                 setImages({
-                    icon: getImageUrl('assets/icons/hbo-max.png'),
+                    icon: hboMaxIcon,
                 });
                 break;
             default:
                 setImages({
-                    icon: getImageUrl('assets/icons/netflix.png'),
+                    icon: netflixIcon,
                 });
                 break;
         }

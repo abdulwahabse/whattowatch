@@ -1,4 +1,6 @@
-import { getImageUrl } from '../../../utils/utils';
+import playIcon from '/assets/icons/play.png';
+import infoIcon from '/assets/icons/info.png';
+import searchIcon from '/assets/icons/search.png';
 
 function Button(props) {
     let btnClasses = `button button--${props.color} ${props.className}`;
@@ -18,11 +20,11 @@ function Button(props) {
     }
 
     if (props.icon === 'play') {
-        iconSrc = getImageUrl('assets/icons/play.png');
+        iconSrc = playIcon;
     } else if (props.icon === 'info') {
-        iconSrc = getImageUrl('assets/icons/info.png');
+        iconSrc = infoIcon;
     } else if (props.icon === 'search') {
-        iconSrc = getImageUrl('assets/icons/search.png');
+        iconSrc = searchIcon;
     }
     return (
         <button

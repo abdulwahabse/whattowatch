@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import Button from './Button';
-import Celebrities from './../../pages/Celebrities';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import { encodeSpacesInUrl } from './../../../utils/utils';
 import { useModel } from '../../../contexts/modelContext';

@@ -1,7 +1,7 @@
 import { useHistory } from 'react-router-dom';
-import { getImageUrl } from '../../../utils/utils';
+import leftArrow from '/assets/icons/left-arrow-gray.png';
+
 function BackButton(props) {
-    const leftArrow = getImageUrl('assets/icons/left-arrow-gray.png');
     const history = useHistory();
     const handleClick = () => {
         history.goBack();

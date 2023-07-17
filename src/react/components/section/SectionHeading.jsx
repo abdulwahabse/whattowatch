@@ -1,9 +1,8 @@
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
-import { getImageUrl } from './../../../utils/utils';
 import { useLocation } from 'react-router-dom';
+import rightArrow from '/assets/icons/right-arrow-gray.png';
 
 function SectionHeading(props) {
-    const rightArrow = getImageUrl('assets/icons/right-arrow-gray.png');
     const currentPath = useLocation().pathname;
     const mainClass = `section-heading ${
         props.link ? 'section-heading--linked' : ''

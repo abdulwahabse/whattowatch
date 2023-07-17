@@ -1,12 +1,11 @@
-import { getImageUrl } from '../../../utils/utils';
+import netflixIcon from '/assets/icons/netflix.png';
+import huluIcon from '/assets/icons/hulu.jpg';
+import disneyPlusIcon from '/assets/icons/disney-plus.png';
+import primeVideoIcon from '/assets/icons/prime-video.png';
+import hboMaxIcon from '/assets/icons/hbo-max.png';
 
 function StreamingServicesList(props) {
     const { list } = props;
-    const netflixIcon = getImageUrl('assets/icons/netflix.png');
-    const huluIcon = getImageUrl('assets/icons/hulu.jpg');
-    const disneyIcon = getImageUrl('assets/icons/disney-plus.png');
-    const primeIcon = getImageUrl('assets/icons/prime-video.png');
-    const hboIcon = getImageUrl('assets/icons/hbo-max.png');
 
     const getIcon = (item) => {
         switch (item) {
@@ -15,11 +14,11 @@ function StreamingServicesList(props) {
             case 'hulu':
                 return huluIcon;
             case 'disney-plus':
-                return disneyIcon;
+                return disneyPlusIcon;
             case 'amazon-prime-video':
-                return primeIcon;
+                return primeVideoIcon;
             case 'hbo-max':
-                return hboIcon;
+                return hboMaxIcon;
             default:
                 return '';
         }

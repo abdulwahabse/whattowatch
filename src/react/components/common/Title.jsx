@@ -1,12 +1,11 @@
 import TitleSm from './TitleSm';
-import { getImageUrl } from './../../../utils/utils';
 import Button from './Button';
 import { useModel } from '../../../contexts/modelContext';
 import { Link } from 'react-router-dom';
+import starIcon from '/assets/icons/star.png';
 
 function Title(props) {
     const { showTrailer } = useModel();
-    const starSrc = getImageUrl('assets/icons/star.png');
 
     const handleLinkClick = (e) => {
         if (e.target.classList.contains('title__btn')) {
@@ -32,7 +31,11 @@ function Title(props) {
             >
                 <div className="title__info-container">
                     <div className="title__sub-info-container">
-                        <img src={starSrc} alt="star" className="title__star" />
+                        <img
+                            src={starIcon}
+                            alt="star"
+                            className="title__star"
+                        />
                         <span className="title__rating typography-5">
                             {props.rating}
                         </span>
