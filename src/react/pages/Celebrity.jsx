@@ -49,8 +49,10 @@ function Celebrity() {
                 {celebrityDetails.info.dob && (
                     <>
                         <p className="typography-3 color-lightest celebrity__overview">
-                            <span>Age: </span>
-                            <span>
+                            <span className="typography-4 color-lightest">
+                                Age:{' '}
+                            </span>
+                            <span className="typography-4 color-light">
                                 {calculateAge(celebrityDetails.info.dob)} years
                                 old
                             </span>
@@ -62,8 +64,12 @@ function Celebrity() {
                 {celebrityDetails.info.birthplace && (
                     <>
                         <p className="typography-3 color-lightest celebrity__overview">
-                            <span>Birthplace: </span>
-                            <span>{celebrityDetails.info.birthplace}</span>
+                            <span className="typography-4 color-lightest">
+                                Birthplace:{' '}
+                            </span>
+                            <span className="typography-4 color-light">
+                                {celebrityDetails.info.birthplace}
+                            </span>
                         </p>
                         <hr className="celebrity__overview-separator" />
                     </>
@@ -72,8 +78,12 @@ function Celebrity() {
                 {celebrityDetails.info.height && (
                     <>
                         <p className="typography-3 color-lightest celebrity__overview">
-                            <span>Height: </span>
-                            <span>{celebrityDetails.info.height}</span>
+                            <span className="typography-4 color-lightest">
+                                Height:{' '}
+                            </span>
+                            <span className="typography-4 color-light">
+                                {celebrityDetails.info.height}
+                            </span>
                         </p>
                     </>
                 )}
