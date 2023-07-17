@@ -30,27 +30,42 @@
                     {
                         "name": "Daniel Radcliffe",
                         "role": "Harry Potter",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg",
+                        "dob": "1989-07-23",
+                        "birthplace": "London, England, UK",
+                        "height": "5' 5\" (1.65 m)"
                     },
                     {
                         "name": "Rupert Grint",
                         "role": "Ron Weasley",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg",
+                        "dob": "1988-08-24",
+                        "birthplace": "Stevenage, Hertfordshire, England, UK",
+                        "height": "5' 8\" (1.73 m)"
                     },
                     {
                         "name": "Emma Watson",
                         "role": "Hermione Granger",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg",
+                        "dob": "1990-04-15",
+                        "birthplace": "Paris, France",
+                        "height": "5' 5\" (1.65 m)"
                     },
                     {
                         "name": "Richard Harris",
                         "role": "Albus Dumbledore",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Richard_Harris_1985.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Richard_Harris_1985.jpg",
+                        "dob": "1930-10-01",
+                        "birthplace": "Limerick, Ireland",
+                        "height": "6' 1\" (1.85 m)"
                     },
                     {
                         "name": "Maggie Smith",
                         "role": "Minerva McGonagall",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Dame_Maggie_Smith_%28retouched%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Dame_Maggie_Smith_%28retouched%29_%28cropped%29.jpg",
+                        "dob": "1934-12-28",
+                        "birthplace": "Ilford, Essex, England, UK",
+                        "height": "5' 5\" (1.65 m)"
                     }
                 ],
                 "rating": 7.6,
@@ -74,27 +89,42 @@
                     {
                         "name": "Daniel Radcliffe",
                         "role": "Harry Potter",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg",
+                        "dob": "1989-07-23",
+                        "birthplace": "London, England, UK",
+                        "height": "5' 5\" (1.65 m)"
                     },
                     {
                         "name": "Rupert Grint",
                         "role": "Ron Weasley",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg",
+                        "dob": "1988-08-24",
+                        "birthplace": "Stevenage, Hertfordshire, England, UK",
+                        "height": "5' 8\" (1.73 m)"
                     },
                     {
                         "name": "Emma Watson",
                         "role": "Hermione Granger",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg",
+                        "dob": "1990-04-15",
+                        "birthplace": "Paris, France",
+                        "height": "5' 5\" (1.65 m)"
                     },
                     {
                         "name": "Richard Harris",
                         "role": "Albus Dumbledore",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Richard_Harris_1985.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Richard_Harris_1985.jpg",
+                        "dob": "1930-10-01",
+                        "birthplace": "Limerick, Ireland",
+                        "height": "6' 1\" (1.85 m)"
                     },
                     {
                         "name": "Maggie Smith",
                         "role": "Minerva McGonagall",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Dame_Maggie_Smith_%28retouched%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Dame_Maggie_Smith_%28retouched%29_%28cropped%29.jpg",
+                        "dob": "1934-12-28",
+                        "birthplace": "Ilford, Essex, England, UK",
+                        "height": "5' 5\" (1.65 m)"
                     }
                 ],
                 "rating": 7.4,
@@ -118,27 +148,42 @@
                     {
                         "name": "Daniel Radcliffe",
                         "role": "Harry Potter",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg",
+                        "dob": "1989-07-23",
+                        "birthplace": "London, England, UK",
+                        "height": "5' 5\" (1.65 m)"
                     },
                     {
                         "name": "Rupert Grint",
                         "role": "Ron Weasley",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg",
+                        "dob": "1988-08-24",
+                        "birthplace": "Stevenage, Hertfordshire, England, UK",
+                        "height": "5' 8\" (1.73 m)"
                     },
                     {
                         "name": "Emma Watson",
                         "role": "Hermione Granger",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg",
+                        "dob": "1990-04-15",
+                        "birthplace": "Paris, France",
+                        "height": "5' 5\" (1.65 m)"
                     },
                     {
                         "name": "Gary Oldman",
                         "role": "Sirius Black",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Gary_Oldman_%2813948780853%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Gary_Oldman_%2813948780853%29_%28cropped%29.jpg",
+                        "dob": "1958-03-21",
+                        "birthplace": "New Cross, London, England, UK",
+                        "height": "5' 9\" (1.75 m)"
                     },
                     {
                         "name": "Michael Gambon",
                         "role": "Albus Dumbledore",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Michael_Gambon_cropped.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Michael_Gambon_cropped.jpg",
+                        "dob": "1940-10-19",
+                        "birthplace": "Dublin, Ireland",
+                        "height": "6' (1.83 m)"
                     }
                 ],
                 "rating": 7.9,
@@ -162,27 +207,42 @@
                     {
                         "name": "Daniel Radcliffe",
                         "role": "Harry Potter",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg",
+                        "dob": "1989-07-23",
+                        "birthplace": "London, England, UK",
+                        "height": "5' 5\" (1.65 m)"
                     },
                     {
                         "name": "Rupert Grint",
                         "role": "Ron Weasley",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg",
+                        "dob": "1988-08-24",
+                        "birthplace": "Stevenage, Hertfordshire, England, UK",
+                        "height": "5' 8\" (1.73 m)"
                     },
                     {
                         "name": "Emma Watson",
                         "role": "Hermione Granger",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg",
+                        "dob": "1990-04-15",
+                        "birthplace": "Paris, France",
+                        "height": "5' 5\" (1.65 m)"
                     },
                     {
                         "name": "Ralph Fiennes",
                         "role": "Lord Voldemort",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ralph_Fiennes_from_%22The_White_Crow%22_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2018_%2831747095048%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ralph_Fiennes_from_%22The_White_Crow%22_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2018_%2831747095048%29.jpg",
+                        "dob": "1962-12-22",
+                        "birthplace": "Ipswich, Suffolk, England, UK",
+                        "height": "5' 11\" (1.8 m)"
                     },
                     {
                         "name": "Michael Gambon",
                         "role": "Albus Dumbledore",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Michael_Gambon_cropped.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Michael_Gambon_cropped.jpg",
+                        "dob": "1940-10-19",
+                        "birthplace": "Dublin, Ireland",
+                        "height": "6' (1.83 m)"
                     }
                 ],
                 "rating": 7.7,
@@ -206,27 +266,42 @@
                     {
                         "name": "Daniel Radcliffe",
                         "role": "Harry Potter",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg",
+                        "dob": "1989-07-23",
+                        "birthplace": "London, England, UK",
+                        "height": "5' 5\" (1.65 m)"
                     },
                     {
                         "name": "Rupert Grint",
                         "role": "Ron Weasley",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg",
+                        "dob": "1988-08-24",
+                        "birthplace": "Stevenage, Hertfordshire, England, UK",
+                        "height": "5' 8\" (1.73 m)"
                     },
                     {
                         "name": "Emma Watson",
                         "role": "Hermione Granger",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg",
+                        "dob": "1990-04-15",
+                        "birthplace": "Paris, France",
+                        "height": "5' 5\" (1.65 m)"
                     },
                     {
                         "name": "Ralph Fiennes",
                         "role": "Lord Voldemort",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ralph_Fiennes_from_%22The_White_Crow%22_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2018_%2831747095048%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ralph_Fiennes_from_%22The_White_Crow%22_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2018_%2831747095048%29.jpg",
+                        "dob": "1962-12-22",
+                        "birthplace": "Ipswich, Suffolk, England, UK",
+                        "height": "5' 11\" (1.8 m)"
                     },
                     {
                         "name": "Michael Gambon",
                         "role": "Albus Dumbledore",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Michael_Gambon_cropped.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Michael_Gambon_cropped.jpg",
+                        "dob": "1940-10-19",
+                        "birthplace": "Dublin, Ireland",
+                        "height": "6' (1.83 m)"
                     }
                 ],
                 "rating": 7.5,
@@ -250,27 +325,42 @@
                     {
                         "name": "Daniel Radcliffe",
                         "role": "Harry Potter",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg",
+                        "dob": "1989-07-23",
+                        "birthplace": "London, England, UK",
+                        "height": "5' 5\" (1.65 m)"
                     },
                     {
                         "name": "Rupert Grint",
                         "role": "Ron Weasley",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg",
+                        "dob": "1988-08-24",
+                        "birthplace": "Stevenage, Hertfordshire, England, UK",
+                        "height": "5' 8\" (1.73 m)"
                     },
                     {
                         "name": "Emma Watson",
                         "role": "Hermione Granger",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg",
+                        "dob": "1990-04-15",
+                        "birthplace": "Paris, France",
+                        "height": "5' 5\" (1.65 m)"
                     },
                     {
                         "name": "Ralph Fiennes",
                         "role": "Lord Voldemort",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ralph_Fiennes_from_%22The_White_Crow%22_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2018_%2831747095048%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ralph_Fiennes_from_%22The_White_Crow%22_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2018_%2831747095048%29.jpg",
+                        "dob": "1962-12-22",
+                        "birthplace": "Ipswich, Suffolk, England, UK",
+                        "height": "5' 11\" (1.8 m)"
                     },
                     {
                         "name": "Michael Gambon",
                         "role": "Albus Dumbledore",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Michael_Gambon_cropped.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Michael_Gambon_cropped.jpg",
+                        "dob": "1940-10-19",
+                        "birthplace": "Dublin, Ireland",
+                        "height": "6' (1.83 m)"
                     }
                 ],
                 "rating": 7.6,
@@ -294,27 +384,42 @@
                     {
                         "name": "Daniel Radcliffe",
                         "role": "Harry Potter",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg",
+                        "dob": "1989-07-23",
+                        "birthplace": "London, England, UK",
+                        "height": "5' 5\" (1.65 m)"
                     },
                     {
                         "name": "Rupert Grint",
                         "role": "Ron Weasley",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg",
+                        "dob": "1988-08-24",
+                        "birthplace": "Stevenage, Hertfordshire, England, UK",
+                        "height": "5' 8\" (1.73 m)"
                     },
                     {
                         "name": "Emma Watson",
                         "role": "Hermione Granger",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg",
+                        "dob": "1990-04-15",
+                        "birthplace": "Paris, France",
+                        "height": "5' 5\" (1.65 m)"
                     },
                     {
                         "name": "Ralph Fiennes",
                         "role": "Lord Voldemort",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ralph_Fiennes_from_%22The_White_Crow%22_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2018_%2831747095048%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ralph_Fiennes_from_%22The_White_Crow%22_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2018_%2831747095048%29.jpg",
+                        "dob": "1962-12-22",
+                        "birthplace": "Ipswich, Suffolk, England, UK",
+                        "height": "5' 11\" (1.8 m)"
                     },
                     {
                         "name": "Michael Gambon",
                         "role": "Albus Dumbledore",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Michael_Gambon_cropped.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Michael_Gambon_cropped.jpg",
+                        "dob": "1940-10-19",
+                        "birthplace": "Dublin, Ireland",
+                        "height": "6' (1.83 m)"
                     }
                 ],
                 "rating": 7.7,
@@ -338,27 +443,42 @@
                     {
                         "name": "Daniel Radcliffe",
                         "role": "Harry Potter",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg",
+                        "dob": "1989-07-23",
+                        "birthplace": "London, England, UK",
+                        "height": "5' 5\" (1.65 m)"
                     },
                     {
                         "name": "Rupert Grint",
                         "role": "Ron Weasley",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg",
+                        "dob": "1988-08-24",
+                        "birthplace": "Stevenage, Hertfordshire, England, UK",
+                        "height": "5' 8\" (1.73 m)"
                     },
                     {
                         "name": "Emma Watson",
                         "role": "Hermione Granger",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg",
+                        "dob": "1990-04-15",
+                        "birthplace": "Paris, France",
+                        "height": "5' 5\" (1.65 m)"
                     },
                     {
                         "name": "Ralph Fiennes",
                         "role": "Lord Voldemort",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ralph_Fiennes_from_%22The_White_Crow%22_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2018_%2831747095048%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ralph_Fiennes_from_%22The_White_Crow%22_at_Opening_Ceremony_of_the_Tokyo_International_Film_Festival_2018_%2831747095048%29.jpg",
+                        "dob": "1962-12-22",
+                        "birthplace": "Ipswich, Suffolk, England, UK",
+                        "height": "5' 11\" (1.8 m)"
                     },
                     {
                         "name": "Michael Gambon",
                         "role": "Albus Dumbledore",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Michael_Gambon_cropped.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Michael_Gambon_cropped.jpg",
+                        "dob": "1940-10-19",
+                        "birthplace": "Dublin, Ireland",
+                        "height": "6' (1.83 m)"
                     }
                 ],
                 "rating": 8.1,
@@ -392,27 +512,42 @@
                     {
                         "name": "Sean Bean",
                         "role": "Eddard Stark",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/c/ca/AV0A6306_Sean_Bean.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/c/ca/AV0A6306_Sean_Bean.jpg",
+                        "dob": "1959-04-17",
+                        "birthplace": "Sheffield, South Yorkshire, England, UK",
+                        "height": "5' 10\" (1.78 m)"
                     },
                     {
                         "name": "Emilia Clarke",
                         "role": "Daenerys Targaryen",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Emilia_Clarke_Dior_Rose_des_Vents.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Emilia_Clarke_Dior_Rose_des_Vents.jpg",
+                        "dob": "1986-10-23",
+                        "birthplace": "London, England, UK",
+                        "height": "5' 2\" (1.57 m)"
                     },
                     {
                         "name": "Kit Harington",
                         "role": "Jon Snow",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/32/Kit_harrington_by_sachyn_mital_%28cropped_2%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/32/Kit_harrington_by_sachyn_mital_%28cropped_2%29.jpg",
+                        "dob": "1986-12-26",
+                        "birthplace": "London, England, UK",
+                        "height": "5' 8\" (1.73 m)"
                     },
                     {
                         "name": "Peter Dinklage",
                         "role": "Tyrion Lannister",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/65/Peter_Dinklage-68257.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/65/Peter_Dinklage-68257.jpg",
+                        "dob": "1969-06-11",
+                        "birthplace": "Morristown, New Jersey, USA",
+                        "height": "4' 5\" (1.35 m)"
                     },
                     {
                         "name": "Lena Headey",
                         "role": "Cersei Lannister",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/30/Lena_Headey_%2847086135862%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/30/Lena_Headey_%2847086135862%29_%28cropped%29.jpg",
+                        "dob": "1973-10-03",
+                        "birthplace": "Hamilton, Bermuda",
+                        "height": "5' 5\" (1.65 m)"
                     }
                 ],
                 "rating": 9.3,
@@ -444,27 +579,42 @@
                     {
                         "name": "Millie Bobby Brown",
                         "role": "Eleven",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/99/Millie_Bobby_Brown_-_MBB_-_Portrait_1_-_SFM5_-_July_10%2C_2022_at_Stranger_Fan_Meet_5_People_Convention_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/99/Millie_Bobby_Brown_-_MBB_-_Portrait_1_-_SFM5_-_July_10%2C_2022_at_Stranger_Fan_Meet_5_People_Convention_%28cropped%29.jpg",
+                        "dob": "2004-02-19",
+                        "birthplace": "Marbella, Málaga, Andalusia, Spain",
+                        "height": "5' 4\" (1.63 m)"
                     },
                     {
                         "name": "Finn Wolfhard",
                         "role": "Mike Wheeler",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/56/Finn_Wolfhard_by_Gage_Skidmore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/56/Finn_Wolfhard_by_Gage_Skidmore.jpg",
+                        "dob": "2002-12-23",
+                        "birthplace": "Vancouver, British Columbia, Canada",
+                        "height": "5' 8\" (1.73 m)"
                     },
                     {
                         "name": "Gaten Matarazzo",
                         "role": "Dustin Henderson",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/43/Gaten_Matarazzo.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/43/Gaten_Matarazzo.jpg",
+                        "dob": "2002-09-08",
+                        "birthplace": "Little Egg Harbor Township, New Jersey, USA",
+                        "height": "5' 5\" (1.65 m)"
                     },
                     {
                         "name": "Caleb McLaughlin",
                         "role": "Lucas Sinclair",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/16/Caleb_McLaughlin_by_Gage_Skidmore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/16/Caleb_McLaughlin_by_Gage_Skidmore.jpg",
+                        "dob": "2001-10-13",
+                        "birthplace": "Carmel, New York, USA",
+                        "height": "5' 6\" (1.68 m)"
                     },
                     {
                         "name": "Noah Schnapp",
                         "role": "Will Byers",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/99/Noah_Schnapp_by_Gage_Skidmore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/99/Noah_Schnapp_by_Gage_Skidmore.jpg",
+                        "dob": "2004-10-03",
+                        "birthplace": "Scarsdale, New York, USA",
+                        "height": "5' 7\" (1.7 m)"
                     }
                 ],
                 "rating": 8.8,
@@ -490,27 +640,42 @@
                     {
                         "name": "Dafne Keen",
                         "role": "Lyra Belacqua",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Dafne_Keen_%2848383778052%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Dafne_Keen_%2848383778052%29_%28cropped%29.jpg",
+                        "dob": "2005-01-01",
+                        "birthplace": "Madrid, Spain",
+                        "height": "4' 11\" (1.5 m)"
                     },
                     {
                         "name": "Ruth Wilson",
                         "role": "Marisa Coulter",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Ruth_Wilson_May_2015_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Ruth_Wilson_May_2015_%28cropped%29.jpg",
+                        "dob": "1982-01-13",
+                        "birthplace": "Ashford, Kent, England, UK",
+                        "height": "5' 6\" (1.68 m)"
                     },
                     {
                         "name": "James McAvoy",
                         "role": "Lord Asriel",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/80/James_McAvoy_by_Gage_Skidmore_2.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/80/James_McAvoy_by_Gage_Skidmore_2.jpg",
+                        "dob": "1979-04-21",
+                        "birthplace": "Glasgow, Scotland, UK",
+                        "height": "5' 7\" (1.7 m)"
                     },
                     {
                         "name": "Lin-Manuel Miranda",
                         "role": "Lee Scoresby",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Lin-Manuel_Miranda_%26_James_McAvoy_%2848383681926%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Lin-Manuel_Miranda_%26_James_McAvoy_%2848383681926%29_%28cropped%29.jpg",
+                        "dob": "1980-01-16",
+                        "birthplace": "New York City, New York, USA",
+                        "height": "5' 9\" (1.75 m)"
                     },
                     {
                         "name": "Ruta Gedmintas",
                         "role": "Serafina Pekkala",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ruta_Gedmintas_by_Gage_Skidmore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ruta_Gedmintas_by_Gage_Skidmore.jpg",
+                        "dob": "1983-08-23",
+                        "birthplace": "Canterbury, Kent, England, UK",
+                        "height": "5' 8\" (1.73 m)"
                     }
                 ],
                 "rating": 8.0,
@@ -536,27 +701,42 @@
                     {
                         "name": "Emma D'Arcy",
                         "role": "Princess Rhaenyra Targaryen",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Emma_D%27Arcy.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Emma_D%27Arcy.jpg",
+                        "dob": "1992-01-01",
+                        "birthplace": "London, England, UK",
+                        "height": "5' 6\" (1.68 m)"
                     },
                     {
                         "name": "Matt Smith",
                         "role": "Prince Daemon Targaryen",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/b3/SDCC_2015_-_Matt_Smith.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/b3/SDCC_2015_-_Matt_Smith.jpg",
+                        "dob": "1982-10-28",
+                        "birthplace": "Northampton, Northamptonshire, England, UK",
+                        "height": "5' 11\" (1.8 m)"
                     },
                     {
                         "name": "Olivia Cooke",
                         "role": "Alicent Hightower",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Olivia_Cooke_by_Gage_Skidmore_2.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Olivia_Cooke_by_Gage_Skidmore_2.jpg",
+                        "dob": "1993-12-27",
+                        "birthplace": "Oldham, Greater Manchester, England, UK",
+                        "height": "5' 5\" (1.65 m)"
                     },
                     {
                         "name": "Steve Toussaint",
                         "role": "Lord Corlys Velaryon",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Steve_toussaint_2022_3.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Steve_toussaint_2022_3.jpg",
+                        "dob": "1965-03-22",
+                        "birthplace": "Tottenham, London, England, UK",
+                        "height": "6' 2\" (1.88 m)"
                     },
                     {
                         "name": "Rhys Ifans",
                         "role": "Otto Hightower",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/51/Rhys_Ifans_2011_cropped_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/51/Rhys_Ifans_2011_cropped_%28cropped%29.jpg",
+                        "dob": "1967-07-22",
+                        "birthplace": "Haverfordwest, Pembrokeshire, Wales, UK",
+                        "height": "6' 2\" (1.88 m)"
                     }
                 ],
                 "rating": 9.0,
@@ -585,27 +765,42 @@
                     {
                         "name": "Robert Downey Jr.",
                         "role": "Tony Stark / Iron Man",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/94/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/94/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg",
+                        "dob": "1965-04-04",
+                        "birthplace": "Manhattan, New York, United States",
+                        "height": "1.74m"
                     },
                     {
                         "name": "Terrence Howard",
                         "role": "James Rhodes / War Machine",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Terrence_Howard.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Terrence_Howard.jpg",
+                        "dob": "1969-03-01",
+                        "birthplace": "Chicago, Illinois, United States",
+                        "height": "1.85m"
                     },
                     {
                         "name": "Gwyneth Paltrow",
                         "role": "Pepper Potts",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/42/GwynethPaltrowByAndreaRaffin2011.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/42/GwynethPaltrowByAndreaRaffin2011.jpg",
+                        "dob": "1972-09-02",
+                        "birthplace": "Los Angeles, California, United States",
+                        "height": "1.75m"
                     },
                     {
                         "name": "Jeff Bridges",
                         "role": "Obadiah Stane / Iron Monger",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Jeff_Bridges_by_Gage_Skidmore_3.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Jeff_Bridges_by_Gage_Skidmore_3.jpg",
+                        "dob": "1949-12-04",
+                        "birthplace": "Los Angeles, California, United States",
+                        "height": "1.78m"
                     },
                     {
                         "name": "Liv Tyler",
                         "role": "Natasha Romanoff / Black Widow",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Liv_Tyler_%2829566238128%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Liv_Tyler_%2829566238128%29_%28cropped%29.jpg",
+                        "dob": "1977-07-17",
+                        "birthplace": "Portland, Maine, United States",
+                        "height": "1.78m"
                     }
                 ],
                 "rating": 7.9,
@@ -629,27 +824,42 @@
                     {
                         "name": "Robert Downey Jr.",
                         "role": "Tony Stark / Iron Man",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/94/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/94/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg",
+                        "dob": "1965-04-04",
+                        "birthplace": "Manhattan, New York, United States",
+                        "height": "1.74m"
                     },
                     {
                         "name": "Mickey Rourke",
                         "role": "Ivan Vanko / Whiplash",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Jeff_Bridges_by_Gage_Skidmore_3.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Jeff_Bridges_by_Gage_Skidmore_3.jpg",
+                        "dob": "1952-09-16",
+                        "birthplace": "Schenectady, New York, United States",
+                        "height": "1.85m"
                     },
                     {
                         "name": "Scarlett Johansson",
                         "role": "Natasha Romanoff / Black Widow",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Liv_Tyler_%2829566238128%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Liv_Tyler_%2829566238128%29_%28cropped%29.jpg",
+                        "dob": "1984-11-22",
+                        "birthplace": "New York City, New York, United States",
+                        "height": "1.63m"
                     },
                     {
                         "name": "Don Cheadle",
                         "role": "James Rhodes / War Machine",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Don_Cheadle_at_Jimmy_Kimmel_Live%21_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Don_Cheadle_at_Jimmy_Kimmel_Live%21_%28cropped%29.jpg",
+                        "dob": "1964-11-29",
+                        "birthplace": "Bridgeport, Connecticut, United States",
+                        "height": "1.88m"
                     },
                     {
                         "name": "Sam Rockwell",
                         "role": "Justin Hammer",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sam_Rockwell_%2851492%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sam_Rockwell_%2851492%29_%28cropped%29.jpg",
+                        "dob": "1968-11-05",
+                        "birthplace": "San Mateo, California, United States",
+                        "height": "1.78m"
                     }
                 ],
                 "rating": 7.1,
@@ -673,27 +883,42 @@
                     {
                         "name": "Robert Downey Jr.",
                         "role": "Tony Stark / Iron Man",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/94/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/94/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg",
+                        "dob": "1965-04-04",
+                        "birthplace": "Manhattan, New York, United States",
+                        "height": "1.74m"
                     },
                     {
                         "name": "Ben Kingsley",
                         "role": "The Mandarin",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/42/Ben_Kingsley_by_Gage_Skidmore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/42/Ben_Kingsley_by_Gage_Skidmore.jpg",
+                        "dob": "1943-12-31",
+                        "birthplace": "Hamstead, London, England",
+                        "height": "1.85m"
                     },
                     {
                         "name": "Gwyneth Paltrow",
                         "role": "Pepper Potts",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/GwynethPaltrowByAndreaRaffin2011.jpg/220px-GwynethPaltrowByAndreaRaffin2011.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/GwynethPaltrowByAndreaRaffin2011.jpg/220px-GwynethPaltrowByAndreaRaffin2011.jpg",
+                        "dob": "1972-09-02",
+                        "birthplace": "Los Angeles, California, United States",
+                        "height": "1.75m"
                     },
                     {
                         "name": "Don Cheadle",
                         "role": "James Rhodes / War Machine",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Don_Cheadle_at_Jimmy_Kimmel_Live%21_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Don_Cheadle_at_Jimmy_Kimmel_Live%21_%28cropped%29.jpg",
+                        "dob": "1964-11-29",
+                        "birthplace": "Bridgeport, Connecticut, United States",
+                        "height": "1.88m"
                     },
                     {
                         "name": "Guy Pearce",
                         "role": "Aldrich Killian",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Guy_Pearce_Cannes_2012_%28revised%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Guy_Pearce_Cannes_2012_%28revised%29.jpg",
+                        "dob": "1967-01-05",
+                        "birthplace": "Oxted, Surrey, England",
+                        "height": "1.83m"
                     }
                 ],
                 "rating": 7.2,
@@ -717,27 +942,42 @@
                     {
                         "name": "Edward Norton",
                         "role": "Bruce Banner / Hulk",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/35/Ed_Norton_Shankbone_Metropolitan_Opera_2009.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/35/Ed_Norton_Shankbone_Metropolitan_Opera_2009.jpg",
+                        "dob": "1969-08-18",
+                        "birthplace": "Boston, Massachusetts, United States",
+                        "height": "1.77m"
                     },
                     {
                         "name": "Liv Tyler",
                         "role": "Betty Ross",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Liv_Tyler_%2829566238128%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Liv_Tyler_%2829566238128%29_%28cropped%29.jpg",
+                        "dob": "1977-07-17",
+                        "birthplace": "Portland, Maine, United States",
+                        "height": "1.78m"
                     },
                     {
                         "name": "Tim Roth",
                         "role": "Emil Blonsky / Abomination",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/36/Tim_Roth_by_Gage_Skidmore_2.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/36/Tim_Roth_by_Gage_Skidmore_2.jpg",
+                        "dob": "1961-05-14",
+                        "birthplace": "London, England",
+                        "height": "1.78m"
                     },
                     {
                         "name": "William Hurt",
                         "role": "Thaddeus Ross",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f4/History_of_Violence_002_%287271227040%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f4/History_of_Violence_002_%287271227040%29.jpg",
+                        "dob": "1950-03-20",
+                        "birthplace": "Washington, D.C., United States",
+                        "height": "1.85m"
                     },
                     {
                         "name": "Tim Blake Nelson",
                         "role": "Samuel Sterns",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tim_Blake_Nelson_2016.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tim_Blake_Nelson_2016.jpg",
+                        "dob": "1954-08-01",
+                        "birthplace": "Tulsa, Oklahoma, United States",
+                        "height": "1.78m"
                     }
                 ],
                 "rating": 6.7,
@@ -765,27 +1005,42 @@
                     {
                         "name": "Chris Hemsworth",
                         "role": "Thor",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Chris_Hemsworth_by_Gage_Skidmore_2_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Chris_Hemsworth_by_Gage_Skidmore_2_%28cropped%29.jpg",
+                        "dob": "1983-08-11",
+                        "birthplace": "Melbourne, Australia",
+                        "height": "1.90m"
                     },
                     {
                         "name": "Natalie Portman",
                         "role": "Jane Foster",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Natalie_Portman_%2848470988352%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Natalie_Portman_%2848470988352%29_%28cropped%29.jpg",
+                        "dob": "1981-06-09",
+                        "birthplace": "Jerusalem, Israel",
+                        "height": "1.60m"
                     },
                     {
                         "name": "Tom Hiddleston",
                         "role": "Loki",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/67/Tom_Hiddleston_%2836109110291%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/67/Tom_Hiddleston_%2836109110291%29_%28cropped%29.jpg",
+                        "dob": "1981-02-09",
+                        "birthplace": "London, England",
+                        "height": "1.88m"
                     },
                     {
                         "name": "Anthony Hopkins",
                         "role": "Odin",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/47/AnthonyHopkins10TIFF.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/47/AnthonyHopkins10TIFF.jpg",
+                        "dob": "1937-12-31",
+                        "birthplace": "Port Talbot, Wales",
+                        "height": "1.82m"
                     },
                     {
                         "name": "Stellan Skarsgård",
                         "role": "Erik Selvig",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Stellan_Skarsg%C3%A5rd_at_the_2017_Berlinalevds.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Stellan_Skarsg%C3%A5rd_at_the_2017_Berlinalevds.jpg",
+                        "dob": "1951-06-13",
+                        "birthplace": "Gothenburg, Sweden",
+                        "height": "1.93m"
                     }
                 ],
                 "rating": 7.1,
@@ -809,27 +1064,42 @@
                     {
                         "name": "Chris Evans",
                         "role": "Steve Rogers / Captain America",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/33/Mark_Kassen%2C_Tony_C%C3%A1rdenas_and_Chris_Evans_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/33/Mark_Kassen%2C_Tony_C%C3%A1rdenas_and_Chris_Evans_%28cropped%29.jpg",
+                        "dob": "1981-06-13",
+                        "birthplace": "Boston, Massachusetts, United States",
+                        "height": "1.83m"
                     },
                     {
                         "name": "Hayley Atwell",
                         "role": "Peggy Carter",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a5/HVFFLondon2017Cap-ALS-29_%2835183142201%29_Cropped.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a5/HVFFLondon2017Cap-ALS-29_%2835183142201%29_Cropped.jpg",
+                        "dob": "1982-04-05",
+                        "birthplace": "London, England",
+                        "height": "1.63m"
                     },
                     {
                         "name": "Hugo Weaving",
                         "role": "Johann Schmidt / Red Skull",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/9f/MJK_08925_Hugo_Weaving_%28Berlinale_2018%29_bw43.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/9f/MJK_08925_Hugo_Weaving_%28Berlinale_2018%29_bw43.jpg",
+                        "dob": "1950-04-03",
+                        "birthplace": "Adelaide, South Australia, Australia",
+                        "height": "1.85m"
                     },
                     {
                         "name": "Sebastian Stan",
                         "role": "Bucky Barnes / Winter Soldier",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sebastian_Stan_by_Gage_Skidmore_2_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sebastian_Stan_by_Gage_Skidmore_2_%28cropped%29.jpg",
+                        "dob": "1982-08-13",
+                        "birthplace": "Constanta, Romania",
+                        "height": "1.88m"
                     },
                     {
                         "name": "Tommy Lee Jones",
                         "role": "Colonel Chester Phillips",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Tommy_Lee_Jones_2017.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Tommy_Lee_Jones_2017.jpg",
+                        "dob": "1946-09-15",
+                        "birthplace": "San Antonio, Texas, United States",
+                        "height": "1.80m"
                     }
                 ],
                 "rating": 7.8,
@@ -858,32 +1128,50 @@
                     {
                         "name": "Chris Hemsworth",
                         "role": "Thor",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Chris_Hemsworth_by_Gage_Skidmore_2_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Chris_Hemsworth_by_Gage_Skidmore_2_%28cropped%29.jpg",
+                        "dob": "1983-08-11",
+                        "birthplace": "Melbourne, Australia",
+                        "height": "1.90m"
                     },
                     {
                         "name": "Tom Hiddleston",
                         "role": "Loki",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/67/Tom_Hiddleston_%2836109110291%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/67/Tom_Hiddleston_%2836109110291%29_%28cropped%29.jpg",
+                        "dob": "1981-02-09",
+                        "birthplace": "London, England",
+                        "height": "1.88m"
                     },
                     {
                         "name": "Natalie Portman",
                         "role": "Jane Foster",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Natalie_Portman_%2848470988352%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Natalie_Portman_%2848470988352%29_%28cropped%29.jpg",
+                        "dob": "1981-06-09",
+                        "birthplace": "Jerusalem, Israel",
+                        "height": "1.60m"
                     },
                     {
                         "name": "Christopher Eccleston",
                         "role": "Malekith",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/36/Christopher_Eccleston_%2849243215143%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/36/Christopher_Eccleston_%2849243215143%29.jpg",
+                        "dob": "1964-02-16",
+                        "birthplace": "Salford, Lancashire, England",
+                        "height": "1.80m"
                     },
                     {
                         "name": "Anthony Hopkins",
                         "role": "Odin",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/47/AnthonyHopkins10TIFF.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/47/AnthonyHopkins10TIFF.jpg",
+                        "dob": "1937-12-31",
+                        "birthplace": "Port Talbot, Wales",
+                        "height": "1.82m"
                     },
                     {
                         "name": "Stellan Skarsgård",
                         "role": "Erik Selvig",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Stellan_Skarsg%C3%A5rd_at_the_2017_Berlinalevds.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Stellan_Skarsg%C3%A5rd_at_the_2017_Berlinalevds.jpg",
+                        "dob": "1951-06-13",
+                        "birthplace": "Gothenburg, Sweden",
+                        "height": "1.93m"
                     }
                 ],
                 "rating": 6.7,
@@ -907,27 +1195,42 @@
                     {
                         "name": "Chris Evans",
                         "role": "Steve Rogers / Captain America",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/33/Mark_Kassen%2C_Tony_C%C3%A1rdenas_and_Chris_Evans_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/33/Mark_Kassen%2C_Tony_C%C3%A1rdenas_and_Chris_Evans_%28cropped%29.jpg",
+                        "dob": "1981-06-13",
+                        "birthplace": "Boston, Massachusetts, United States",
+                        "height": "1.83m"
                     },
                     {
                         "name": "Scarlett Johansson",
                         "role": "Natasha Romanoff / Black Widow",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Liv_Tyler_%2829566238128%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Liv_Tyler_%2829566238128%29_%28cropped%29.jpg",
+                        "dob": "1984-02-22",
+                        "birthplace": "Sant Monica, California, United States",
+                        "height": "1.63m"
                     },
                     {
                         "name": "Sebastian Stan",
                         "role": "Bucky Barnes / Winter Soldier",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Sebastian_Stan_by_Gage_Skidmore_2_%28cropped%29.jpg/220px-Sebastian_Stan_by_Gage_Skidmore_2_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Sebastian_Stan_by_Gage_Skidmore_2_%28cropped%29.jpg/220px-Sebastian_Stan_by_Gage_Skidmore_2_%28cropped%29.jpg",
+                        "dob": "1982-08-13",
+                        "birthplace": "Constanta, Romania",
+                        "height": "1.88m"
                     },
                     {
                         "name": "Anthony Mackie",
                         "role": "Sam Wilson / Falcon",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Anthony_Mackie_by_Gage_Skidmore_2.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Anthony_Mackie_by_Gage_Skidmore_2.jpg",
+                        "dob": "1978-03-23",
+                        "birthplace": "New Orleans, Louisiana, United States",
+                        "height": "1.73m"
                     },
                     {
                         "name": "Robert Redford",
                         "role": "Alexander Pierce",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Robert_Redford_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Robert_Redford_%28cropped%29.jpg",
+                        "dob": "1936-08-18",
+                        "birthplace": "Santa Monica, California, United States",
+                        "height": "1.78m"
                     }
                 ],
                 "rating": 7.8,
@@ -959,22 +1262,34 @@
                     {
                         "name": "Louis Hofmann",
                         "role": "Jonas Kahnwald",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/07/Louis_Hofmann_Hessischer_Film-_und_Kinopreis_2015.JPG"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/07/Louis_Hofmann_Hessischer_Film-_und_Kinopreis_2015.JPG",
+                        "dob": "1997-01-30",
+                        "birthplace": "Heidelberg, Germany",
+                        "height": "1.75m"
                     },
                     {
                         "name": "Lisa Vicari",
                         "role": "Martha Nielsen",
-                        "picture": "https://imgr.cineserie.com/1997/02/346811.jpg?imgeng=/f_jpg/cmpr_0/w_212/h_318/m_cropbox&ver=1"
+                        "picture": "https://imgr.cineserie.com/1997/02/346811.jpg?imgeng=/f_jpg/cmpr_0/w_212/h_318/m_cropbox&ver=1",
+                        "dob": "1997-03-11",
+                        "birthplace": "Munich, Germany",
+                        "height": "1.65m"
                     },
                     {
                         "name": "Oliver Masucci",
                         "role": "Aleksander Köhler / Noah",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/db/Oliver_Masucci.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/db/Oliver_Masucci.jpg",
+                        "dob": "1968-06-22",
+                        "birthplace": "Munich, Germany",
+                        "height": "1.88m"
                     },
                     {
                         "name": "Jördis Triebel",
                         "role": "Katharina Nielsen / Hannah Kahnwald",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Triebel_800.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Triebel_800.jpg",
+                        "dob": "1977-05-02",
+                        "birthplace": "Templin, Germany",
+                        "height": "1.68m"
                     }
                 ],
                 "rating": 8.9,
@@ -1006,27 +1321,42 @@
                     {
                         "name": "Bryan Cranston",
                         "role": "Walter White / Heisenberg",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Bryan_Cranston_at_the_2018_Berlin_Film_Festival_%282%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Bryan_Cranston_at_the_2018_Berlin_Film_Festival_%282%29.jpg",
+                        "dob": "1956-03-07",
+                        "birthplace": "Hollywood, California, United States",
+                        "height": "1.80m"
                     },
                     {
                         "name": "Aaron Paul",
                         "role": "Jesse Pinkman",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Aaron_Paul_by_Gage_Skidmore_3.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Aaron_Paul_by_Gage_Skidmore_3.jpg",
+                        "dob": "1979-08-27",
+                        "birthplace": "Emmet, Idaho, United States",
+                        "height": "1.73m"
                     },
                     {
                         "name": "Anna Gunn",
                         "role": "Skyler White",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Anna_Gunn_by_Gage_Skidmore_3.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Anna_Gunn_by_Gage_Skidmore_3.jpg",
+                        "dob": "1968-08-10",
+                        "birthplace": "Santa Fe, New Mexico, United States",
+                        "height": "1.68m"
                     },
                     {
                         "name": "Dean Norris",
                         "role": "Hank Schrader",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Dean_Norris_by_Gage_Skidmore_3.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Dean_Norris_by_Gage_Skidmore_3.jpg",
+                        "dob": "1963-04-08",
+                        "birthplace": "South Bend, Indiana, United States",
+                        "height": "1.83m"
                     },
                     {
                         "name": "Giancarlo Esposito",
                         "role": "Gus Fring",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Giancarlo_Esposito_Photo_Op_GalaxyCon_Raleigh_2022.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Giancarlo_Esposito_Photo_Op_GalaxyCon_Raleigh_2022.jpg",
+                        "dob": "1958-04-26",
+                        "birthplace": "Copenhagen, Denmark",
+                        "height": "1.77m"
                     }
                 ],
                 "rating": 9.5,
@@ -1057,27 +1387,42 @@
                     {
                         "name": "Pedro Pascal",
                         "role": "Joel Miller",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Pedro_Pascal_by_Gage_Skidmore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Pedro_Pascal_by_Gage_Skidmore.jpg",
+                        "dob": "1975-04-25",
+                        "birthplace": "Santiago, Chile",
+                        "height": "1.75m"
                     },
                     {
                         "name": "Bella Ramsey",
                         "role": "Ellie Williams",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Bella_Ramsey_at_the_2022_TIFF_Premiere_of_Catherine_Called_Birdy_%2852358884151%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Bella_Ramsey_at_the_2022_TIFF_Premiere_of_Catherine_Called_Birdy_%2852358884151%29_%28cropped%29.jpg",
+                        "dob": "2003-06-20",
+                        "birthplace": "Nottingham, England",
+                        "height": "1.60m"
                     },
                     {
                         "name": "Gabriel Luna",
                         "role": "Tommy Miller",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Gabriel_Luna_by_Gage_Skidmore_2.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Gabriel_Luna_by_Gage_Skidmore_2.jpg",
+                        "dob": "1982-01-03",
+                        "birthplace": "Austin, Texas, United States",
+                        "height": "1.82m"
                     },
                     {
                         "name": "Merle Dandridge",
                         "role": "Strela",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Merle_Dandridge_2019.png"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Merle_Dandridge_2019.png",
+                        "dob": "1963-11-14",
+                        "birthplace": "Memphis, Tennessee, United States",
+                        "height": "1.62m"
                     },
                     {
                         "name": "Nico Parker",
                         "role": "Sarah Miller",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Nico_Parker%2C_MovieZine_interview_%28cropped%29.png"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Nico_Parker%2C_MovieZine_interview_%28cropped%29.png",
+                        "dob": "2004-06-27",
+                        "birthplace": "London, England",
+                        "height": "1.50m"
                     }
                 ],
                 "rating": 8.9,
@@ -1109,27 +1454,42 @@
                     {
                         "name": "Benedict Cumberbatch",
                         "role": "Sherlock Holmes",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6e/BCumberbatch_Comic-Con_2019.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6e/BCumberbatch_Comic-Con_2019.jpg",
+                        "dob": "1976-07-19",
+                        "birthplace": "Hammersmith, London, England",
+                        "height": "1.83m"
                     },
                     {
                         "name": "Martin Freeman",
                         "role": "Dr. John Watson",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Martin_Freeman-5341.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Martin_Freeman-5341.jpg",
+                        "dob": "1971-09-08",
+                        "birthplace": "Aldershot, Hampshire, England",
+                        "height": "1.74m"
                     },
                     {
                         "name": "Miranda Hart",
                         "role": "Mary Morstan",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Miranda_Hart_in_2011.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Miranda_Hart_in_2011.jpg",
+                        "dob": "1972-01-14",
+                        "birthplace": "Hampshire, England",
+                        "height": "1.65m"
                     },
                     {
                         "name": "Andrew Scott",
                         "role": "Jim Moriarty",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Andrew_Scott_TV_BAFTAs_2019.png"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Andrew_Scott_TV_BAFTAs_2019.png",
+                        "dob": "1971-10-21",
+                        "birthplace": "Dublin, Ireland",
+                        "height": "1.75m"
                     },
                     {
                         "name": "Una Stubbs",
                         "role": "Mrs. Hudson",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Una_Stubbs%2C_filming_Sherlock_%282015%29_cropped2.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Una_Stubbs%2C_filming_Sherlock_%282015%29_cropped2.jpg",
+                        "dob": "1937-12-10",
+                        "birthplace": "London, England",
+                        "height": "1.57m"
                     }
                 ],
                 "rating": 9.2,
@@ -1160,27 +1520,42 @@
                     {
                         "name": "Álvaro Morte",
                         "role": "The Professor",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/dc/%C3%81lvaro_Morte%2C_2020_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/dc/%C3%81lvaro_Morte%2C_2020_%28cropped%29.jpg",
+                        "dob": "1975-04-25",
+                        "birthplace": "Algeciras, Spain",
+                        "height": "1.75m"
                     },
                     {
                         "name": "Úrsula Corberó",
                         "role": "Tokyo",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Premios_Goya_2018_-_%C3%9Arsula_Corber%C3%B3_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Premios_Goya_2018_-_%C3%9Arsula_Corber%C3%B3_%28cropped%29.jpg",
+                        "dob": "1989-08-11",
+                        "birthplace": "Barcelona, Spain",
+                        "height": "1.60m"
                     },
                     {
                         "name": "Itziar Ituño",
                         "role": "Lisbon",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/34/Itziar_Itu%C3%B1o_2019_2_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/34/Itziar_Itu%C3%B1o_2019_2_%28cropped%29.jpg",
+                        "dob": "1974-06-18",
+                        "birthplace": "Basauri, Spain",
+                        "height": "1.55m"
                     },
                     {
                         "name": "Pedro Alonso",
                         "role": "Berlin",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/51/HospitalReal01_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/51/HospitalReal01_%28cropped%29.jpg",
+                        "dob": "1966-08-02",
+                        "birthplace": "Vigo, Spain",
+                        "height": "1.80m"
                     },
                     {
                         "name": "Jaime Lorente",
                         "role": "Denver",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Premios_Goya_2020_-_Jaime_Lorente_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Premios_Goya_2020_-_Jaime_Lorente_%28cropped%29.jpg",
+                        "dob": "1991-12-25",
+                        "birthplace": "Murcia, Spain",
+                        "height": "1.72m"
                     }
                 ],
                 "rating": 8.8,
@@ -1212,27 +1587,42 @@
                     {
                         "name": "Nina Dobrev",
                         "role": "Elena Gilbert / Katherine Pierce",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Nina_Dobrev_in_2022.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Nina_Dobrev_in_2022.jpg",
+                        "dob": "1989-01-09",
+                        "birthplace": "Sofia, Bulgaria",
+                        "height": "1.68m"
                     },
                     {
                         "name": "Paul Wesley",
                         "role": "Stefan Salvatore",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/43/Paul_Wesley_by_Gage_Skidmore_4.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/43/Paul_Wesley_by_Gage_Skidmore_4.jpg",
+                        "dob": "1982-07-23",
+                        "birthplace": "New Brunswick, New Jersey, USA",
+                        "height": "1.78m"
                     },
                     {
                         "name": "Ian Somerhalder",
                         "role": "Damon Salvatore",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ian_Somerhalder_Cannes_2015.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ian_Somerhalder_Cannes_2015.jpg",
+                        "dob": "1978-08-08",
+                        "birthplace": "Covington, Louisiana, USA",
+                        "height": "1.83m"
                     },
                     {
                         "name": "Steven R. McQueen",
                         "role": "Jeremy Gilbert",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/35/Steven_R._McQueen_by_Gage_Skidmore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/35/Steven_R._McQueen_by_Gage_Skidmore.jpg",
+                        "dob": "1988-01-13",
+                        "birthplace": "Indianapolis, Indiana, USA",
+                        "height": "1.80m"
                     },
                     {
                         "name": "Candice King",
                         "role": "Caroline Forbes",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Candice_Accola_by_Gage_Skidmore_2.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Candice_Accola_by_Gage_Skidmore_2.jpg",
+                        "dob": "1987-05-13",
+                        "birthplace": "Houston, Texas, USA",
+                        "height": "1.65m"
                     }
                 ],
                 "rating": 7.7,
@@ -1258,17 +1648,26 @@
                     {
                         "name": "Tom Bateman",
                         "role": "David",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Tom_Bateman_%2822437087464%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Tom_Bateman_%2822437087464%29_%28cropped%29.jpg",
+                        "dob": "1989-01-09",
+                        "birthplace": "Oxford, England",
+                        "height": "1.85m"
                     },
                     {
                         "name": "Eve Hewson",
                         "role": "Adele",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/83/Eve_Hewson.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/83/Eve_Hewson.jpg",
+                        "dob": "1991-07-07",
+                        "birthplace": "Dublin, Ireland",
+                        "height": "1.73m"
                     },
                     {
                         "name": "Rory Kinnear",
                         "role": "David's therapist",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Rory_Kinnear_2012_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Rory_Kinnear_2012_%28cropped%29.jpg",
+                        "dob": "1976-08-17",
+                        "birthplace": "London, England",
+                        "height": "1.80m"
                     }
                 ],
                 "rating": 7.5,
@@ -1300,22 +1699,34 @@
                     {
                         "name": "Tom Ellis",
                         "role": "Lucifer Morningstar",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Tom_Ellis_in_2022.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Tom_Ellis_in_2022.jpg",
+                        "dob": "1978-11-17",
+                        "birthplace": "Cardiff, Wales",
+                        "height": "1.83m"
                     },
                     {
                         "name": "Lauren German",
                         "role": "Chloe Decker",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Lauren_German_2015.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Lauren_German_2015.jpg",
+                        "dob": "1978-03-29",
+                        "birthplace": "Huntington Beach, California, USA",
+                        "height": "1.63m"
                     },
                     {
                         "name": "Kevin Alejandro",
                         "role": "Dan Espinoza",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Kevin_Alejandro_by_Gage_Skidmore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Kevin_Alejandro_by_Gage_Skidmore.jpg",
+                        "dob": "1976-08-14",
+                        "birthplace": "Los Angeles, California, USA",
+                        "height": "1.80m"
                     },
                     {
                         "name": "Aimee Garcia",
                         "role": "Ella Lopez",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Aimee_Garcia_by_Gage_Skidmore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Aimee_Garcia_by_Gage_Skidmore.jpg",
+                        "dob": "1978-08-28",
+                        "birthplace": "Chicago, Illinois, USA",
+                        "height": "1.57m"
                     }
                 ],
                 "rating": 8.1,
@@ -1347,27 +1758,42 @@
                     {
                         "name": "Michael C. Hall",
                         "role": "Dexter Morgan",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/72/Michael_C._Hall_2011_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/72/Michael_C._Hall_2011_%28cropped%29.jpg",
+                        "dob": "1971-02-14",
+                        "birthplace": "Newark, New Jersey, USA",
+                        "height": "1.85m"
                     },
                     {
                         "name": "Jennifer Carpenter",
                         "role": "Debra Morgan",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/03/Jennifer_Carpenter_Comic-Con_2012.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/03/Jennifer_Carpenter_Comic-Con_2012.jpg",
+                        "dob": "1979-12-07",
+                        "birthplace": "Minneapolis, Minnesota, USA",
+                        "height": "1.68m"
                     },
                     {
                         "name": "Liev Schreiber",
                         "role": "James Doakes",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/30/MJK_08465_Liev_Schreiber_%28Berlinale_2018%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/30/MJK_08465_Liev_Schreiber_%28Berlinale_2018%29.jpg",
+                        "dob": "1967-10-21",
+                        "birthplace": "San Francisco, California, USA",
+                        "height": "1.91m"
                     },
                     {
                         "name": "Julie Benz",
                         "role": "Rita Bennett",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/72/Julie_Benz_%2826496282963%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/72/Julie_Benz_%2826496282963%29.jpg",
+                        "dob": "1972-05-01",
+                        "birthplace": "Dallas, Texas, USA",
+                        "height": "1.63m"
                     },
                     {
                         "name": "C.S. Lee",
                         "role": "Sgt. Angel Batista",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4d/C.S._Lee_at_PaleyFest2010.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4d/C.S._Lee_at_PaleyFest2010.jpg",
+                        "dob": "1966-06-22",
+                        "birthplace": "Honolulu, Hawaii, USA",
+                        "height": "1.85m"
                     }
                 ],
                 "rating": 8.6,
@@ -1397,22 +1823,34 @@
                     {
                         "name": "Jon Bernthal",
                         "role": "Frank Castle",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Crop_of_Jon_Bernthal_by_Gage_Skidmore_3.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Crop_of_Jon_Bernthal_by_Gage_Skidmore_3.jpg",
+                        "dob": "1971-02-14",
+                        "birthplace": "Newark, New Jersey, USA",
+                        "height": "1.85m"
                     },
                     {
                         "name": "Deborah Ann Woll",
                         "role": "Karen Page",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Deborah_Ann_Woll_by_Gage_Skidmore_2.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Deborah_Ann_Woll_by_Gage_Skidmore_2.jpg",
+                        "dob": "1987-05-13",
+                        "birthplace": "Houston, Texas, USA",
+                        "height": "1.65m"
                     },
                     {
                         "name": "Ben Barnes",
                         "role": "Billy Russo",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Stuttgart_2021_-Comic_Con_Germany-_by-RaBoe_236.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Stuttgart_2021_-Comic_Con_Germany-_by-RaBoe_236.jpg",
+                        "dob": "1981-08-20",
+                        "birthplace": "London, England, UK",
+                        "height": "1.83m"
                     },
                     {
                         "name": "Amber Rose Revah",
                         "role": "Dinah Madani",
-                        "picture": "https://images.mubicdn.net/images/cast_member/77952/cache-220023-1493616392/image-w856.jpg?size=240x"
+                        "picture": "https://images.mubicdn.net/images/cast_member/77952/cache-220023-1493616392/image-w856.jpg?size=240x",
+                        "dob": "1986-03-24",
+                        "birthplace": "Dublin, Ireland",
+                        "height": "1.68m"
                     }
                 ],
                 "rating": 8.1,
@@ -1442,27 +1880,42 @@
                     {
                         "name": "Cillian Murphy",
                         "role": "Thomas Shelby",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Cillian_Murphy_Press_Conference_The_Party_Berlinale_2017_02cr.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Cillian_Murphy_Press_Conference_The_Party_Berlinale_2017_02cr.jpg",
+                        "dob": "1976-05-25",
+                        "birthplace": "Douglas, County Cork, Ireland",
+                        "height": "1.78m"
                     },
                     {
                         "name": "Paul Anderson",
                         "role": "Arthur Shelby",
-                        "picture": "https://images.mubicdn.net/images/cast_member/14381/cache-185205-1557166801/image-w856.jpg?size=240x"
+                        "picture": "https://images.mubicdn.net/images/cast_member/14381/cache-185205-1557166801/image-w856.jpg?size=240x",
+                        "dob": "1978-08-14",
+                        "birthplace": "London, England, UK",
+                        "height": "1.85m"
                     },
                     {
                         "name": "Helen McCrory",
                         "role": "Polly Gray",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/20/Helen_McCrory_2017_%28Extract%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/20/Helen_McCrory_2017_%28Extract%29.jpg",
+                        "dob": "1968-08-01",
+                        "birthplace": "Paddington, London, England, UK",
+                        "height": "1.63m"
                     },
                     {
                         "name": "Sophie Rundle",
                         "role": "Ada Thorne",
-                        "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTJF9utS7LKD6ySVJTNs2AWRDPhJQ6-NAQegml-rSqjMrELLtai_iwDAy8Oh4LaaRr9ujgKl5GZVKjQiSA"
+                        "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTJF9utS7LKD6ySVJTNs2AWRDPhJQ6-NAQegml-rSqjMrELLtai_iwDAy8Oh4LaaRr9ujgKl5GZVKjQiSA",
+                        "dob": "1988-07-16",
+                        "birthplace": "Brighton, East Sussex, England, UK",
+                        "height": "1.70m"
                     },
                     {
                         "name": "Joe Cole",
                         "role": "John Shelby",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/32/Joe_Cole2023.jpeg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/32/Joe_Cole2023.jpeg",
+                        "dob": "1988-08-28",
+                        "birthplace": "London, England, UK",
+                        "height": "1.78m"
                     }
                 ],
                 "rating": 8.8,
@@ -1488,27 +1941,42 @@
                     {
                         "name": "Julian McMahon",
                         "role": "Jess LaCroix",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Julian_McMahon_Dec_2011_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Julian_McMahon_Dec_2011_%28cropped%29.jpg",
+                        "dob": "1968-07-27",
+                        "birthplace": "Sydney, New South Wales, Australia",
+                        "height": "1.85m"
                     },
                     {
                         "name": "Keisha Castle-Hughes",
                         "role": "Special Agent Hana Gibson",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Keisha_Castle-Hughes_at_TIFF_2009_%28headshot%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Keisha_Castle-Hughes_at_TIFF_2009_%28headshot%29.jpg",
+                        "dob": "1990-03-30",
+                        "birthplace": "Auckland, New Zealand",
+                        "height": "1.60m"
                     },
                     {
                         "name": "Roxy Sternberg",
                         "role": "Special Agent Sheryll Barnes",
-                        "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRp07nXOUnZFeHOwqOCzgWlN-7sSypdyrYCBbPYVhoZuMzw12wC2D80SHk8ALcMXzszuc_LJiBIHI2EMwA"
+                        "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRp07nXOUnZFeHOwqOCzgWlN-7sSypdyrYCBbPYVhoZuMzw12wC2D80SHk8ALcMXzszuc_LJiBIHI2EMwA",
+                        "dob": "1987-08-05",
+                        "birthplace": "London, England, UK",
+                        "height": "1.65m"
                     },
                     {
                         "name": "Miguel Gomez",
                         "role": "Special Agent Ivan Ortiz",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Miguel_Gomez_by_Gage_Skidmore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Miguel_Gomez_by_Gage_Skidmore.jpg",
+                        "dob": "1985-08-17",
+                        "birthplace": "Chicago, Illinois, USA",
+                        "height": "1.80m"
                     },
                     {
                         "name": "Cote de Pablo",
                         "role": "Special Agent Isobel Castille",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/00/Cote_de_Pablo_retouch.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/00/Cote_de_Pablo_retouch.jpg",
+                        "dob": "1975-01-03",
+                        "birthplace": "Santiago, Chile",
+                        "height": "1.63m"
                     }
                 ],
                 "rating": 7.6,
@@ -1534,27 +2002,42 @@
                     {
                         "name": "Anna Friel",
                         "role": "Marcella Backland",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/14/Anna_Friel_TCA_2015.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/14/Anna_Friel_TCA_2015.jpg",
+                        "dob": "1976-05-25",
+                        "birthplace": "Douglas, County Cork, Ireland",
+                        "height": "1.65m"
                     },
                     {
                         "name": "Nicholas Pinnock",
                         "role": "Jason Backland",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Nicholas_Pinnock_at_The_Keeping_Room_UK_Premiere.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Nicholas_Pinnock_at_The_Keeping_Room_UK_Premiere.jpg",
+                        "dob": "1977-03-14",
+                        "birthplace": "London, England, UK",
+                        "height": "1.83m"
                     },
                     {
                         "name": "Ray Panthaki",
                         "role": "DI Rav Sangha",
-                        "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcR2Cfi1CBQb4IWtYKaUQwVyPNr5gZX0lX-C461fN5PoGfXyTcplzWkrwaFYHDT1lvE5SmErKc79Wwsf3Nk"
+                        "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcR2Cfi1CBQb4IWtYKaUQwVyPNr5gZX0lX-C461fN5PoGfXyTcplzWkrwaFYHDT1lvE5SmErKc79Wwsf3Nk",
+                        "dob": "1974-05-30",
+                        "birthplace": "London, England, UK",
+                        "height": "1.78m"
                     },
                     {
                         "name": "Juliet Rylance",
                         "role": "Kathy Burke",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Juliet_Rylance_at_the_74th_Annual_Peabody_Awards.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Juliet_Rylance_at_the_74th_Annual_Peabody_Awards.jpg",
+                        "dob": "1979-01-21",
+                        "birthplace": "London, England, UK",
+                        "height": "1.63m"
                     },
                     {
                         "name": "Lorraine Ashbourne",
                         "role": "Susan Blanchard",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Lorraine_Ashbourne_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Lorraine_Ashbourne_%28cropped%29.jpg",
+                        "dob": "1952-06-29",
+                        "birthplace": "Manchester, England, UK",
+                        "height": "1.60m"
                     }
                 ],
                 "rating": 8.1,
@@ -1590,27 +2073,42 @@
                     {
                         "name": "Henry Cavill",
                         "role": "Geralt of Rivia",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/30/Henry_Cavill_%2848417913146%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/30/Henry_Cavill_%2848417913146%29_%28cropped%29.jpg",
+                        "dob": "1983-05-05",
+                        "birthplace": "Saint Helier, Jersey",
+                        "height": "1.85m"
                     },
                     {
                         "name": "Anya Chalotra",
                         "role": "Yennefer of Vengerberg",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/88/Anya_Chalotra_by_Gage_Skidmore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/88/Anya_Chalotra_by_Gage_Skidmore.jpg",
+                        "dob": "1996-01-01",
+                        "birthplace": "Birmingham, England, UK",
+                        "height": "1.60m"
                     },
                     {
                         "name": "Freya Allan",
                         "role": "Ciri of Cintra",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Freya_Allan_by_Gage_Skidmore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Freya_Allan_by_Gage_Skidmore.jpg",
+                        "dob": "2001-09-06",
+                        "birthplace": "Bournemouth, England, UK",
+                        "height": "1.63m"
                     },
                     {
                         "name": "Joey Batey",
                         "role": "Jaskier",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Joey_Batey.png"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Joey_Batey.png",
+                        "dob": "1989-07-25",
+                        "birthplace": "Cardiff, Wales, UK",
+                        "height": "1.80m"
                     },
                     {
                         "name": "MyAnna Buring",
                         "role": "Tissaia de Vries",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Myanna_Buring_at_the_Moet_BIFA_2014.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Myanna_Buring_at_the_Moet_BIFA_2014.jpg",
+                        "dob": "1979-07-14",
+                        "birthplace": "Hackney, London, England, UK",
+                        "height": "1.70m"
                     }
                 ],
                 "rating": 8.2,
@@ -1640,17 +2138,26 @@
                     {
                         "name": "Jessie Mei Li",
                         "role": "Alina Starkov",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Jessie_Mei_Li.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Jessie_Mei_Li.jpg",
+                        "dob": "1995-03-02",
+                        "birthplace": "Oxford, England, UK",
+                        "height": "1.65m"
                     },
                     {
                         "name": "Ben Barnes",
                         "role": "General Kirigan",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Stuttgart_2021_-Comic_Con_Germany-_by-RaBoe_236.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Stuttgart_2021_-Comic_Con_Germany-_by-RaBoe_236.jpg",
+                        "dob": "1981-08-20",
+                        "birthplace": "London, England, UK",
+                        "height": "1.83m"
                     },
                     {
                         "name": "Archie Renaux",
                         "role": "Malyen Oretsev",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Archie_renaux_tiff_2022.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Archie_renaux_tiff_2022.jpg",
+                        "dob": "1998-01-17",
+                        "birthplace": "Brighton, England, UK",
+                        "height": "1.80m"
                     }
                 ],
                 "rating": 8.1,
@@ -1680,27 +2187,42 @@
                     {
                         "name": "Orlando Bloom",
                         "role": "Rycroft Philostrate",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/81/Orlando_Bloom_Cannes_2013.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/81/Orlando_Bloom_Cannes_2013.jpg",
+                        "dob": "1977-01-13",
+                        "birthplace": "Canterbury, Kent, England, UK",
+                        "height": "1.80m"
                     },
                     {
                         "name": "Cara Delevingne",
                         "role": "Vignette Stonemoss",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Cara_Delevingne_2018.png"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Cara_Delevingne_2018.png",
+                        "dob": "1992-08-12",
+                        "birthplace": "London, England, UK",
+                        "height": "1.76m"
                     },
                     {
                         "name": "David Gyasi",
                         "role": "Aisling Querelle",
-                        "picture": "https://hips.hearstapps.com/hmg-prod/images/david-gyasi-6453df92ced84.png?crop=1.00xw:0.667xh;0,0.0988xh&resize=1200:*"
+                        "picture": "https://hips.hearstapps.com/hmg-prod/images/david-gyasi-6453df92ced84.png?crop=1.00xw:0.667xh;0,0.0988xh&resize=1200:*",
+                        "dob": "1980-09-29",
+                        "birthplace": "London, England, UK",
+                        "height": "1.88m"
                     },
                     {
                         "name": "Maeve Dermody",
                         "role": "Tourmaline",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Maeve_Dermody.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Maeve_Dermody.jpg",
+                        "dob": "1979-07-21",
+                        "birthplace": "Dublin, Ireland",
+                        "height": "1.70m"
                     },
                     {
                         "name": "Tamzin Merchant",
                         "role": "Phoebe Philostrate",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/63/Tamzin_merchant2.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/63/Tamzin_merchant2.jpg",
+                        "dob": "1973-09-24",
+                        "birthplace": "Manchester, England, UK",
+                        "height": "1.65m"
                     }
                 ],
                 "rating": 7.8,
@@ -1730,27 +2252,42 @@
                     {
                         "name": "Robert Aramayo",
                         "role": "Elrond",
-                        "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRLlysLPDbACwrZmEuC1O6ipMuZ5fHBbwpesNC-UYmiOxuVAnDvRh_tK-SDEbRg3e74T_6L4RSgQ4LdpF0"
+                        "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRLlysLPDbACwrZmEuC1O6ipMuZ5fHBbwpesNC-UYmiOxuVAnDvRh_tK-SDEbRg3e74T_6L4RSgQ4LdpF0",
+                        "dob": "1994-07-31",
+                        "birthplace": "Manchester, England, UK",
+                        "height": "1.78m"
                     },
                     {
                         "name": "Morfydd Clark",
                         "role": "Galadriel",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/26/Morfydd_Clark_2022.png"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/26/Morfydd_Clark_2022.png",
+                        "dob": "1989-01-03",
+                        "birthplace": "Cardiff, Wales, UK",
+                        "height": "1.63m"
                     },
                     {
                         "name": "Maxim Baldry",
                         "role": "Isildur",
-                        "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQ98wB287yhWfuXhEwCAnP01nD99m03gpZsI8TY7VROpqsWaNMq2oVLFVUr0AKSwfA4NW-0T7oQUEYYU_Q"
+                        "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQ98wB287yhWfuXhEwCAnP01nD99m03gpZsI8TY7VROpqsWaNMq2oVLFVUr0AKSwfA4NW-0T7oQUEYYU_Q",
+                        "dob": "1993-02-07",
+                        "birthplace": "London, England, UK",
+                        "height": "1.85m"
                     },
                     {
                         "name": "Cynthia Addai-Robinson",
                         "role": "Celembrimbor",
-                        "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQrMvQRqAfJONO3AdhmOx-rnDNjJZwVFfB9AJg2W2HXeWwtPBnUb0cXxQdyK1Ch3SgWnQLTJn7fCvhsUno"
+                        "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQrMvQRqAfJONO3AdhmOx-rnDNjJZwVFfB9AJg2W2HXeWwtPBnUb0cXxQdyK1Ch3SgWnQLTJn7fCvhsUno",
+                        "dob": "1974-07-12",
+                        "birthplace": "Hackney, London, England, UK",
+                        "height": "1.70m"
                     },
                     {
                         "name": "Owain Arthur",
                         "role": "Pippin",
-                        "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcR2spP58_DCcWgRcmTBNvBQeHLcpyJqqqWKe3MTeEFTeKb0dsBBnGMXPRFgk9zBu2v4Q2s2zSoxQ_oaD2Q"
+                        "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcR2spP58_DCcWgRcmTBNvBQeHLcpyJqqqWKe3MTeEFTeKb0dsBBnGMXPRFgk9zBu2v4Q2s2zSoxQ_oaD2Q",
+                        "dob": "1998-08-20",
+                        "birthplace": "Bridgend, Wales, UK",
+                        "height": "1.75m"
                     }
                 ],
                 "rating": 7.8,
@@ -1776,27 +2313,42 @@
                     {
                         "name": "Brenton Thwaites",
                         "role": "Dick Grayson / Robin",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Brenton_Thwaites_in_2020.png"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Brenton_Thwaites_in_2020.png",
+                        "dob": "1989-08-10",
+                        "birthplace": "Gold Coast, Queensland, Australia",
+                        "height": "1.85m"
                     },
                     {
                         "name": "Anna Diop",
                         "role": "Koriand'r / Starfire",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Anna_Diop_%2831627443202%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Anna_Diop_%2831627443202%29_%28cropped%29.jpg",
+                        "dob": "1988-04-30",
+                        "birthplace": "New York City, New York, USA",
+                        "height": "1.75m"
                     },
                     {
                         "name": "Teagan Croft",
                         "role": "Rachel Roth / Raven",
-                        "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcS3q0ZIAGpwUkTWNn2-lRA8OUjus96_g3kDZTLglMxT82NJy2nk2lNrltUhlIrroxYG0A_ngkCrGXgwMsM"
+                        "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcS3q0ZIAGpwUkTWNn2-lRA8OUjus96_g3kDZTLglMxT82NJy2nk2lNrltUhlIrroxYG0A_ngkCrGXgwMsM",
+                        "dob": "2003-08-10",
+                        "birthplace": "Sydney, New South Wales, Australia",
+                        "height": "1.63m"
                     },
                     {
                         "name": "Ryan Potter",
                         "role": "Garfield Logan / Beast Boy",
-                        "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSso2Yh7WIdqRwmPTl1UF_yl04l8U5m-U5qlU1NkSZ64uhQIRlrYC4C6u3Q8jWbu0SyAKyHSU7fayXlFIk"
+                        "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSso2Yh7WIdqRwmPTl1UF_yl04l8U5m-U5qlU1NkSZ64uhQIRlrYC4C6u3Q8jWbu0SyAKyHSU7fayXlFIk",
+                        "dob": "1995-09-12",
+                        "birthplace": "Portland, Oregon, USA",
+                        "height": "1.78m"
                     },
                     {
                         "name": "Minka Kelly",
                         "role": "Dawn Granger / Dove",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/45/Minka_Kelly_in_2020.png"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/45/Minka_Kelly_in_2020.png",
+                        "dob": "1980-06-24",
+                        "birthplace": "Los Angeles, California, USA",
+                        "height": "1.75m"
                     }
                 ],
                 "rating": 7.6,
@@ -1820,27 +2372,42 @@
                     {
                         "name": "Chris Pratt",
                         "role": "Peter Quill / Star-Lord",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/99/Chris_Pratt_2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/99/Chris_Pratt_2018.jpg",
+                        "dob": "1979-06-21",
+                        "birthplace": "Virginia, Minnesota, USA",
+                        "height": "1.88m"
                     },
                     {
                         "name": "Zoe Saldana",
                         "role": "Gamora",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Avatar_The_Way_of_Water_Tokyo_Press_Conference_Zoe_Salda%C3%B1a_%2852563431865%29_%28cropped2%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Avatar_The_Way_of_Water_Tokyo_Press_Conference_Zoe_Salda%C3%B1a_%2852563431865%29_%28cropped2%29.jpg",
+                        "dob": "1978-06-19",
+                        "birthplace": "Ponce, Puerto Rico",
+                        "height": "1.70m"
                     },
                     {
                         "name": "Dave Bautista",
                         "role": "Drax the Destroyer",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/40/Dave_Bautista_Photo_Op_GalaxyCon_Minneapolis_2019.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/40/Dave_Bautista_Photo_Op_GalaxyCon_Minneapolis_2019.jpg",
+                        "dob": "1969-01-18",
+                        "birthplace": "Washington, D.C., USA",
+                        "height": "1.90m"
                     },
                     {
                         "name": "Bradley Cooper",
                         "role": "Rocket (voice)",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Glasto17-44_%2835547413626%29_Cropped.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Glasto17-44_%2835547413626%29_Cropped.jpg",
+                        "dob": "1975-01-05",
+                        "birthplace": "Philadelphia, Pennsylvania, USA",
+                        "height": "1.78m"
                     },
                     {
                         "name": "Vin Diesel",
                         "role": "Groot (voice)",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/83/Vin_Diesel_by_Gage_Skidmore_2.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/83/Vin_Diesel_by_Gage_Skidmore_2.jpg",
+                        "dob": "1967-07-18",
+                        "birthplace": "Alameda County, California, USA",
+                        "height": "1.80m"
                     }
                 ],
                 "rating": 8.0,
@@ -1864,27 +2431,42 @@
                     {
                         "name": "Robert Downey Jr.",
                         "role": "Tony Stark / Iron Man",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/94/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/94/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg",
+                        "dob": "1965-04-04",
+                        "birthplace": "New York City, New York, USA",
+                        "height": "1.74m"
                     },
                     {
                         "name": "Chris Evans",
                         "role": "Steve Rogers / Captain America",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/33/Mark_Kassen%2C_Tony_C%C3%A1rdenas_and_Chris_Evans_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/33/Mark_Kassen%2C_Tony_C%C3%A1rdenas_and_Chris_Evans_%28cropped%29.jpg",
+                        "dob": "1981-06-13",
+                        "birthplace": "Boston, Massachusetts, USA",
+                        "height": "1.83m"
                     },
                     {
                         "name": "Chris Hemsworth",
                         "role": "Thor",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Chris_Hemsworth_by_Gage_Skidmore_2_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Chris_Hemsworth_by_Gage_Skidmore_2_%28cropped%29.jpg",
+                        "dob": "1983-08-11",
+                        "birthplace": "Melbourne, Australia",
+                        "height": "1.90m"
                     },
                     {
                         "name": "Mark Ruffalo",
                         "role": "Bruce Banner / Hulk",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/11/Mark_Ruffalo_%2836201774756%29_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/11/Mark_Ruffalo_%2836201774756%29_%28cropped%29.jpg",
+                        "dob": "1967-11-02",
+                        "birthplace": "Kenosha, Wisconsin, USA",
+                        "height": "1.78m"
                     },
                     {
                         "name": "Scarlett Johansson",
                         "role": "Natasha Romanoff / Black Widow",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Scarlett_Johansson_by_Gage_Skidmore_2_%28cropped%2C_2%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Scarlett_Johansson_by_Gage_Skidmore_2_%28cropped%2C_2%29.jpg",
+                        "dob": "1984-11-22",
+                        "birthplace": "New York City, New York, USA",
+                        "height": "1.65m"
                     }
                 ],
                 "rating": 7.3,
@@ -1913,27 +2495,42 @@
                     {
                         "name": "Paul Rudd",
                         "role": "Scott Lang / Ant-Man",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/92/Paul_Rudd_%28cropped%29_2.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/92/Paul_Rudd_%28cropped%29_2.jpg",
+                        "dob": "1969-04-06",
+                        "birthplace": "Pasadena, California, USA",
+                        "height": "1.73m"
                     },
                     {
                         "name": "Michael Douglas",
                         "role": "Dr. Hank Pym",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/38/Michael_Douglas_C%C3%A9sar_2016_3.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/38/Michael_Douglas_C%C3%A9sar_2016_3.jpg",
+                        "dob": "1944-09-25",
+                        "birthplace": "New York City, New York, USA",
+                        "height": "1.78m"
                     },
                     {
                         "name": "Evangeline Lilly",
                         "role": "Hope van Dyne",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/69/Evangeline_Lilly_2014_Comic_Con_01_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/69/Evangeline_Lilly_2014_Comic_Con_01_%28cropped%29.jpg",
+                        "dob": "1979-08-03",
+                        "birthplace": "Fort Saskatchewan, Alberta, Canada",
+                        "height": "1.68m"
                     },
                     {
                         "name": "Corey Stoll",
                         "role": "Darren Cross / Yellowjacket",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Corey_Stoll_by_Gage_Skidmore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Corey_Stoll_by_Gage_Skidmore.jpg",
+                        "dob": "1976-03-19",
+                        "birthplace": "New York City, New York, USA",
+                        "height": "1.88m"
                     },
                     {
                         "name": "Michael Peña",
                         "role": "Luis",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/14/Michael_Pe%C3%B1a_TIFF_2015.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/1/14/Michael_Pe%C3%B1a_TIFF_2015.jpg",
+                        "dob": "1969-01-13",
+                        "birthplace": "Chicago, Illinois, USA",
+                        "height": "1.70m"
                     }
                 ],
                 "rating": 7.3,
@@ -1957,27 +2554,42 @@
                     {
                         "name": "Chris Evans",
                         "role": "Steve Rogers / Captain America",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/33/Mark_Kassen%2C_Tony_C%C3%A1rdenas_and_Chris_Evans_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/3/33/Mark_Kassen%2C_Tony_C%C3%A1rdenas_and_Chris_Evans_%28cropped%29.jpg",
+                        "dob": "1981-06-13",
+                        "birthplace": "Boston, Massachusetts, USA",
+                        "height": "1.83m"
                     },
                     {
                         "name": "Robert Downey Jr.",
                         "role": "Tony Stark / Iron Man",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/94/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/94/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg",
+                        "dob": "1965-04-04",
+                        "birthplace": "New York City, New York, USA",
+                        "height": "1.74m"
                     },
                     {
                         "name": "Scarlett Johansson",
                         "role": "Natasha Romanoff / Black Widow",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Scarlett_Johansson_by_Gage_Skidmore_2_%28cropped%2C_2%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Scarlett_Johansson_by_Gage_Skidmore_2_%28cropped%2C_2%29.jpg",
+                        "dob": "1984-11-22",
+                        "birthplace": "New York City, New York, USA",
+                        "height": "1.65m"
                     },
                     {
                         "name": "Sebastian Stan",
                         "role": "Bucky Barnes / Winter Soldier",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sebastian_Stan_by_Gage_Skidmore_2_%28cropped%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sebastian_Stan_by_Gage_Skidmore_2_%28cropped%29.jpg",
+                        "dob": "1982-08-13",
+                        "birthplace": "Concord, Massachusetts, USA",
+                        "height": "1.83m"
                     },
                     {
                         "name": "Anthony Mackie",
                         "role": "Sam Wilson / Falcon",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Anthony_Mackie_by_Gage_Skidmore_2.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Anthony_Mackie_by_Gage_Skidmore_2.jpg",
+                        "dob": "1978-03-23",
+                        "birthplace": "New Orleans, Louisiana, USA",
+                        "height": "1.78m"
                     }
                 ],
                 "rating": 7.8,
@@ -2005,27 +2617,42 @@
                     {
                         "name": "Benedict Cumberbatch",
                         "role": "Dr. Stephen Strange",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6e/BCumberbatch_Comic-Con_2019.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6e/BCumberbatch_Comic-Con_2019.jpg",
+                        "dob": "1976-07-19",
+                        "birthplace": "Hammersmith, London, England",
+                        "height": "1.84m"
                     },
                     {
                         "name": "Tilda Swinton",
                         "role": "The Ancient One",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Tilda_Swinton_Viennale_2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Tilda_Swinton_Viennale_2018.jpg",
+                        "dob": "1960-11-05",
+                        "birthplace": "Kirkcaldy, Fife, Scotland",
+                        "height": "1.79m"
                     },
                     {
                         "name": "Chiwetel Ejiofor",
                         "role": "Karl Mordo",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Chiwetel_Ejiofor_by_Gage_Skidmore.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Chiwetel_Ejiofor_by_Gage_Skidmore.jpg",
+                        "dob": "1977-07-10",
+                        "birthplace": "London, England",
+                        "height": "1.88m"
                     },
                     {
                         "name": "Rachel McAdams",
                         "role": "Christine Palmer",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Rachel_McAdams_2016.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Rachel_McAdams_2016.jpg",
+                        "dob": "1978-11-01",
+                        "birthplace": "London, Ontario, Canada",
+                        "height": "1.73m"
                     },
                     {
                         "name": "Mads Mikkelsen",
                         "role": "Kaecilius",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mads_Mikkelsen_Cannes_2013_2.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mads_Mikkelsen_Cannes_2013_2.jpg",
+                        "dob": "1965-11-22",
+                        "birthplace": "Aalborg, Denmark",
+                        "height": "1.82m"
                     }
                 ],
                 "rating": 7.5,
@@ -2049,27 +2676,42 @@
                     {
                         "name": "Chris Pratt",
                         "role": "Peter Quill / Star-Lord",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/99/Chris_Pratt_2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/99/Chris_Pratt_2018.jpg",
+                        "dob": "1979-06-21",
+                        "birthplace": "Virginia, Minnesota, USA",
+                        "height": "1.88m"
                     },
                     {
                         "name": "Zoe Saldana",
                         "role": "Gamora",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Avatar_The_Way_of_Water_Tokyo_Press_Conference_Zoe_Salda%C3%B1a_%2852563431865%29_%28cropped2%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Avatar_The_Way_of_Water_Tokyo_Press_Conference_Zoe_Salda%C3%B1a_%2852563431865%29_%28cropped2%29.jpg",
+                        "dob": "1978-06-19",
+                        "birthplace": "Poughkeepsie, New York, USA",
+                        "height": "1.70m"
                     },
                     {
                         "name": "Dave Bautista",
                         "role": "Drax the Destroyer",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/40/Dave_Bautista_Photo_Op_GalaxyCon_Minneapolis_2019.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/40/Dave_Bautista_Photo_Op_GalaxyCon_Minneapolis_2019.jpg",
+                        "dob": "1969-01-18",
+                        "birthplace": "Washington, D.C., USA",
+                        "height": "1.96m"
                     },
                     {
                         "name": "Bradley Cooper",
                         "role": "Rocket (voice)",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Glasto17-44_%2835547413626%29_Cropped.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Glasto17-44_%2835547413626%29_Cropped.jpg",
+                        "dob": "1975-01-05",
+                        "birthplace": "Philadelphia, Pennsylvania, USA",
+                        "height": "1.83m"
                     },
                     {
                         "name": "Vin Diesel",
                         "role": "Groot (voice)",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/83/Vin_Diesel_by_Gage_Skidmore_2.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/83/Vin_Diesel_by_Gage_Skidmore_2.jpg",
+                        "dob": "1967-07-18",
+                        "birthplace": "Alameda County, California, USA",
+                        "height": "1.82m"
                     }
                 ],
                 "rating": 7.6,
@@ -2093,27 +2735,42 @@
                     {
                         "name": "Chris Pratt",
                         "role": "Peter Quill / Star-Lord",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/99/Chris_Pratt_2018.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/99/Chris_Pratt_2018.jpg",
+                        "dob": "1979-06-21",
+                        "birthplace": "Virginia, Minnesota, USA",
+                        "height": "1.88m"
                     },
                     {
                         "name": "Zoe Saldana",
                         "role": "Gamora",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Avatar_The_Way_of_Water_Tokyo_Press_Conference_Zoe_Salda%C3%B1a_%2852563431865%29_%28cropped2%29.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Avatar_The_Way_of_Water_Tokyo_Press_Conference_Zoe_Salda%C3%B1a_%2852563431865%29_%28cropped2%29.jpg",
+                        "dob": "1978-06-19",
+                        "birthplace": "Poughkeepsie, New York, USA",
+                        "height": "1.70m"
                     },
                     {
                         "name": "Dave Bautista",
                         "role": "Drax the Destroyer",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/40/Dave_Bautista_Photo_Op_GalaxyCon_Minneapolis_2019.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/4/40/Dave_Bautista_Photo_Op_GalaxyCon_Minneapolis_2019.jpg",
+                        "dob": "1969-01-18",
+                        "birthplace": "Washington, D.C., USA",
+                        "height": "1.96m"
                     },
                     {
                         "name": "Bradley Cooper",
                         "role": "Rocket (voice)",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Glasto17-44_%2835547413626%29_Cropped.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Glasto17-44_%2835547413626%29_Cropped.jpg",
+                        "dob": "1975-01-05",
+                        "birthplace": "Philadelphia, Pennsylvania, USA",
+                        "height": "1.83m"
                     },
                     {
                         "name": "Vin Diesel",
                         "role": "Groot (voice)",
-                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/83/Vin_Diesel_by_Gage_Skidmore_2.jpg"
+                        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/83/Vin_Diesel_by_Gage_Skidmore_2.jpg",
+                        "dob": "1967-07-18",
+                        "birthplace": "Alameda County, California, USA",
+                        "height": "1.82m"
                     }
                 ],
                 "rating": "8.1",

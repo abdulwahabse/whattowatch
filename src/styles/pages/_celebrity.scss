@@ -4,6 +4,11 @@
     gap: 1.5rem;
     margin-top: 2rem;
 
+    &__heading {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
     &__info {
         display: flex;
         flex-direction: row;
@@ -21,5 +26,20 @@
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
+    }
+
+    &__overview-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    &__overview {
+        margin: 0;
+    }
+
+    &__overview-separator {
+        width: 100%;
+        border: 1px solid $color-secondary;
     }
 }
