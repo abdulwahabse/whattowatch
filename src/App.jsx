@@ -27,7 +27,7 @@ function App() {
                     <Header />
                     <main className="main">
                         <Switch>
-                            <Route exact path={['/', '/home', '/whattowatch']}>
+                            <Route exact path={['/', '/home']}>
                                 <Home />
                             </Route>
                             <Route exact path="/titles">
