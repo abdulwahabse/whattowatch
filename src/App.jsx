@@ -14,7 +14,6 @@ import TitlesByType from './react/pages/TitlesByType';
 import ModelsHandler from './react/components/common/ModelsHandler';
 
 function App() {
-    const baseUrl = '/whattowatch';
     const location = useLocation();
     useLayoutEffect(() => {
         window.scrollTo(0, 0);
@@ -28,46 +27,40 @@ function App() {
                     <Header />
                     <main className="main">
                         <Switch>
-                            <Route exact path={[baseUrl, `${baseUrl}/home`]}>
+                            <Route exact path={['/', '/home', '/whattowatch']}>
                                 <Home />
                             </Route>
-                            <Route exact path={`${baseUrl}/titles`}>
+                            <Route exact path="/titles">
                                 <Home />
                             </Route>
-                            <Route exact path={`${baseUrl}/titles/:id`}>
+                            <Route exact path="/titles/:id">
                                 <TitleDetails />
                             </Route>
-                            <Route exact path={`${baseUrl}/categories`}>
+                            <Route exact path="/categories">
                                 <Categories />
                             </Route>
-                            <Route
-                                exact
-                                path={`${baseUrl}/categories/:category`}
-                            >
+                            <Route exact path="/categories/:category">
                                 <Titles />
                             </Route>
-                            <Route exact path={`${baseUrl}/types`}>
+                            <Route exact path="/type">
                                 <Home />
                             </Route>
-                            <Route exact path={`${baseUrl}/types/:type`}>
+                            <Route exact path="/types/:type">
                                 <TitlesByType />
                             </Route>
-                            <Route exact path={`${baseUrl}/search`}>
+                            <Route exact path="/search">
                                 <Home />
                             </Route>
-                            <Route
-                                exact
-                                path={`${baseUrl}/search/:type/:query`}
-                            >
+                            <Route exact path="/search/:type/:query">
                                 <Titles />
                             </Route>
-                            <Route exact path={`${baseUrl}/watchlist`}>
+                            <Route exact path="/watchlist">
                                 <Titles />
                             </Route>
-                            <Route exact path={`${baseUrl}/celebrities`}>
+                            <Route exact path="/celebrities">
                                 <Home />
                             </Route>
-                            <Route exact path={`${baseUrl}/celebrities/:name`}>
+                            <Route exact path="/celebrities/:name">
                                 <Celebrity />
                             </Route>
                         </Switch>
