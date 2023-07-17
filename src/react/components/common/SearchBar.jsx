@@ -34,10 +34,10 @@ function SearchBar(props) {
         <div className={`search-bar ${props.className}`}>
             <select
                 name="type"
-                className="search-bar__select"
+                className="typography-4 search-bar__select"
                 onChange={handleChange}
                 style={{
-                    width: 20 + search.type.length * 8 + 'px',
+                    width: 20 + search.type.length * 9 + 'px',
                 }}
                 value={search.type}
             >
@@ -47,7 +47,7 @@ function SearchBar(props) {
             </select>
             <input
                 type="text"
-                className="search-bar__input typography-3"
+                className="typography-3 search-bar__input"
                 placeholder={props.placeholder}
                 name="query"
                 onChange={handleChange}

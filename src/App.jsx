@@ -9,7 +9,6 @@ import Categories from './react/pages/Categories';
 import Celebrity from './react/pages/Celebrity';
 import { UserProvider } from './contexts/userContext';
 import { ModelProvider } from './contexts/modelContext';
-import { getCategoriesWithLinks } from './api/titlesAndUserFetcher';
 import TitlesByType from './react/pages/TitlesByType';
 import ModelsHandler from './react/components/common/ModelsHandler';
 
