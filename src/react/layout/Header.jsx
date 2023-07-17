@@ -6,12 +6,13 @@ import SearchBar from '../components/common/SearchBar';
 import Avatar from '../components/common/Avatar';
 import NavLinks from '../components/nav/NavLinks';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+import logo from '/assets/logo.png';
 
 function Header() {
     const { user } = useUser();
     const { showNav, showAuth } = useModel();
     const hamburger = getImageUrl('assets/icons/hamburger.png');
-    const logo = getImageUrl('assets/logo.png');
+    // const logo = getImageUrl('assets/logo.png');
 
     const handleHamburgerClick = () => {
         showNav();
