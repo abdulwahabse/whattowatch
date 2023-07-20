@@ -2,6 +2,15 @@
 
 "What to Watch" is a mobile-first, single-page React application that allows users to explore movies, TV shows, and celebrities. It is fully responsive, providing a seamless experience across various screen sizes. Utilizing React Router DOM, navigation between pages is effortless. With a focus on reusable components, the app offers a user-friendly interface for discovering exciting content.
 
+### Screenshots
+
+![](./screenshot.pdf)
+![](./screenshot-2.pdf)
+
+### Links
+
+[Live Site URL](https://abdulwahabse.github.io/whattowatch)
+
 ### How did I build it?
 
 I built "What to Watch" as a single-page application using React and styled it using Sass/SCSS. The development process followed a mobile-first approach, ensuring the application is fully responsive across various screen sizes. To handle the navigation and different pages, I utilized React Router DOM, making it easy for users to explore movies, TV shows, and celebrities seamlessly.
