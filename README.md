@@ -4,8 +4,8 @@
 
 ### Screenshots
 
-![](./screenshot.pdf)
-![](./screenshot-2.pdf)
+![](./screenshot.png)
+![](./screenshot-2.png)
 
 ### Links
 
