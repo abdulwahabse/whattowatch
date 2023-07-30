@@ -13,11 +13,6 @@ import TitlesByType from './react/pages/TitlesByType';
 import ModelsHandler from './react/components/common/ModelsHandler';
 
 function App() {
-    const location = useLocation();
-    useLayoutEffect(() => {
-        window.scrollTo(0, 0);
-    }, [location.pathname]);
-
     return (
         <ModelProvider>
             <UserProvider>

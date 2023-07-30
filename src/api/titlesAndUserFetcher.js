@@ -1,3 +1,10 @@
+/*
+⚠️ WARNING ⚠️
+This file contains functions with O(n) and even O(n^2) time complexities, as it is only used to get data in simplified form for this project.
+Please be mindful of potential performance limitations when using these functions for large datasets or production environments.
+Creating an efficient API is beyond the scope of this project's objectives.
+*/
+
 import Data from './data.json';
 
 export const authenticateUser = (email, password) => {
@@ -24,7 +31,6 @@ function getRandomElements(array, count) {
     return shuffled.slice(0, count);
 }
 
-// change body to fetch relevant data
 export const getTop10Today = () => {
     const titles = Data.data.titles;
     const top10Today = getRandomElements(titles, 10);
@@ -205,46 +211,3 @@ export const searchData = (type, query) => {
 
     return results;
 };
-
-// export const searchData = (type, query) => {
-//     const lowercaseQuery = query.toLowerCase();
-//     const results = [];
-
-//     if (type === 'movies') {
-//         for (const title of Data.data.titles) {
-//             if (
-//                 title.type === 'Movie' &&
-//                 title.name.toLowerCase().includes(lowercaseQuery)
-//             ) {
-//                 results.push(title);
-//             }
-//         }
-//     } else if (type === 'series') {
-//         for (const title of Data.data.titles) {
-//             if (
-//                 title.type.toLowerCase() === 'tv series' &&
-//                 title.name.toLowerCase().includes(lowercaseQuery)
-//             ) {
-//                 results.push(title);
-//             }
-//         }
-//     } else if (type === 'celebrities') {
-//         const uniqueCelebrities = new Set(); // To store unique celebrities
-
-//         for (const title of Data.data.titles) {
-//             for (const cast of title.casts) {
-//                 if (cast.name.toLowerCase().includes(lowercaseQuery)) {
-//                     uniqueCelebrities.add(cast.name);
-//                     break;
-//                 }
-//             }
-//         }
-
-//         // for (const name of uniqueCelebrities) {
-//         //     results.push();
-//         // }
-//         results.push(...uniqueCelebrities);
-//     }
-
-//     return results;
-// };
